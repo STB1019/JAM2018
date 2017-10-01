@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpGraphs", "SharpGraphs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpSearches", "SharpSearches\SharpSearches.csproj", "{7025D8A6-D8FB-4D45-8A01-9C51669E81F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAstar", "AstarVisualizer\TestAstar.csproj", "{FDF59EDE-BAA8-4B91-B91D-01A4B113B548}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAStar", "TestAStar\TestAStar.csproj", "{FDF59EDE-BAA8-4B91-B91D-01A4B113B548}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
