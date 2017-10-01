@@ -1,5 +1,5 @@
 # JAM2018
-The main repository for the project JAM
+The main repository for the project JAM 2018
 
 # Developer information
 
