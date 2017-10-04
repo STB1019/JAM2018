@@ -9,8 +9,9 @@ This section contains everything a contributor needs to know in order to parteci
 
 We provide several links that might be useful in order to efficiently code with unity. The resources adds value to the tutorial you all followed before starting the project:
 
- * Implementing an Observer on Unity: http://www.habrador.com/tutorials/programming-patterns/3-observer-pattern/;
- * Ideas when designing model in Unity: http://answers.unity3d.com/questions/365770/how-to-design-your-code-architecture-in-unity.html
+ * [Implementing an Observer on Unity[(http://www.habrador.com/tutorials/programming-patterns/3-observer-pattern/);
+ * [Ideas when designing model in Unity](http://answers.unity3d.com/questions/365770/how-to-design-your-code-architecture-in-unity.html);
+ * [should you use notification center pattern](https://softwareengineering.stackexchange.com/questions/22528/does-notification-center-pattern-encourage-good-or-bad-program-design);
 
 ## C sharp code style
 
