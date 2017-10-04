@@ -5,6 +5,13 @@ The main repository for the project JAM 2018
 
 This section contains everything a contributor needs to know in order to partecipate in this project
 
+## Useful resources
+
+We provide several links that might be useful in order to efficiently code with unity. The resources adds value to the tutorial you all followed before starting the project:
+
+ * Implementing an Observer on Unity: http://www.habrador.com/tutorials/programming-patterns/3-observer-pattern/;
+ * Ideas when designing model in Unity: http://answers.unity3d.com/questions/365770/how-to-design-your-code-architecture-in-unity.html
+
 ## C sharp code style
 
 As far as coding style we use raywnderlich conventions (available [here](https://github.com/raywenderlich/c-sharp-style-guide) ). However, we have some differences:
