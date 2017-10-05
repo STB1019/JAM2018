@@ -55,6 +55,7 @@
     <Compile Include="TestPSLGraph.cs" />
     <Compile Include="TestNLGraph.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestNotificationCenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -63,6 +64,10 @@
     <ProjectReference Include="..\SharpGraphs\SharpGraphs.csproj">
       <Project>{77679c93-5408-4ca6-afc9-a1249594eac8}</Project>
       <Name>SharpGraphs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharpNotificationCenter\SharpNotificationCenter.csproj">
+      <Project>{F51A8111-F2D8-4165-8C05-D424017955EC}</Project>
+      <Name>SharpNotificationCenter</Name>
     </ProjectReference>
     <ProjectReference Include="..\SharpSearches\SharpSearches.csproj">
       <Project>{7025d8a6-d8fb-4d45-8a01-9c51669e81f7}</Project>
