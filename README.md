@@ -9,9 +9,16 @@ This section contains everything a contributor needs to know in order to parteci
 
 We provide several links that might be useful in order to efficiently code with unity. The resources adds value to the tutorial you all followed before starting the project:
 
- * [Implementing an Observer on Unity[(http://www.habrador.com/tutorials/programming-patterns/3-observer-pattern/);
+ * [Implementing an Observer on Unity](http://www.habrador.com/tutorials/programming-patterns/3-observer-pattern/);
  * [Ideas when designing model in Unity](http://answers.unity3d.com/questions/365770/how-to-design-your-code-architecture-in-unity.html);
  * [should you use notification center pattern](https://softwareengineering.stackexchange.com/questions/22528/does-notification-center-pattern-encourage-good-or-bad-program-design);
+ * [How to setup Sandcastle](https://randynghiem.wordpress.com/2015/06/18/how-to-set-up-sandcastle-help-file-builder-with-visual-studio-2015/)
+ 
+## Documentation
+
+As far as documentation is concerned, we use the standard Visual Studio documentation style (aka XML documentation). You can learn about it [here](https://msdn.microsoft.com/en-us/library/b2s063f7(v=VS.100).aspx) or you can check the source of DefaultNotificationCenter.cs or NotificationCenter.cs for a working and almost exaustive example.
+
+The documentation is actually built using Sand Castle File Helper. You can download the latest relase [here](https://github.com/EWSoftware/SHFB). Likewise,, you can learn how to setup the plugin [here](https://randynghiem.wordpress.com/2015/06/18/how-to-set-up-sandcastle-help-file-builder-with-visual-studio-2015/). The project should already have a "Documentation" project inside the repository, so in order to create the documentation you just need to install SandCastle on your computer and build the documentation by clicking "Build" on the "Documentation" project (eg. SharpLibraryDocumentation). The documentation is by default build with **html**.
 
 ## C sharp code style
 
