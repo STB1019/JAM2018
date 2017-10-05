@@ -25,6 +25,10 @@ namespace Scripts.Game.Model
 			this.Class = type;
 			this.Qualitates = new List<IQualitas> ();
 		}
+
+		protected AbstractDefaultProp(Type t) : this(PropTypes.INSTANCE[t]) {
+		}
+
 		#endregion
 
 		#region PRIVATE METHODS

@@ -7,7 +7,10 @@ namespace Scripts.Game.ActualProps
 	public class Fountain : AbstractDefaultProp
 	{
 		static Fountain() {
-			PropTypes.Add(typeof(Fountain));
+			PropTypes.INSTANCE.Add(typeof(Fountain));
+		}
+
+		public Fountain() : base(PropTypes.INSTANCE[typeof(Fountain)]) {
 		}
 	}
 }
