@@ -13,6 +13,7 @@ We provide several links that might be useful in order to efficiently code with 
  * [Ideas when designing model in Unity](http://answers.unity3d.com/questions/365770/how-to-design-your-code-architecture-in-unity.html);
  * [should you use notification center pattern](https://softwareengineering.stackexchange.com/questions/22528/does-notification-center-pattern-encourage-good-or-bad-program-design);
  * [How to setup Sandcastle](https://randynghiem.wordpress.com/2015/06/18/how-to-set-up-sandcastle-help-file-builder-with-visual-studio-2015/)
+ * [How should I organize my Unity Project?](http://blog.theknightsofunity.com/7-ways-keep-unity-project-organized/)
  
 ## Documentation
 
