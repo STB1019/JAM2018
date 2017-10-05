@@ -14,7 +14,7 @@ namespace Scripts.Game.Model
 
 		public string Name { get; private set; }
 
-		public int GetHashCode() {
+		public override int GetHashCode() {
 			return this.Name.GetHashCode ();
 		}
 		
