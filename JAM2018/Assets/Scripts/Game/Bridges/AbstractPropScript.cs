@@ -17,9 +17,9 @@ namespace Scripts.Game.Bridges
 		/// </summary>
 		/// <value>the prop represents</value>
 		public PROP Prop { get; protected set; }
-		public IPropType Class { get { this.Prop.Class; } }
-		public IList<IQualitas> Qualitates { get { this.Prop.Qualitates; } set { this.Prop.Qualitates = value; } }
-		public int Id { get { this.Prop.Id; } }
+		public IPropType Class { get { return this.Prop.Class; } }
+		public IList<IQualitas> Qualitates { get { return this.Prop.Qualitates; } set { this.Prop.Qualitates = value; } }
+		public int Id { get { return this.Prop.Id; } }
 
 		/// <summary>
 		/// Gets the implemented interfaces of this prop

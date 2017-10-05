@@ -11,7 +11,7 @@ namespace Scripts.Game.Model
 	/// </summary>
 	public interface IQualitasType
 	{
-		string Name { get; set; }
+		string Name { get; }
 
 		/// <summary>
 		/// Serves as a hash function for a <see cref="IQualitas"/> object.

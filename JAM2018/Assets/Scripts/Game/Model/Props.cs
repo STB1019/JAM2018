@@ -9,7 +9,7 @@ namespace Scripts.Game.Model
 	/// </summary>
 	public static class Props
 	{
-		public static readonly IList<IPropType> ALL = {
+		public static readonly IList<IPropType> ALL = new List<IPropType>{
 			new DefaultPropType ("Fountain"),
 			new DefaultPropType ("Chest")
 		};

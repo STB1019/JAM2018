@@ -18,7 +18,7 @@ namespace Scripts.Game.Model
 		/// <summary>
 		/// The name of this prop
 		/// </summary>
-		string Name { get; set; }
+		string Name { get; }
 
 		/// <summary>
 		/// Serves as a hash function for a <see cref="IProp"/> object.
