@@ -11,7 +11,7 @@ namespace Scripts.Game.Model
 		{
 			this.Name = name;
 		}
-
+			
 		public string Name { get; private set; }
 
 		public override int GetHashCode() {
