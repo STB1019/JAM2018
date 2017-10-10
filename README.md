@@ -54,14 +54,11 @@ Properties are written in *PascalCase*. Curly brackets conventions are the same:
 	
 **Bad:**
 
-	public int size 
-	{
-		get 
-		{
+	public int size { //note the lowercase "size" too!
+		get {
 			...
 		};
-		set
-		{
+		set {
 			...
 		}
 	}
