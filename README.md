@@ -94,6 +94,6 @@ Developers should extensively use git features.
 	
 While a bad commit is:
 
-	Create fountain model, but the animation is still missing
+	Create fountain model, but the animation is still missing because I woke up too late. I'm sorry guys! :'(
 	
 If a commit does not solve the whole issue,you have to put the word "WIP" somewhere in the commit. No policy about redundant commits is specified.
