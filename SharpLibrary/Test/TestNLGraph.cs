@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SharpGraph;
+using SharpGraphs;
 using System.Collections.Generic;
 using SharpUtilities;
 using System;

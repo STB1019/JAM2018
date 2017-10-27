@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SharpGraph;
-using System.Collections.Generic;
-using SharpUtilities;
-using System;
 using SharpGraphs;
 
 namespace Test
