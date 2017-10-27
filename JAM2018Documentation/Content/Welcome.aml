@@ -2,49 +2,64 @@
 <topic id="155d95a6-7b41-47d6-b0db-edcf147d375e" revisionNumber="1">
 	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
 		<introduction>
-			<para>This is a sample conceptual topic.  You can use this as a starting point for adding more conceptual
-content to your help project.</para>
+			<para>Welcome to JAM 2018 project documentation. Inside this document you can find everything you need to know about the project</para>
 		</introduction>
 
 		<section>
 			<title>Getting Started</title>
 			<content>
-				<para>To get started, add a documentation source to the project (a Visual Studio solution, project, or
-assembly and XML comments file).  See the <legacyBold>Getting Started</legacyBold> topics in the Sandcastle Help
-File Builder's help file for more information.  The following default items are included in this project:</para>
+				<para>First of all you need the following software installed on your system:</para>
 
 				<list class="bullet">
 					<listItem>
-						<para><localUri>ContentLayout.content</localUri> - Use the content layout file to manage the
-conceptual content in the project and define its layout in the table of contents.</para>
+						<para>
+							Unity: this is the main software we use to develop the game
+						</para>
 					</listItem>
 
 					<listItem>
-						<para>The <localUri>.\media</localUri> folder - Place images in this folder that you will reference
-from conceptual content using <codeInline>medialLink</codeInline> or <codeInline>mediaLinkInline</codeInline>
-elements.  If you will not have any images in the file, you may remove this folder.</para>
+						<para>
+							Visual Studio Community edition 2017 [OPTIONAL]: you can use Visual studio to code the C# scripts of Unity.
+							It's optional because Unity come bundled with Monodevelop. However, Visual studio is recommended if you want to
+							exploit every project defined in the repository (like the documentations ones); You can download the ide 
+							<link>
+								<linkText>here</linkText>
+								<linkUri>https://www.visualstudio.com/downloads/</linkUri>
+							</link>.
+						</para>
 					</listItem>
 
 					<listItem>
-						<para>The <localUri>.\icons</localUri> folder - This contains a default logo for the help file.  You
-may replace it or remove it and the folder if not wanted.  If removed or if you change the file name, update
-the <ui>Transform Args</ui> project properties page by removing or changing the filename in the
-<codeInline>logoFile</codeInline> transform argument.  Note that unlike images referenced from conceptual topics,
-the logo file should have its <legacyBold>BuildAction</legacyBold> property set to <codeInline>Content</codeInline>.</para>
+						<para>
+							Sand Castle [OPTIONAL]: if you want to build the documentation (the one you're reading right now) you need to install SandCastle in your system.
+						</para>
 					</listItem>
 
 					<listItem>
-						<para>The <localUri>.\Content</localUri> folder - Use this to store your conceptual topics.  You may
-name the files and organize them however you like.  One suggestion is to lay the files out on disk as you have
-them in the content layout file as shown in this project but the choice is yours.  Files can be added via the
-Solution Explorer or from within the content layout file editor.  Files must appear in the content layout file
-in order to be compiled into the help file.</para>
+						<para>
+							Unity Plugin for Visual Studio: you can code Unity C# scripts with Visual Studio thanks to this plugin. The page of this plugin
+							is available
+							<link>
+								<linkText>here</linkText>
+								<linkUri>https://www.visualstudio.com/vs/unity-tools/</linkUri>
+							</link>.
+						</para>
 					</listItem>
+
+					<listItem>
+						<para>
+							Graphviz: if you need to view a graphical representation of a graph inside the game, you can do so with IGraph methods. In order to use
+							them you need to manually install GraphViz on your system. Graphviz is downloadable 
+							<link>
+								<linkText>here</linkText>
+								<linkUri>http://www.graphviz.org/Download..php</linkUri>
+							</link>.
+							Furthermore, you need to add (after the installation) the "bin" folder inside Graphviz to the PATH: in this way the software can use
+							the software <legacyItalic>dot.exe</legacyItalic>.
+						</para>
+					</listItem>
+					
 				</list>
-
-				<para>See the <legacyBold>Conceptual Content</legacyBold> topics in the Sandcastle Help File Builder's
-help file for more information.  See the <legacyBold> Sandcastle MAML Guide</legacyBold> for details on Microsoft
-Assistance Markup Language (MAML) which is used to create these topics.</para>
 			</content>
 		</section>
 
