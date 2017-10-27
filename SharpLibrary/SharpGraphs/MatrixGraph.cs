@@ -1,4 +1,4 @@
-﻿using SharpGraph;
+﻿using SharpGraphs;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,6 +6,11 @@ using SharpUtilities;
 
 namespace SharpGraphs
 {
+	/// <summary>
+	/// A graph implemented with a adjacent matrix
+	/// </summary>
+	/// <typeparam name="NODE">the payload type associated to every node</typeparam>
+	/// <typeparam name="EDGE">the payload type associated to every edge</typeparam>
 	public partial class MatrixGraph<NODE, EDGE> : IGraph<NODE, EDGE>
 	{
 		private Dictionary<long, NODE> nodes;
@@ -17,6 +22,11 @@ namespace SharpGraphs
 			private set;
 		}
 
+		/// <summary>
+		/// Creates a new matrix graph
+		/// </summary>
+		/// <param name="capacity">the maximum number of nodes you can put inside this graph</param>
+		/// <param name="defaultValue">the default value each edge has</param>
 		public MatrixGraph(int capacity, EDGE defaultValue)
 		{
 			this.nodes = new Dictionary<long, NODE>();

@@ -1,5 +1,5 @@
 ﻿using log4net;
-using SharpGraph;
+using SharpGraphs;
 using SharpUtilities;
 using System;
 using System.Collections.Generic;

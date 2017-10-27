@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SharpGraph
+namespace SharpGraphs
 {
 	/// <summary>
 	/// A generic exception raise when something went wrong during graph computation

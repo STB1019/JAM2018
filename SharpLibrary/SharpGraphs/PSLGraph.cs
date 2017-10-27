@@ -1,5 +1,5 @@
 ﻿using log4net;
-using SharpGraph;
+using SharpGraphs;
 using SharpUtilities;
 using System;
 using System.Collections.Generic;
@@ -50,6 +50,7 @@ namespace SharpGraphs
 			this.nodePredecessors = new Dictionary<long, Dictionary<long, EDGE>>();
 		}
 
+		/// <inheritdoc/>
 		public NODE this[long id]
 		{
 			get
@@ -58,8 +59,10 @@ namespace SharpGraphs
 			}
 		}
 
+		/// <inheritdoc/>
 		public string Name { get; set; }
 
+		/// <inheritdoc/>
 		public long Size
 		{
 			get
@@ -68,6 +71,7 @@ namespace SharpGraphs
 			}
 		}
 
+		/// <inheritdoc/>
 		public bool IsEmpty
 		{
 			get
@@ -76,6 +80,7 @@ namespace SharpGraphs
 			}
 		}
 
+		/// <inheritdoc/>
 		public EDGE this[long sourceId, long sinkId]
 		{
 			get
@@ -88,11 +93,13 @@ namespace SharpGraphs
 			}
 		}
 
+		/// <inheritdoc/>
 		public bool AreEdgesImplicitlyPresent
 		{
 			get { return false; }
 		}
 
+		/// <inheritdoc/>
 		public bool AddEdge(long sourceId, long sinkId, EDGE payload)
 		{
 			if (!this.ContainsNode(sourceId))
@@ -126,6 +133,7 @@ namespace SharpGraphs
 			return true;
 		}
 
+		/// <inheritdoc/>
 		public bool AddOrUpdateEdge(long sourceId, long sinkId, EDGE payload)
 		{
 			if (!this.ContainsNode(sourceId))
@@ -167,6 +175,7 @@ namespace SharpGraphs
 			return true;
 		}
 
+		/// <inheritdoc/>
 		public bool AddNode(long id, NODE n)
 		{
 			if (this.nodes.ContainsKey(id))
@@ -177,6 +186,7 @@ namespace SharpGraphs
 			return true;
 		}
 
+		/// <inheritdoc/>
 		public bool ContainsEdge(long sourceId, long sinkId)
 		{
 			if (!this.ContainsNode(sourceId))
@@ -197,11 +207,13 @@ namespace SharpGraphs
 			return this.nodeSuccessors[sourceId].ContainsKey(sinkId);
 		}
 
+		/// <inheritdoc/>
 		public bool ContainsNode(long id)
 		{
 			return this.nodes.ContainsKey(id);
 		}
 
+		/// <inheritdoc/>
 		public NODE GetNode(long id)
 		{
 
@@ -217,6 +229,7 @@ namespace SharpGraphs
 
 		}
 
+		/// <inheritdoc/>
 		public EDGE GetEdge(long sourceId, long sinkId)
 		{
 			try
@@ -230,11 +243,13 @@ namespace SharpGraphs
 
 		}
 
+		/// <inheritdoc/>
 		public bool RemoveNode(long id)
 		{
 			return this.nodes.Remove(id);
 		}
 
+		/// <inheritdoc/>
 		public bool RemoveEdge(long sourceId, long sinkId)
 		{
 			if (!this.ContainsNode(sourceId))
@@ -271,6 +286,7 @@ namespace SharpGraphs
 			return true;
 		}
 
+		/// <inheritdoc/>
 		public bool HasEdge(long sourceId, long sinkId, EDGE payload)
 		{
 			EDGE actual = this.GetEdge(sourceId, sinkId);
@@ -281,6 +297,7 @@ namespace SharpGraphs
 			return actual.Equals(payload);
 		}
 
+		/// <inheritdoc/>
 		public IEnumerable<Pair<long, NODE>> GetNodesEnumerable()
 		{
 			foreach (long nId in this.nodes.Keys)
@@ -289,6 +306,7 @@ namespace SharpGraphs
 			}
 		}
 
+		/// <inheritdoc/>
 		public IEnumerable<Triple<long, long, EDGE>> GetEdgesEnumerable()
 		{
 			foreach (long sourceId in this.nodes.Keys)
@@ -305,6 +323,7 @@ namespace SharpGraphs
 			}
 		}
 
+		/// <inheritdoc/>
 		public IEnumerable<Pair<long, NODE>> GetSuccessorsOfNode(long sourceId)
 		{
 			if (!this.nodeSuccessors.ContainsKey(sourceId))
@@ -317,6 +336,7 @@ namespace SharpGraphs
 			}
 		}
 
+		/// <inheritdoc/>
 		public IEnumerable<Pair<long, NODE>> GetPredecessorsOfNode(long sinkId)
 		{
 			if (!this.nodePredecessors.ContainsKey(sinkId))
@@ -329,6 +349,7 @@ namespace SharpGraphs
 			}
 		}
 
+		/// <inheritdoc/>
 		public string DrawGraph(string format, params object[] list)
 		{
 			return GraphsCommons.DrawGraph<NODE, EDGE>(this, format, list);
