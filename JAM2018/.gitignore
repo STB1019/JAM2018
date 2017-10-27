@@ -30,6 +30,9 @@ ExportedObj/
 *.svd
 *.pdb
 
+### VISUAL STUDIO NUGET ###
+/[Pp]ackages/
+
 # Unity3D generated meta files
 *.pidb.meta
 
