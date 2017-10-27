@@ -122,14 +122,14 @@ namespace AssemblyCSharp
 					Transform middle_wall_A = Instantiate (
 						current_wall,
 						new Vector3 (0, y, z) * tileSize + originPosition, 
-						Quaternion.Euler (-90, -90, 0));
+						Quaternion.Euler (-90, 90, 0));
 					middle_wall_A.SetParent (parent.transform);
 
 					// Creating (x = roomSideX - 1) tiles
 					Transform middle_wall_B = Instantiate (
 						current_wall,
 						new Vector3 (roomSideX - 1, y, z) * tileSize + originPosition, 
-						Quaternion.Euler (-90, 90, 0));
+						Quaternion.Euler (-90, -90, 0));
 					middle_wall_B.SetParent (parent.transform);
 				}
 
@@ -140,14 +140,14 @@ namespace AssemblyCSharp
 					Transform middle_wall_A = Instantiate (
 						current_wall,
 						new Vector3 (x, y, 0) * tileSize + originPosition, 
-						Quaternion.Euler (-90, 180, 0));
+						Quaternion.Euler (-90, 0, 0));
 					middle_wall_A.SetParent (parent.transform);
 
 					// Creating (z = roomSideZ - 1) tiles
 					Transform middle_wall_B = Instantiate (
 						current_wall,
 						new Vector3 (x, y, roomSideZ - 1) * tileSize + originPosition, 
-						Quaternion.Euler (-90, 0, 0));
+						Quaternion.Euler (-90, 180, 0));
 					middle_wall_B.SetParent (parent.transform);
 				}
 			}

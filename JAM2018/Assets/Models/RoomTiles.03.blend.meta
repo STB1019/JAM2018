@@ -1,62 +1,45 @@
 fileFormatVersion: 2
-guid: 6ce17285db54a4059bf91a19761df75f
-timeCreated: 1508789798
+guid: a303869457c4a47e1b0229c67b891bc3
+timeCreated: 1509133761
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Bottom_Wall
-    100002: Bottom_Wall_001
-    100004: Ceiling
-    100006: Cylinder
-    100008: Floor
-    100010: //RootNode
-    100012: Top_Wall
-    100014: Top_Wall_001
-    100016: Bottom_Wall_Door
-    100018: Bottom_Wall_Plain
-    100020: Middle_Wall
-    400000: Bottom_Wall
-    400002: Bottom_Wall_001
-    400004: Ceiling
-    400006: Cylinder
-    400008: Floor
-    400010: //RootNode
-    400012: Top_Wall
-    400014: Top_Wall_001
-    400016: Bottom_Wall_Door
-    400018: Bottom_Wall_Plain
-    400020: Middle_Wall
-    2300000: Bottom_Wall
-    2300002: Bottom_Wall_001
-    2300004: Ceiling
-    2300006: Cylinder
-    2300008: Floor
-    2300010: Top_Wall
-    2300012: Top_Wall_001
-    2300014: Bottom_Wall_Door
-    2300016: Bottom_Wall_Plain
-    2300018: Middle_Wall
-    3300000: Bottom_Wall
-    3300002: Bottom_Wall_001
-    3300004: Ceiling
-    3300006: Cylinder
-    3300008: Floor
-    3300010: Top_Wall
-    3300012: Top_Wall_001
-    3300014: Bottom_Wall_Door
-    3300016: Bottom_Wall_Plain
-    3300018: Middle_Wall
-    4300000: Cylinder
-    4300002: Bottom_Wall_001
-    4300004: Top_Wall_001
-    4300006: Top_Wall
-    4300008: Bottom_Wall
-    4300010: Ceiling
-    4300012: Floor
-    4300014: Bottom_Wall_Door
-    4300016: Middle_Wall
-    4300018: Bottom_Wall_Plain
+    100000: //RootNode
+    100002: tileBottomWallDoor
+    100004: tileBottomWallPlain
+    100006: tileCeiling
+    100008: tileFloor
+    100010: tileMiddleWall
+    100012: tileTopWall
+    400000: //RootNode
+    400002: tileBottomWallDoor
+    400004: tileBottomWallPlain
+    400006: tileCeiling
+    400008: tileFloor
+    400010: tileMiddleWall
+    400012: tileTopWall
+    2300000: //RootNode
+    2300002: tileBottomWallDoor
+    2300004: tileBottomWallPlain
+    2300006: tileCeiling
+    2300008: tileFloor
+    2300010: tileMiddleWall
+    2300012: tileTopWall
+    3300000: //RootNode
+    3300002: tileBottomWallDoor
+    3300004: tileBottomWallPlain
+    3300006: tileCeiling
+    3300008: tileFloor
+    3300010: tileMiddleWall
+    3300012: tileTopWall
+    4300000: Cube
+    4300002: tileBottomWallPlain
+    4300004: tileBottomWallDoor
+    4300006: tileTopWall
+    4300008: tileMiddleWall
+    4300010: tileCeiling
+    4300012: tileFloor
     7400000: Default Take
     9500000: //RootNode
   materials:

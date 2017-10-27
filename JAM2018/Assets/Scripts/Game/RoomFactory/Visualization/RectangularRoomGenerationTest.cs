@@ -7,7 +7,7 @@ public class RectangularRoomGenerationTest : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		GameObject.Find ("RoomSeed").GetComponent<RectangularRoomGenerator>()
-			.GenerateRectangularRoomIn(this.gameObject, 5, 2, 6, RoomCoordinatesSystem.BaseCentered);
+		this.GetComponent<RectangularRoomGenerator>()
+			.GenerateRectangularRoom(new Vector3(5, 5, -10), 7, 5, 8, RoomCoordinatesSystem.BaseCentered);
 	}
 }
