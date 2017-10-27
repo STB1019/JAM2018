@@ -5,6 +5,13 @@
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 
+#Plugins folder contains dlls and pdb precompiled of SharpLibrary. Ignore them
+#we define them by name because if we need to include a third party dll, we can track it as well
+/Assets/Plugins/SharpGraphs.dll
+/Assets/Plugins/SharpGraphs.dll.meta
+/Assets/Plugins/SharpGraphs.pdb
+/Assets/Plugins/SharpGraphs.pdb.meta
+
 # Visual Studio 2015 cache directory
 /.vs/
 
