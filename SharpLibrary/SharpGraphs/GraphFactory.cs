@@ -40,7 +40,7 @@ namespace SharpGraphs
 		/// <summary>
 		/// Get a graph that is best suitable for representing sparse graphs
 		/// </summary>
-		/// <param name="supportForPredecessors">True if you need support for fetching the predecessors of a node, false otherwise</param>
+		/// <param name="supportForPredecessors">True if you need support to quickly fetch the predecessors of a node, false otherwise</param>
 		/// <typeparam name="NODE">the payload type related to each node</typeparam>
 		/// <typeparam name="EDGE">the payload type related to each edge</typeparam>
 		/// <returns></returns>

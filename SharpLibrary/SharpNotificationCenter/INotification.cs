@@ -10,7 +10,7 @@ namespace SharpNotificationCenter
 	public interface INotification
 	{
 		/// <summary>
-		/// The topic this notification is about. For example it might be "MoueMove", "AchivementThread", "DifficultyUpdate", "SpawnedEnemy"
+		/// The topic this notification is about. For example it might be "MouseMove", "AchivementThread", "DifficultyUpdate", "SpawnedEnemy"
 		/// </summary>
 		int Type { get; }
 
@@ -20,7 +20,7 @@ namespace SharpNotificationCenter
 		object Source { get; }
 
 		/// <summary>
-		/// An optional dictionaary with additional data to send with the notification.
+		/// An optional dictionary with additional data to send with the notification.
 		/// If you don't want to send data, set this field as a enmpty Dictionary (<b>not as null!</b>)
 		/// </summary>
 		IDictionary<int, object> Data { get; }
@@ -53,8 +53,9 @@ namespace SharpNotificationCenter
 		/// <summary>
 		/// Alias for <see cref="INotification.Get(int)"/>
 		/// </summary>
-		/// <param name="key"></param>
-		/// <returns></returns>
+		/// <param name="key">>the key whose value we need to retrieve</param>
+		/// <returns>the object associated (inside <see cref="INotification"/>) with the given key</returns>
+		/// <exception cref="KeyNotFoundException">if the key does not exist</exception>
 		object this[int key] { get; }
 	}
 }

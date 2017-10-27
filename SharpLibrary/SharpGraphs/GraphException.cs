@@ -4,7 +4,10 @@ using System.Text;
 
 namespace SharpGraph
 {
-    public class GraphException : Exception
+	/// <summary>
+	/// A generic exception raise when something went wrong during graph computation
+	/// </summary>
+	public class GraphException : Exception
     {
 		/// <summary>
 		/// A generic exception raise when something went wrong during graph computation

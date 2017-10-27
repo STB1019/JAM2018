@@ -15,6 +15,20 @@ namespace SharpGraphs
 	{
 		private static readonly ILog LOG = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
+		/// <summary>
+		/// Generate a png containing the graph specified
+		/// </summary>
+		/// <remarks>
+		/// In order to work, this method requires you to have graphviz software installed on your system and "dot.exe" program available on you path.
+		/// If this is not satisfied, <b>a warning will be raised</b>.
+		/// </remarks>
+		/// <typeparam name="NODE">the type of the node payload</typeparam>
+		/// <typeparam name="EDGE">the type of the edge payload</typeparam>
+		/// <param name="g">the graph to plot</param>
+		/// <param name="format">a string format (as in string.Format method) representing the filename of the png to generate</param>
+		/// <param name="list">parameters of the string format (as in string.Format method)</param>
+		/// <returns>the png filename of the graph just computer</returns>
+		/// <see cref="string.Format(string, object[])"/>
 		public static string DrawGraph<NODE,EDGE>(IGraph<NODE,EDGE> g, string format, params object[] list)
 		{
 			string dotfilename = string.Format(format, list);
