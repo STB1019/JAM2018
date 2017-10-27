@@ -4,6 +4,9 @@ using UnityEditor;
 
 namespace Scripts.Game.UI
 {
+	/// <summary>
+	/// Represents the view-model the business logic interact with to control the <see cref="HpHpBarUi"/>
+	/// </summary>
 	public class HpBarViewModel {
 		/// <summary>
 		/// The minimum value the HP bar state can have
