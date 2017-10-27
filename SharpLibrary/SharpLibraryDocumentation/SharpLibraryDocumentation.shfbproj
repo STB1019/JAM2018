@@ -28,6 +28,8 @@
     </TransformComponentArguments>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\SharpNotificationCenter\SharpNotificationCenter.csproj" xmlns="" />
+      <DocumentationSource sourceFile="..\SharpGraphs\SharpGraphs.csproj" />
+      <DocumentationSource sourceFile="..\SharpSearches\SharpSearches.csproj" />
     </DocumentationSources>
     <SaveComponentCacheCapacity>100</SaveComponentCacheCapacity>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
