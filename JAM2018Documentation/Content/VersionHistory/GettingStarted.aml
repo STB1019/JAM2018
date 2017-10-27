@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="2cdbd4f0-165b-4302-a4e2-7405adff0767" revisionNumber="1">
+  <developerHowToDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <!--
+    <summary>
+      <para>Optional summary abstract</para>
+    </summary>
+    -->
+
+    <introduction>
+      <para>
+				This section will aid you to get started on the project.
+				First of all you need the following software installed on your system:
+			</para>
+
+			<list class="bullet">
+				<listItem>
+					<para>
+						Unity: this is the main software we use to develop the game;
+					</para>
+				</listItem>
+
+				<listItem>
+					<para>
+						Visual Studio Community edition 2017 [OPTIONAL]: you can use Visual studio to code the C# scripts of Unity.
+						It's optional because Unity come bundled with Monodevelop. However, Visual studio is recommended if you want to
+						exploit every project defined in the repository (like the documentations ones); You can download the ide
+						<externalLink>
+							<linkText>here</linkText>
+							<linkUri>https://www.visualstudio.com/downloads/</linkUri>
+						</externalLink>.
+					</para>
+				</listItem>
+
+				<listItem>
+					<para>
+						Sand Castle [OPTIONAL]: if you want to build the documentation (the one you're reading right now) you need to install SandCastle in your system.
+					</para>
+				</listItem>
+
+				<listItem>
+					<para>
+						Unity Plugin for Visual Studio: you can code Unity C# scripts with Visual Studio thanks to this plugin. The page of this plugin
+						is available
+						<externalLink>
+							<linkText>here</linkText>
+							<linkUri>https://www.visualstudio.com/vs/unity-tools/</linkUri>
+						</externalLink>.
+					</para>
+				</listItem>
+
+				<listItem>
+					<para>
+						Graphviz: if you need to view a graphical representation of a graph inside the game, you can do so with IGraph methods. In order to use
+						them you need to manually install GraphViz on your system. Graphviz is downloadable
+						<externalLink>
+							<linkText>here</linkText>
+							<linkUri>http://www.graphviz.org/Download..php</linkUri>
+						</externalLink>.
+						Furthermore, you need to add (after the installation) the "bin" folder inside Graphviz to the PATH: in this way the software can use
+						the software <legacyItalic>dot.exe</legacyItalic>.
+					</para>
+				</listItem>
+
+			</list>
+    </introduction>
+		
+		
+
+    <!-- Optional procedures followed by optional code example but must have
+         at least one procedure or code example -->
+    <procedure>
+      <title>Installation of SandCastle</title>
+      <steps class="ordered">
+        <step>
+          <content>
+            <para>Install SandCastle via the link
+							<externalLink>
+								<linkText>here</linkText>
+								<linkUri>http://ewsoftware.github.io/SHFB/html/8c0c97d0-c968-4c15-9fe9-e8f3a443c50a.htm#GuidedInstall</linkUri>
+							</externalLink>;
+					</para>
+          </content>
+        </step>
+        <step>
+          <content>
+            <para>If you want to setup a new documentation project, you can follow the directions in 
+							<externalLink>
+								<linkText>here</linkText>
+								<linkUri>https://randynghiem.wordpress.com/2015/06/18/how-to-set-up-sandcastle-help-file-builder-with-visual-studio-2015/</linkUri>
+							</externalLink>;
+					</para>
+          </content>
+        </step>
+      </steps>
+      <!-- <conclusion>Optional conclusion</conclusion> -->
+    </procedure>
+
+		<procedure>
+			<title>Building of proejct</title>
+			<steps class="ordered">
+				<step>
+					<content>
+						<para>
+							In order to play the game, you need to compile the support library called "SharpLibrary". To do so, open visual studio
+							and open the relative solution;
+						</para>
+					</content>
+				</step>
+				<step>
+					<content>
+						<para>
+							Select the whole solution inside "solution explorer", right clck on the solution item and choose "build solution";
+						</para>
+					</content>
+				</step>
+			</steps>
+			<!-- <conclusion>Optional conclusion</conclusion> -->
+		</procedure>
+
+  </developerHowToDocument>
+</topic>
