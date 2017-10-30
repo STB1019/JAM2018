@@ -50,4 +50,8 @@
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(TargetDir)$(TargetName).dll" "$(SolutionDir)..\JAM2018\Assets\Plugins" /Y
+if exist "$(TargetDir)$(TargetName).pdb" xcopy "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)..\JAM2018\Assets\Plugins" /Y</PostBuildEvent>
+  </PropertyGroup>
 </Project>
