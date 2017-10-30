@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<topic id="11e1355b-3e15-40d1-ad06-6dc0b4b57d18" revisionNumber="1">
+<topic id="2cdbd4f0-165b-4302-a4e2-7405adff0767" revisionNumber="1">
   <developerHowToDocument
     xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
     xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -11,70 +11,115 @@
     -->
 
     <introduction>
-      <para>Required introduction</para>
+      <para>
+				This section will aid you to get started on the project.
+				First of all you need the following software installed on your system:
+			</para>
+
+			<list class="bullet">
+				<listItem>
+					<para>
+						Unity: this is the main software we use to develop the game;
+					</para>
+				</listItem>
+
+				<listItem>
+					<para>
+						Visual Studio Community edition 2017 [OPTIONAL]: you can use Visual studio to code the C# scripts of Unity.
+						It's optional because Unity come bundled with Monodevelop. However, Visual studio is recommended if you want to
+						exploit every project defined in the repository (like the documentations ones); You can download the ide
+						<externalLink>
+							<linkText>here</linkText>
+							<linkUri>https://www.visualstudio.com/downloads/</linkUri>
+						</externalLink>.
+					</para>
+				</listItem>
+
+				<listItem>
+					<para>
+						Sand Castle [OPTIONAL]: if you want to build the documentation (the one you're reading right now) you need to install SandCastle in your system.
+					</para>
+				</listItem>
+
+				<listItem>
+					<para>
+						Unity Plugin for Visual Studio: you can code Unity C# scripts with Visual Studio thanks to this plugin. The page of this plugin
+						is available
+						<externalLink>
+							<linkText>here</linkText>
+							<linkUri>https://www.visualstudio.com/vs/unity-tools/</linkUri>
+						</externalLink>.
+					</para>
+				</listItem>
+
+				<listItem>
+					<para>
+						Graphviz: if you need to view a graphical representation of a graph inside the game, you can do so with IGraph methods. In order to use
+						them you need to manually install GraphViz on your system. Graphviz is downloadable
+						<externalLink>
+							<linkText>here</linkText>
+							<linkUri>http://www.graphviz.org/Download..php</linkUri>
+						</externalLink>.
+						Furthermore, you need to add (after the installation) the "bin" folder inside Graphviz to the PATH: in this way the software can use
+						the software <legacyItalic>dot.exe</legacyItalic>.
+					</para>
+				</listItem>
+
+			</list>
     </introduction>
+		
+		
 
     <!-- Optional procedures followed by optional code example but must have
          at least one procedure or code example -->
     <procedure>
-      <title>Procedure title</title>
+      <title>Installation of SandCastle</title>
       <steps class="ordered">
         <step>
           <content>
-            <para>First step</para>
+            <para>Install SandCastle via the link
+							<externalLink>
+								<linkText>here</linkText>
+								<linkUri>http://ewsoftware.github.io/SHFB/html/8c0c97d0-c968-4c15-9fe9-e8f3a443c50a.htm#GuidedInstall</linkUri>
+							</externalLink>;
+					</para>
           </content>
         </step>
         <step>
           <content>
-            <para>Second step</para>
+            <para>If you want to setup a new documentation project, you can follow the directions in 
+							<externalLink>
+								<linkText>here</linkText>
+								<linkUri>https://randynghiem.wordpress.com/2015/06/18/how-to-set-up-sandcastle-help-file-builder-with-visual-studio-2015/</linkUri>
+							</externalLink>;
+					</para>
           </content>
         </step>
       </steps>
       <!-- <conclusion>Optional conclusion</conclusion> -->
     </procedure>
 
-    <!-- <codeExample>Optional code example</codeExample> -->
+		<procedure>
+			<title>Building of proejct</title>
+			<steps class="ordered">
+				<step>
+					<content>
+						<para>
+							In order to play the game, you need to compile the support library called "SharpLibrary". To do so, open visual studio
+							and open the relative solution;
+						</para>
+					</content>
+				</step>
+				<step>
+					<content>
+						<para>
+							Select the whole solution inside "solution explorer", right clck on the solution item and choose "build solution";
+						</para>
+					</content>
+				</step>
+			</steps>
+			<!-- <conclusion>Optional conclusion</conclusion> -->
+		</procedure>
 
-    <!-- <buildInstructions>Optional instructions for building a
-         code example.</buildInstructions> -->
-
-    <!-- <robustProgramming>Optional discussion of error handling and other
-         issues related to writing solid code.</robustProgramming> -->
-
-    <!-- <security>Optional discussion of security issues.</security> -->
-
-    <relatedTopics>
-      <!-- One or more of the following:
-           - A local link
-           - An external link
-           - A code entity reference
-
-      <link xlink:href="Other Topic's ID">Link text</link>
-      <externalLink>
-          <linkText>Link text</linkText>
-          <linkAlternateText>Optional alternate link text</linkAlternateText>
-          <linkUri>URI</linkUri>
-      </externalLink>
-      <codeEntityReference>API member ID</codeEntityReference>
-
-      Examples:
-
-      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
-
-      <externalLink>
-          <linkText>SHFB on GitHub</linkText>
-          <linkAlternateText>Go to GitHub</linkAlternateText>
-          <linkUri>https://GitHub.com/EWSoftware/SHFB</linkUri>
-      </externalLink>
-
-      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
-      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
-      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
-      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
-      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
-      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
-      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
-      -->
-    </relatedTopics>
   </developerHowToDocument>
 </topic>

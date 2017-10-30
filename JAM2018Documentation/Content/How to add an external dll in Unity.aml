@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="3a5445a9-f9a3-468d-8c7a-0af967ea87ff" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <!--
+    <summary>
+      <para>Optional summary abstract</para>
+    </summary>
+    -->
+
+    <introduction>
+      <!-- Uncomment this to generate an outline of the section and sub-section
+           titles.  Specify a numeric value as the inner text to limit it to
+           a specific number of sub-topics when creating the outline.  Specify
+           zero (0) to limit it to top-level sections only.  -->
+      <!-- <autoOutline /> -->
+
+      <para>This page will help you to understand how we linked an external DLL inside unity</para>
+    </introduction>
+
+    <!-- Add one or more top-level section elements.  These are collapsible.
+         If using <autoOutline />, add an address attribute to identify it
+         and specify a title so that it can be jumped to with a hyperlink. -->
+		<section address="Section1">
+			<title>Explanation</title>
+			<content>
+				<!-- Uncomment this to create a sub-section outline
+        <autoOutline /> -->
+				<para>
+					Unity automatically compiles the C# scripts with every shared library (DLL) inside "Plugins" folder (inside Assets folder).
+					So we have simply copied each DLL we need inside such directory.
+					We depend on SharpLibrary projects: it would be cucumbersome if each time we built a new version of SharpLibrarys DLL, we would need
+					to manually copy the DLL inside "Assets/Plugins". To avoid this we have created a <legacyBold>post build event</legacyBold>
+					for every external project. Such post build event simply copies the "*.dll" and "*.pdb" (files useful while debugging) inside "Assets/Plugins".
+				</para>
+			</content>
+		</section>
+
+		<section address="Section2">
+			<title>Lorenzo Nodari notes</title>
+			<content>
+				<para>
+					The post build event task was created in <legacyBold>issue #21</legacyBold> by Lorenzo Nodari. Here's a brief explanation from Lorenzo himself:
+				</para>
+			</content>
+			<sections>
+				<section>
+					<title>Using an external library within a Unity project</title>
+					<content>
+						In order to use an external library in a Unity project, the library DLL needs to be
+						imported in the project as an asset. The Unity manual suggets creating a directory
+						named "Plugins" in the Assets folder and simply place the .dll file in that directory.
+						Once this is done, one can simply import the namespaces declared in the DLL without any
+						particular prefix.
+					</content>
+				</section>
+				<section>
+					<title>Automating DLL asset import within Visual Studio</title>
+					<content>
+						Automating the DLL asset import within Visual Studio
+
+						Due to the fact that the DLL needs to be manually copied in that folder each time it is
+						rebuilt, we used Visual Studio Post Build Events to automate this process.
+						To do this, simply open the related solution in Visual Studio and right click on the project
+						containing the files which will compose the DLL.
+						In the menu, go to "Properties" -> "Build Events".
+						To achieve the desired effect we then just need to insert the following lines in the "Post-build event command line" text-area:
+
+						xcopy "$(TargetDir)$(TargetName).dll" "$(SolutionDir)..\JAM2018\Assets\Plugins" /Y
+						if exist "$(TargetDir)$(TargetName).pdb" xcopy "$(TargetDir)$(TargetName).pdb" "$(SolutionDir)..\JAM2018\Assets\Plugins" /Y
+
+						Here's a brief explanation:
+						<list>
+							<listItem>
+								<para>
+									xcopy is the command which (surprisingly) copies one file to another location. Its syntax is "xcopy source
+									target_location"
+								</para>
+							</listItem>
+							<listItem>
+								<para>
+									/Y is a xcopy command option which indicates not to prompt for file overwrite each time a file would be substituted
+								</para>
+							</listItem>
+							<listItem>
+								<para>
+									$(TargetDir) is a special variable which expands to the absolute path - drive + path - of the target of the build process. In this
+									case, the target is our DLL. Note that we don't need any trailing backslash after expansion as it is already
+									included in the special variable.
+								</para>
+							</listItem>
+							<listItem>
+								<para>
+									$(TargetName) is a special variable which expands to the name of the target file, without extension
+								</para>
+							</listItem>
+							<listItem>
+								<para>
+									$(SolutionDir) is a special variable which expands to the directory which contains the Solution we are working on
+								</para>
+							</listItem>
+							<listItem>
+								<para>
+									"if exist" if a conditional statement which checks if a particular file/directory exists and if true, executes the next command.
+									In this case, what we are doing is checking if the .pdb debug files are present and eventually copying them.
+								</para>
+							</listItem>
+						</list>
+						
+					</content>
+				</section>
+			</sections>
+		</section>
+
+  </developerConceptualDocument>
+</topic>

@@ -5,6 +5,9 @@
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
   </Topic>
+  <Topic id="2cdbd4f0-165b-4302-a4e2-7405adff0767" visible="True" />
+  <Topic id="3a5445a9-f9a3-468d-8c7a-0af967ea87ff" visible="True" />
+  <Topic id="b59a08b8-1558-4e1c-a9cc-4fe15eb5a671" visible="True" isSelected="true" />
   <Topic id="4d209017-97cf-4bd7-ade1-b79eccc39b59" visible="True" title="Version History">
     <HelpKeywords>
       <HelpKeyword index="K" term="version, history" />
@@ -15,6 +18,4 @@
       </HelpKeywords>
     </Topic>
   </Topic>
-  <Topic id="2cdbd4f0-165b-4302-a4e2-7405adff0767" visible="True" />
-  <Topic id="b59a08b8-1558-4e1c-a9cc-4fe15eb5a671" visible="True" isSelected="true" />
 </Topics>
