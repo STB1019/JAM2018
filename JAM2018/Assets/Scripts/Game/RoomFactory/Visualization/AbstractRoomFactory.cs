@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AssemblyCSharp
+namespace Scripts.Game.RoomFactory.Visualization
 {
 	/// <summary>
 	/// 

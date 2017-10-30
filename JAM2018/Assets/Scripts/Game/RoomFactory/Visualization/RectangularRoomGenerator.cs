@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AssemblyCSharp
+namespace Scripts.Game.RoomFactory.Visualization
 {
 	/// <summary>
 	/// This script creates the tiles that make the room visible, at the starting of the program.

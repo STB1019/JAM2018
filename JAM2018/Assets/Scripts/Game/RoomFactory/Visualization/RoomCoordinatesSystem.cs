@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AssemblyCSharp
+namespace Scripts.Game.RoomFactory.Visualization
 {
 	/// <summary>
 	/// This enum allows to define one of the three type of coordinates system used in the room creation.
