@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="fc300a71-1e38-4b76-b8a7-916780adae45" revisionNumber="1">
+  <developerConceptualDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <!--
+    <summary>
+      <para>Optional summary abstract</para>
+    </summary>
+    -->
+
+    <introduction>
+      <para>
+				This page shows some common issue we've encoutered while coding. Hope it helps everyone!
+			</para>
+    </introduction>
+
+    <!-- Add one or more top-level section elements.  These are collapsible.
+         If using <autoOutline />, add an address attribute to identify it
+         and specify a title so that it can be jumped to with a hyperlink. -->
+    <section address="Troubleshooting">
+      <title>Troubleshooting</title>
+      <content>
+        <para>
+				<list>
+					<listItem>
+						<para>
+							Why Intellisense in Visual Studio stopped showing Unity entries in the Content Assist? I've encoutered this issue when I've added
+							a new C# script in Unity. For whatever reason reastarting Visual Studio after that solved the issue.
+							<externalLink>
+								<linkText>Reference</linkText>
+								<linkUri>https://www.reddit.com/r/Unity3D/comments/3y6v8x/visual_studio_autocomplete_not_working/</linkUri>
+							</externalLink>
+						</para>
+					</listItem>
+				</list>
+				</para>
+      </content>
+    </section>
+
+  </developerConceptualDocument>
+</topic>

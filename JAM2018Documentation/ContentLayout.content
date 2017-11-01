@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="155d95a6-7b41-47d6-b0db-edcf147d375e" visible="True" isDefault="true" title="Welcome to the JAM 2018 Documentation">
+  <Topic id="155d95a6-7b41-47d6-b0db-edcf147d375e" visible="True" isDefault="true" isExpanded="true" title="Welcome to the JAM 2018 Documentation">
     <HelpKeywords>
       <HelpKeyword index="K" term="Welcome" />
     </HelpKeywords>
+    <Topic id="fc300a71-1e38-4b76-b8a7-916780adae45" visible="True" isSelected="true" />
   </Topic>
   <Topic id="2cdbd4f0-165b-4302-a4e2-7405adff0767" visible="True" />
   <Topic id="3a5445a9-f9a3-468d-8c7a-0af967ea87ff" visible="True" />
-  <Topic id="b59a08b8-1558-4e1c-a9cc-4fe15eb5a671" visible="True" isSelected="true" />
+  <Topic id="b59a08b8-1558-4e1c-a9cc-4fe15eb5a671" visible="True" />
   <Topic id="4d209017-97cf-4bd7-ade1-b79eccc39b59" visible="True" title="Version History">
     <HelpKeywords>
       <HelpKeyword index="K" term="version, history" />

@@ -61,6 +61,17 @@
 				<relatedEntry termId="Hallway" />
 			</glossaryEntry>
 
+			<glossarryEntry>
+				<terms>
+					<term termId="aterm">aterm</term>
+				</terms>
+				<definition>
+					<para>
+						the definition
+					</para>
+				</definition>
+			</glossarryEntry>
+
     </glossary>
   </developerGlossaryDocument>
 </topic>
