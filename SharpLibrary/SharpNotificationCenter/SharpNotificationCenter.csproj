@@ -42,7 +42,6 @@
     <Compile Include="DefaultNotificationCenterFactory.cs" />
     <Compile Include="INotification.cs" />
     <Compile Include="NotificationCenter.cs" />
-    <Compile Include="NotificationCenterPriority.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
