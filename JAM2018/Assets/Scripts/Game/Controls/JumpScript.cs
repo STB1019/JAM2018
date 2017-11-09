@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SharpUtilities;
 using System;
+using Assets.Scripts.Game.Commons;
 
 namespace Scripts.Game.Controls {
 
@@ -52,6 +53,10 @@ namespace Scripts.Game.Controls {
 		/// </summary>
 		private float JumpForce { get; set; }
 		/// <summary>
+		/// Property representing the fact that the attached game object is colliding with the terrain
+		/// </summary>
+		private bool IsCollidingWithTerrain { get; set; }
+		/// <summary>
 		/// If the velocity y is less (in absolute terms) of this threshold we can
 		/// apply the jump
 		/// </summary>
@@ -78,6 +83,12 @@ namespace Scripts.Game.Controls {
 			}
 		}
 
+		public void Awake()
+		{
+			this.IsCollidingWithTerrain = false;
+			this.JumpForce = 0;
+		}
+
 		/// <summary>
 		/// Requests a jump to be executed
 		/// </summary>
@@ -86,6 +97,7 @@ namespace Scripts.Game.Controls {
 		{
 			if (this.CanRequestJump)
 			{
+				this.IsCollidingWithTerrain = false;
 				this.HasJumpBeenRequested = true;
 				this.JumpForce = jumpForce;
 				this.OnJumpStarted.FireEvents(this.gameObject, jumpForce);
@@ -95,11 +107,31 @@ namespace Scripts.Game.Controls {
 		public void FixedUpdate()
 		{
 			//we can jump only if the y velocity is 0. see http://answers.unity3d.com/comments/736765/view.html
-			this.CanRequestJump = (Math.Abs(this.Rigidbody.velocity.y) < VelocityYThreshHold);
+			this.CanRequestJump = this.computeRequestJump();
 			if (this.HasJumpBeenRequested) {
 				this.Rigidbody.AddForce(this.JumpForce * Vector3.up, ForceMode.Impulse);
 				this.HasJumpBeenRequested = false;
 			}
+		}
+
+		private bool computeRequestJump()
+		{
+			if (Math.Abs(this.Rigidbody.velocity.y) >= VelocityYThreshHold)
+			{
+				return false;
+			}
+
+			if (!IsCollidingWithTerrain)
+			{
+				return false;
+			}
+
+			return true;
+		}
+
+		void OnCollisionEnter(Collision col)
+		{
+			this.IsCollidingWithTerrain = (col.gameObject.ta == Tags.TERRAIN);
 		}
 	}
 
