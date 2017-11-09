@@ -46,11 +46,19 @@ namespace SharpUtilities
 		private IDictionary<VALUE, int> ReverseEvents { get; set; }
 		private SortedDictionary<int, IList<VALUE>> Events { get; set; }
 
+		/// <summary>
+		/// The default <see cref="Priority"/> an event will have if the developer doesn't specify it while
+		/// adding a new element
+		/// </summary>
 		public Priority DefaultPriority
 		{
 			get; private set;
 		}
 
+		/// <summary>
+		/// Initialize a new sorted list
+		/// </summary>
+		/// <param name="defaultPriority">the default priority to assign to every element no priority is explicitly given</param>
 		public SortedEventList(Priority defaultPriority)
 		{
 			this.Events = new SortedDictionary<int, IList<VALUE>>();
@@ -58,17 +66,42 @@ namespace SharpUtilities
 			this.DefaultPriority = defaultPriority;
 		}
 
+		/// <summary>
+		/// Initialize a new event lsit with default priority set to <see cref="Priority.MEDIUM"/>
+		/// </summary>
 		public SortedEventList() : this(Priority.MEDIUM)
 		{
 
 		}
 
+		/// <summary>
+		/// The ordered list of the available priorities in the list
+		/// </summary>
 		public ICollection<int> Keys { get
 			{
 				return this.Events.Keys;
 			}
 		}
 
+		/// <summary>
+		/// Notify every listener a new event has been dispatched
+		/// </summary>
+		/// <example>
+		/// This example shows how to use this method
+		/// <code>
+		/// public delegate int IntOperation(int x, int y);
+		/// SortedEventList &lt IntOperation &gt; sel = new SortedEventList();
+		/// 
+		/// public int add(int x, int y) { return x+y;}
+		/// public int times(int x, int y) { return x*y;}
+		/// 
+		/// sel += add;
+		/// sel += times;
+		/// sel.FireEvents(1,2);
+		/// //the return value of every destination delegate is discarded
+		/// </code>
+		/// </example>
+		/// <param name="obj">the parameters every destination delegate will accept</param>
 		public void FireEvents(params object[] obj)
 		{
 			foreach (var k in this.Events.Keys)
@@ -79,6 +112,11 @@ namespace SharpUtilities
 			}
 		}
 
+		/// <summary>
+		/// Add a new element inside the list
+		/// </summary>
+		/// <param name="key">the priority of the element to add</param>
+		/// <param name="value">the element to add</param>
 		private void Add(int key, VALUE value)
 		{
 			IList<VALUE> l = null;
@@ -95,6 +133,11 @@ namespace SharpUtilities
 			this.ReverseEvents[value] = key;
 		}
 
+		/// <summary>
+		/// Removes an element from the list, regardless of its priority.
+		/// </summary>
+		/// <param name="value">the value to remove</param>
+		/// <exception cref="KeyNotFoundException">If value is not inside the list</exception>
 		private void Remove(VALUE value)
 		{
 			var key = this.ReverseEvents[value];
@@ -107,34 +150,73 @@ namespace SharpUtilities
 			}
 		}
 
+		/// <summary>
+		/// Appends the value inside the sorted list
+		/// </summary>
+		/// <param name="sel">the list where we need to add the element into</param>
+		/// <param name="x">a pair representing the priority and the element involved</param>
+		/// <returns>sel itself</returns>
 		public static SortedEventList<VALUE> operator +(SortedEventList<VALUE> sel, Pair<Priority, VALUE> x)
 		{
 			sel.Add((int)x.X, x.Y);
 			return sel;
 		}
 
+		/// <summary>
+		/// Appends the value inside the sorted list
+		/// </summary>
+		/// <param name="sel">the list where we need to add the element into</param>
+		/// <param name="x">a pair representing the priority and the element involved</param>
+		/// <returns>sel itself</returns>
 		public static SortedEventList<VALUE> operator +(SortedEventList<VALUE> sel, Pair<int, VALUE> x)
 		{
 			sel.Add(x.X, x.Y);
 			return sel;
 		}
 
+		/// <summary>
+		/// Appends the value inside the sorted list
+		/// </summary>
+		/// <param name="sel">the list where we need to add the element into</param>
+		/// <param name="x">element to add. The priority will be the one set in <see cref="DefaultPriority"/></param>
+		/// <returns>sel itself</returns>
 		public static SortedEventList<VALUE> operator +(SortedEventList<VALUE> sel, VALUE x)
 		{
 			sel.Add((int)sel.DefaultPriority, x);
 			return sel;
 		}
 
+		/// <summary>
+		/// Removes an element from the list, regardless of its priority.
+		/// </summary>
+		/// <param name="sel">the list involved</param>
+		/// <param name="x">a pair containing the item to remove.</param>
+		/// <exception cref="KeyNotFoundException">If value is not inside the list</exception>
+		/// <returns>sel itself</returns>
 		public static SortedEventList<VALUE> operator -(SortedEventList<VALUE> sel, Pair<Priority, VALUE> x)
 		{
 			return (sel - x.Y);
 		}
 
+		/// <summary>
+		/// Removes an element from the list, regardless of its priority.
+		/// </summary>
+		/// <param name="sel">the list involved</param>
+		/// <param name="x">a pair containing the item to remove.</param>
+		/// <exception cref="KeyNotFoundException">If value is not inside the list</exception>
+		/// <returns>sel itself</returns>
 		public static SortedEventList<VALUE> operator -(SortedEventList<VALUE> sel, Pair<int, VALUE> x)
 		{
 			return (sel - x.Y);
 		}
 
+		/// <summary>
+		/// Removes an element from the list, regardless of its priority.
+		/// </summary>
+		/// <param name="sel">the list involved</param>
+		/// <param name="x">The value to remove</param>
+		/// <exception cref="KeyNotFoundException">If value is not inside the list</exception>
+		/// <returns>sel itself</returns>
 		public static SortedEventList<VALUE> operator -(SortedEventList<VALUE> sel, VALUE x)
 		{
 			sel.Remove(x);

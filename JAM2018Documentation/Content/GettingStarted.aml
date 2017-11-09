@@ -105,15 +105,8 @@
 				<step>
 					<content>
 						<para>
-							In order to play the game, you need to compile the support library called "SharpLibrary". To do so, open visual studio
-							and open the relative solution;
-						</para>
-					</content>
-				</step>
-				<step>
-					<content>
-						<para>
-							Select the whole solution inside "solution explorer", right clck on the solution item and choose "build solution";
+							In order to build the game, you need to just start Unity, without any other issues.
+							You can also build on visual studio and perform some useful automatic testing.
 						</para>
 					</content>
 				</step>

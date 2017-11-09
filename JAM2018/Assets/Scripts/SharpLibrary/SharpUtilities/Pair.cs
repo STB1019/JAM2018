@@ -16,6 +16,9 @@ namespace SharpUtilities
 		/// </summary>
 		/// <remarks><see href="https://stackoverflow.com/a/3943162/1887602">This SO question</see> explains why we need to introduce this field</remarks>
 		private XTYPE x;
+		/// <summary>
+		/// property masking <see cref="x"/>
+		/// </summary>
 		public XTYPE X
 		{
 			get { return x; }
@@ -24,8 +27,11 @@ namespace SharpUtilities
 		/// <summary>
 		/// field representing the second value
 		/// </summary>
-		/// /// <remarks><see href="https://stackoverflow.com/a/3943162/1887602">This SO question</see> explains why we need to introduce this field</remarks>
+		/// <remarks><see href="https://stackoverflow.com/a/3943162/1887602">This SO question</see> explains why we need to introduce this field</remarks>
 		private YTYPE y;
+		/// <summary>
+		/// property masking <see cref="y"/>
+		/// </summary>
 		public YTYPE Y
 		{
 			get { return y; }
