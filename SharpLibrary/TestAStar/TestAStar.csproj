@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FDF59EDE-BAA8-4B91-B91D-01A4B113B548}</ProjectGuid>
+    <ProjectGuid>{5518B80E-5522-49F8-AAEB-831267A60E9F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>AstarVisualizer</RootNamespace>
     <AssemblyName>AstarVisualizer</AssemblyName>
