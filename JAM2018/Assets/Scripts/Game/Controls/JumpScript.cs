@@ -131,7 +131,7 @@ namespace Scripts.Game.Controls {
 
 		void OnCollisionEnter(Collision col)
 		{
-			this.IsCollidingWithTerrain = (col.gameObject.ta == Tags.TERRAIN);
+			//TODO continue this.IsCollidingWithTerrain = (col.gameObject.ta == Tags.TERRAIN);
 		}
 	}
 
