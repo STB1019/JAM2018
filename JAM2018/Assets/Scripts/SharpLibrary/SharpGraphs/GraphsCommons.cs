@@ -1,5 +1,4 @@
-﻿using log4net;
-using SharpGraphs;
+﻿using SharpGraphs;
 using SharpUtilities;
 using System;
 using System.Collections.Generic;
@@ -13,14 +12,13 @@ namespace SharpGraphs
 	/// </summary>
 	internal class GraphsCommons
 	{
-		private static readonly ILog LOG = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
 		/// <summary>
 		/// Generate a png containing the graph specified
 		/// </summary>
 		/// <remarks>
 		/// In order to work, this method requires you to have graphviz software installed on your system and "dot.exe" program available on you path.
-		/// If this is not satisfied, <b>a warning will be raised</b>.
+		/// If this is not satisfied, nothing will be done.
 		/// </remarks>
 		/// <typeparam name="NODE">the type of the node payload</typeparam>
 		/// <typeparam name="EDGE">the type of the edge payload</typeparam>
@@ -67,9 +65,8 @@ namespace SharpGraphs
 			{
 				ProcessUtils.ExecuteCommandAndWait("dot.exe", "-Tpng -o {0} {1}", pngfilename, dotfilename);
 			}
-			catch (FileNotFoundException e)
+			catch (FileNotFoundException )
 			{
-				LOG.Warn("Can't create graph " + pngfilename + " because graphviz is not installed! Please install graphviz at http://www.graphviz.org/Download_windows.php and add bin directory to your PATH!");
 			}
 
 			File.Delete(dotfilename);

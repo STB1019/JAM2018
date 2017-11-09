@@ -37,7 +37,7 @@ namespace TestSharpUtilities
 		public void Setup()
 		{
 			this.Id = 0;
-			this.Sel = new SortedEventList<ActionCallback>(5);
+			this.Sel = new SortedEventList<ActionCallback>(Priority.MEDIUM);
 		}
 
 		[TestMethod]
@@ -54,26 +54,26 @@ namespace TestSharpUtilities
 		[TestMethod]
 		public void TestFireEventsWithPriority1()
 		{
-			this.Sel += Pair<int, ActionCallback>.Build(2, this.ActionPlus1);
-			this.Sel += Pair<int, ActionCallback>.Build(3, this.ActionTimes2);
+			this.Sel += Pair<Priority, ActionCallback>.Build(Priority.HIGHER, this.ActionPlus1);
+			this.Sel += Pair<Priority, ActionCallback>.Build(Priority.HIGH, this.ActionTimes2);
 			this.Sel.FireEvents();
-			Assert.AreEqual(this.Id, 2);
+			Assert.AreEqual(2, this.Id);
 		}
 
 		[TestMethod]
 		public void TestFireEventsWithPriority2()
 		{
-			this.Sel += Pair<int, ActionCallback>.Build(3, this.ActionPlus1);
-			this.Sel += Pair<int, ActionCallback>.Build(2, this.ActionTimes2);
+			this.Sel += Pair<Priority, ActionCallback>.Build(Priority.HIGH, this.ActionPlus1);
+			this.Sel += Pair<Priority, ActionCallback>.Build(Priority.HIGHER, this.ActionTimes2);
 			this.Sel.FireEvents();
-			Assert.AreEqual(this.Id, 1);
+			Assert.AreEqual(1, this.Id);
 		}
 
 		[TestMethod]
 		public void TestFireEventsWithPriority3()
 		{
 			this.Sel += this.ActionPlus1;
-			this.Sel += Pair<int, ActionCallback>.Build(2, this.ActionTimes2);
+			this.Sel += Pair<Priority, ActionCallback>.Build(Priority.HIGH, this.ActionTimes2);
 			this.Sel.FireEvents();
 			Assert.AreEqual(this.Id, 1);
 		}
@@ -81,7 +81,7 @@ namespace TestSharpUtilities
 		[TestMethod]
 		public void TestFireEventsWithPriority4()
 		{
-			this.Sel += Pair<int, ActionCallback>.Build(2, this.ActionPlus1);
+			this.Sel += Pair<Priority, ActionCallback>.Build(Priority.HIGH, this.ActionPlus1);
 			this.Sel += this.ActionTimes2;
 			this.Sel.FireEvents();
 			Assert.AreEqual(this.Id, 2);
@@ -90,7 +90,7 @@ namespace TestSharpUtilities
 		[TestMethod]
 		public void TestFireEventsWithPriority5()
 		{
-			var action = Pair<int, ActionCallback>.Build(2, this.ActionPlus1);
+			var action = Pair<Priority, ActionCallback>.Build(Priority.HIGH, this.ActionPlus1);
 
 			this.Sel += action;
 			this.Sel += this.ActionTimes2;

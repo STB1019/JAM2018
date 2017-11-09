@@ -1,5 +1,4 @@
-﻿using log4net;
-using SharpGraphs;
+﻿using SharpGraphs;
 using SharpUtilities;
 using System;
 using System.Collections.Generic;
@@ -15,7 +14,6 @@ namespace SharpGraphs
 	/// <typeparam name="EDGE"></typeparam>
 	public class PSLGraph<NODE, EDGE> : IGraph<NODE, EDGE>
 	{
-		private static readonly ILog LOG = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
 		/// <summary>
 		/// A container of all the nodes available within the graph

@@ -107,21 +107,32 @@ namespace SharpUtilities
 			}
 		}
 
+		public static SortedEventList<VALUE> operator +(SortedEventList<VALUE> sel, Pair<Priority, VALUE> x)
+		{
+			sel.Add((int)x.X, x.Y);
+			return sel;
+		}
+
 		public static SortedEventList<VALUE> operator +(SortedEventList<VALUE> sel, Pair<int, VALUE> x)
 		{
 			sel.Add(x.X, x.Y);
 			return sel;
 		}
 
-		public static SortedEventList<VALUE> operator -(SortedEventList<VALUE> sel, Pair<int, VALUE> x)
-		{
-			return (sel - x.Y);
-		}
-
 		public static SortedEventList<VALUE> operator +(SortedEventList<VALUE> sel, VALUE x)
 		{
 			sel.Add((int)sel.DefaultPriority, x);
 			return sel;
+		}
+
+		public static SortedEventList<VALUE> operator -(SortedEventList<VALUE> sel, Pair<Priority, VALUE> x)
+		{
+			return (sel - x.Y);
+		}
+
+		public static SortedEventList<VALUE> operator -(SortedEventList<VALUE> sel, Pair<int, VALUE> x)
+		{
+			return (sel - x.Y);
 		}
 
 		public static SortedEventList<VALUE> operator -(SortedEventList<VALUE> sel, VALUE x)

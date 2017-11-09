@@ -98,16 +98,6 @@
       <Project>{93ea864b-dd4d-ca89-92e5-ddd89023fbbd}</Project>
       <Private>True</Private>
     </ProjectReference>
-    <ProjectReference Include="..\SharpLibrary\SharpGraphs\SharpGraphs.csproj">
-      <Name>SharpGraphs</Name>
-      <Project>{77679c93-5408-4ca6-afc9-a1249594eac8}</Project>
-      <Private>True</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\SharpLibrary\SharpUtilities\SharpUtilities.csproj">
-      <Name>SharpUtilities</Name>
-      <Project>{997efe54-67b3-4644-8fa4-4663557300fd}</Project>
-      <Private>True</Private>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">

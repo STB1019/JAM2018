@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using SharpUtilities;
-using log4net;
 using SharpGraphs;
 
 namespace SharpGraphs
 {
 	public partial class NLGraph<NODE, EDGE> : IGraph<NODE, EDGE> 
     {
-		private static readonly ILog LOG = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
 		/// <summary>
 		/// A container of all the nodes available within the graph
