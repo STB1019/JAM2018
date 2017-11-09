@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the JAM 2018 Documentation" Url="html/155d95a6-7b41-47d6-b0db-edcf147d375e.htm" />
+  <HelpTOCNode Title="GettingStarted" Url="html/2cdbd4f0-165b-4302-a4e2-7405adff0767.htm" />
+  <HelpTOCNode Title="Glossary" Url="html/b59a08b8-1558-4e1c-a9cc-4fe15eb5a671.htm" />
+  <HelpTOCNode Title="How to add an external dll in Unity" Url="html/3a5445a9-f9a3-468d-8c7a-0af967ea87ff.htm" />
+  <HelpTOCNode Title="Troubleshooting" Url="html/fc300a71-1e38-4b76-b8a7-916780adae45.htm" />
+  <HelpTOCNode Id="3e362b3b-16cc-4b95-85f8-ca1670e7cfad" Title="Scripts.Game.ActualProps" Url="html/N_Scripts_Game_ActualProps.htm">
+    <HelpTOCNode Id="23eaa45f-428b-4a3f-ad26-a028bdc0be22" Title="Fountain Class" Url="html/T_Scripts_Game_ActualProps_Fountain.htm">
+      <HelpTOCNode Title="Fountain Constructor " Url="html/M_Scripts_Game_ActualProps_Fountain__ctor.htm" />
+      <HelpTOCNode Title="Fountain Properties" Url="html/Properties_T_Scripts_Game_ActualProps_Fountain.htm" />
+      <HelpTOCNode Title="Fountain Methods" Url="html/Methods_T_Scripts_Game_ActualProps_Fountain.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="304b3e6c-b377-4847-9067-1aaaa07cb467" Title="Scripts.Game.Bridges" Url="html/N_Scripts_Game_Bridges.htm">
+    <HelpTOCNode Id="bdd8b810-0a95-4b4a-8adc-851ee0e2de2b" Title="AbstractPropScript(PROP) Class" Url="html/T_Scripts_Game_Bridges_AbstractPropScript_1.htm">
+      <HelpTOCNode Title="AbstractPropScript(PROP) Constructor " Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1__ctor.htm" />
+      <HelpTOCNode Id="56645a8d-b98c-41e8-9f66-4dbaf6d7ce4a" Title="AbstractPropScript(PROP) Properties" Url="html/Properties_T_Scripts_Game_Bridges_AbstractPropScript_1.htm">
+        <HelpTOCNode Title="Class Property " Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Class.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Id.htm" />
+        <HelpTOCNode Title="Prop Property " Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Prop.htm" />
+        <HelpTOCNode Title="Qualitates Property " Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Qualitates.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f29a422-5faa-4eeb-a0b0-b5c93d4067f2" Title="AbstractPropScript(PROP) Methods" Url="html/Methods_T_Scripts_Game_Bridges_AbstractPropScript_1.htm">
+        <HelpTOCNode Title="getImplementedInterfaces Method " Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1_getImplementedInterfaces.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7e5fc5d3-814c-4af9-b6ca-94fd914956f7" Title="AbstractQualitasScript(QUALITAS) Class" Url="html/T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm">
+      <HelpTOCNode Title="AbstractQualitasScript(QUALITAS) Constructor " Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1__ctor.htm" />
+      <HelpTOCNode Id="77f149e5-fc7e-4168-80df-fea78282b3f1" Title="AbstractQualitasScript(QUALITAS) Properties" Url="html/Properties_T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm">
+        <HelpTOCNode Title="Class Property " Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Class.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Id.htm" />
+        <HelpTOCNode Title="Prop Property " Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Prop.htm" />
+        <HelpTOCNode Title="Qualitas Property " Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Qualitas.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7f8be2fe-21f4-4172-bbc9-c1c587f93c37" Title="AbstractQualitasScript(QUALITAS) Methods" Url="html/Methods_T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm">
+        <HelpTOCNode Title="getImplementedInterfaces Method " Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1_getImplementedInterfaces.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ae4287e8-728f-43c6-84ba-b0b2d92a7500" Title="FountainPropScript Class" Url="html/T_Scripts_Game_Bridges_FountainPropScript.htm">
+      <HelpTOCNode Title="FountainPropScript Constructor " Url="html/M_Scripts_Game_Bridges_FountainPropScript__ctor.htm" />
+      <HelpTOCNode Title="FountainPropScript Properties" Url="html/Properties_T_Scripts_Game_Bridges_FountainPropScript.htm" />
+      <HelpTOCNode Title="FountainPropScript Methods" Url="html/Methods_T_Scripts_Game_Bridges_FountainPropScript.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7e0fd7e1-815a-4b32-9874-f0cd2ee6c4bc" Title="Scripts.Game.Controls" Url="html/N_Scripts_Game_Controls.htm">
+    <HelpTOCNode Title="GroundCollisionDetectionStrategy Enumeration" Url="html/T_Scripts_Game_Controls_GroundCollisionDetectionStrategy.htm" />
+    <HelpTOCNode Title="JumpHandler Delegate" Url="html/T_Scripts_Game_Controls_JumpHandler.htm" />
+    <HelpTOCNode Id="30ec349d-53cd-4be1-b9a7-fb93ba914527" Title="JumpScript Class" Url="html/T_Scripts_Game_Controls_JumpScript.htm">
+      <HelpTOCNode Title="JumpScript Constructor " Url="html/M_Scripts_Game_Controls_JumpScript__ctor.htm" />
+      <HelpTOCNode Id="029ae268-17b9-4c98-b616-6828fca52268" Title="JumpScript Properties" Url="html/Properties_T_Scripts_Game_Controls_JumpScript.htm">
+        <HelpTOCNode Title="CanRequestJump Property " Url="html/P_Scripts_Game_Controls_JumpScript_CanRequestJump.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="05edd482-7593-4046-95ab-8df7781ca44b" Title="JumpScript Methods" Url="html/Methods_T_Scripts_Game_Controls_JumpScript.htm">
+        <HelpTOCNode Title="doJump Method " Url="html/M_Scripts_Game_Controls_JumpScript_doJump.htm" />
+        <HelpTOCNode Title="FixedUpdate Method " Url="html/M_Scripts_Game_Controls_JumpScript_FixedUpdate.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f0a6b6eb-9410-4f6a-b7ee-c6549bfd61d6" Title="JumpScript Fields" Url="html/Fields_T_Scripts_Game_Controls_JumpScript.htm">
+        <HelpTOCNode Title="OnJumpStarted Field" Url="html/F_Scripts_Game_Controls_JumpScript_OnJumpStarted.htm" />
+        <HelpTOCNode Title="OnJumpStopped Field" Url="html/F_Scripts_Game_Controls_JumpScript_OnJumpStopped.htm" />
+        <HelpTOCNode Title="VelocityYThreshHold Field" Url="html/F_Scripts_Game_Controls_JumpScript_VelocityYThreshHold.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="667832eb-cd57-4f37-8851-8a7df0513e3a" Title="Scripts.Game.Model" Url="html/N_Scripts_Game_Model.htm">
+    <HelpTOCNode Id="8f65f46b-f8c9-4a80-b5a2-6a21fb2ff16f" Title="AbstractDefaultProp Class" Url="html/T_Scripts_Game_Model_AbstractDefaultProp.htm">
+      <HelpTOCNode Id="e1467a0f-a5a1-4dca-aa78-1f8f08f75c74" Title="AbstractDefaultProp Constructor " Url="html/Overload_Scripts_Game_Model_AbstractDefaultProp__ctor.htm">
+        <HelpTOCNode Title="AbstractDefaultProp Constructor (Type)" Url="html/M_Scripts_Game_Model_AbstractDefaultProp__ctor_1.htm" />
+        <HelpTOCNode Title="AbstractDefaultProp Constructor (IPropType)" Url="html/M_Scripts_Game_Model_AbstractDefaultProp__ctor.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1733d3f5-d571-479a-b7c1-bb4ef2a1dbf9" Title="AbstractDefaultProp Properties" Url="html/Properties_T_Scripts_Game_Model_AbstractDefaultProp.htm">
+        <HelpTOCNode Title="Class Property " Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Class.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Id.htm" />
+        <HelpTOCNode Title="Qualitates Property " Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Qualitates.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AbstractDefaultProp Methods" Url="html/Methods_T_Scripts_Game_Model_AbstractDefaultProp.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9ccc1a86-ce63-4494-a1dd-402678df33f4" Title="AbstractDefaultQualitas Class" Url="html/T_Scripts_Game_Model_AbstractDefaultQualitas.htm">
+      <HelpTOCNode Id="c4b96d47-29f8-4340-96e6-b1d81f48e6be" Title="AbstractDefaultQualitas Constructor " Url="html/Overload_Scripts_Game_Model_AbstractDefaultQualitas__ctor.htm">
+        <HelpTOCNode Title="AbstractDefaultQualitas Constructor (IQualitasType)" Url="html/M_Scripts_Game_Model_AbstractDefaultQualitas__ctor.htm" />
+        <HelpTOCNode Title="AbstractDefaultQualitas Constructor (IQualitasType, IProp)" Url="html/M_Scripts_Game_Model_AbstractDefaultQualitas__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ef9ad3ed-d01a-4329-bc1b-f95da6424aac" Title="AbstractDefaultQualitas Properties" Url="html/Properties_T_Scripts_Game_Model_AbstractDefaultQualitas.htm">
+        <HelpTOCNode Title="Class Property " Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Class.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Id.htm" />
+        <HelpTOCNode Title="Prop Property " Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Prop.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AbstractDefaultQualitas Methods" Url="html/Methods_T_Scripts_Game_Model_AbstractDefaultQualitas.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="09dac6f1-c1db-4533-871d-d740655377df" Title="AbstractTypes(TYPE) Class" Url="html/T_Scripts_Game_Model_AbstractTypes_1.htm">
+      <HelpTOCNode Id="71eef57a-b710-432d-9e1f-c053e0f17c5d" Title="AbstractTypes(TYPE) Properties" Url="html/Properties_T_Scripts_Game_Model_AbstractTypes_1.htm">
+        <HelpTOCNode Title="ALL Property " Url="html/P_Scripts_Game_Model_AbstractTypes_1_ALL.htm" />
+        <HelpTOCNode Id="adae29b9-24b2-4dbb-b721-6ff3f65372b9" Title="Item Property " Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Item.htm">
+          <HelpTOCNode Title="Item Property (Int32)" Url="html/P_Scripts_Game_Model_AbstractTypes_1_Item.htm" />
+          <HelpTOCNode Title="Item Property (String)" Url="html/P_Scripts_Game_Model_AbstractTypes_1_Item_1.htm" />
+          <HelpTOCNode Title="Item Property (Type)" Url="html/P_Scripts_Game_Model_AbstractTypes_1_Item_2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="be21e6cc-29e4-4ebb-997a-99db2dd690bd" Title="AbstractTypes(TYPE) Methods" Url="html/Methods_T_Scripts_Game_Model_AbstractTypes_1.htm">
+        <HelpTOCNode Id="e5add9ad-5cd6-42ee-9dcd-e50f5f97ea7c" Title="Add Method " Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Add.htm">
+          <HelpTOCNode Title="Add Method (String)" Url="html/M_Scripts_Game_Model_AbstractTypes_1_Add.htm" />
+          <HelpTOCNode Title="Add Method (Type)" Url="html/M_Scripts_Game_Model_AbstractTypes_1_Add_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="BuildType Method " Url="html/M_Scripts_Game_Model_AbstractTypes_1_BuildType.htm" />
+        <HelpTOCNode Id="6575541c-45c3-46b2-8ebf-a40a5bcf5c19" Title="Contains Method " Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Contains.htm">
+          <HelpTOCNode Title="Contains Method (String)" Url="html/M_Scripts_Game_Model_AbstractTypes_1_Contains.htm" />
+          <HelpTOCNode Title="Contains Method (Type)" Url="html/M_Scripts_Game_Model_AbstractTypes_1_Contains_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2fb2ca90-45df-4a3b-8568-1b9450f56a7e" Title="DefaultPropType Class" Url="html/T_Scripts_Game_Model_DefaultPropType.htm">
+      <HelpTOCNode Title="DefaultPropType Constructor " Url="html/M_Scripts_Game_Model_DefaultPropType__ctor.htm" />
+      <HelpTOCNode Id="a418e021-5134-49dd-aba5-2791b6649db8" Title="DefaultPropType Properties" Url="html/Properties_T_Scripts_Game_Model_DefaultPropType.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P_Scripts_Game_Model_DefaultPropType_Name.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7bff46d8-014a-468e-9086-6804c3ccb924" Title="DefaultPropType Methods" Url="html/Methods_T_Scripts_Game_Model_DefaultPropType.htm">
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Scripts_Game_Model_DefaultPropType_GetHashCode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0201db78-9251-4dc5-9a34-0f992bb47269" Title="DefaultQualitasType Class" Url="html/T_Scripts_Game_Model_DefaultQualitasType.htm">
+      <HelpTOCNode Title="DefaultQualitasType Constructor " Url="html/M_Scripts_Game_Model_DefaultQualitasType__ctor.htm" />
+      <HelpTOCNode Id="dc23ae04-ba01-4317-badf-ca797d14acdb" Title="DefaultQualitasType Properties" Url="html/Properties_T_Scripts_Game_Model_DefaultQualitasType.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P_Scripts_Game_Model_DefaultQualitasType_Name.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="33d862e1-43c2-4c10-9b4d-2ea892fdb429" Title="DefaultQualitasType Methods" Url="html/Methods_T_Scripts_Game_Model_DefaultQualitasType.htm">
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Scripts_Game_Model_DefaultQualitasType_GetHashCode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dba30399-b011-4108-b906-2c6298333b99" Title="IProp Interface" Url="html/T_Scripts_Game_Model_IProp.htm">
+      <HelpTOCNode Id="750c213f-101d-4723-9c06-08f706dca98d" Title="IProp Properties" Url="html/Properties_T_Scripts_Game_Model_IProp.htm">
+        <HelpTOCNode Title="Class Property " Url="html/P_Scripts_Game_Model_IProp_Class.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P_Scripts_Game_Model_IProp_Id.htm" />
+        <HelpTOCNode Title="Qualitates Property " Url="html/P_Scripts_Game_Model_IProp_Qualitates.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6029357-74c1-4aff-88ee-83e4c3b27f7b" Title="IPropType Interface" Url="html/T_Scripts_Game_Model_IPropType.htm">
+      <HelpTOCNode Id="7e616585-8116-46af-b9b0-9a833a5c3a43" Title="IPropType Properties" Url="html/Properties_T_Scripts_Game_Model_IPropType.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P_Scripts_Game_Model_IPropType_Name.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1051a547-be8b-4e26-90d8-3fc0078180bf" Title="IPropType Methods" Url="html/Methods_T_Scripts_Game_Model_IPropType.htm">
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Scripts_Game_Model_IPropType_GetHashCode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ee6622e-b8b2-4075-841f-e73f32a0049f" Title="IQualitas Interface" Url="html/T_Scripts_Game_Model_IQualitas.htm">
+      <HelpTOCNode Id="506359bf-946b-411e-a129-9e80369410fe" Title="IQualitas Properties" Url="html/Properties_T_Scripts_Game_Model_IQualitas.htm">
+        <HelpTOCNode Title="Class Property " Url="html/P_Scripts_Game_Model_IQualitas_Class.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/P_Scripts_Game_Model_IQualitas_Id.htm" />
+        <HelpTOCNode Title="Prop Property " Url="html/P_Scripts_Game_Model_IQualitas_Prop.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="23c96523-3441-4502-85c7-b2eabf25ebeb" Title="IQualitasType Interface" Url="html/T_Scripts_Game_Model_IQualitasType.htm">
+      <HelpTOCNode Id="e09cc318-23ac-4fd2-af19-469264861bc3" Title="IQualitasType Properties" Url="html/Properties_T_Scripts_Game_Model_IQualitasType.htm">
+        <HelpTOCNode Title="Name Property " Url="html/P_Scripts_Game_Model_IQualitasType_Name.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a04ce1f3-4bd1-4906-a777-a3425f11fa05" Title="IQualitasType Methods" Url="html/Methods_T_Scripts_Game_Model_IQualitasType.htm">
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Scripts_Game_Model_IQualitasType_GetHashCode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f3fafcff-082c-4714-8c9e-2734205d24a6" Title="PropTypes Class" Url="html/T_Scripts_Game_Model_PropTypes.htm">
+      <HelpTOCNode Title="PropTypes Properties" Url="html/Properties_T_Scripts_Game_Model_PropTypes.htm" />
+      <HelpTOCNode Id="b73aa501-5588-4c57-ae43-648f9a0826fa" Title="PropTypes Methods" Url="html/Methods_T_Scripts_Game_Model_PropTypes.htm">
+        <HelpTOCNode Title="BuildType Method " Url="html/M_Scripts_Game_Model_PropTypes_BuildType.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="741fcbcb-c277-4e51-b49b-f3c98693cd66" Title="PropTypes Fields" Url="html/Fields_T_Scripts_Game_Model_PropTypes.htm">
+        <HelpTOCNode Title="INSTANCE Field" Url="html/F_Scripts_Game_Model_PropTypes_INSTANCE.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f6e0ed9e-59a8-4cf2-81e1-47c3f7769bbe" Title="QualitasGraph Class" Url="html/T_Scripts_Game_Model_QualitasGraph.htm">
+      <HelpTOCNode Title="QualitasGraph Constructor " Url="html/M_Scripts_Game_Model_QualitasGraph__ctor.htm" />
+      <HelpTOCNode Title="QualitasGraph Properties" Url="html/Properties_T_Scripts_Game_Model_QualitasGraph.htm" />
+      <HelpTOCNode Title="QualitasGraph Methods" Url="html/Methods_T_Scripts_Game_Model_QualitasGraph.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="27be3428-d8c0-40d6-b322-9fc434a0fa0a" Title="QualitasTypes Class" Url="html/T_Scripts_Game_Model_QualitasTypes.htm">
+      <HelpTOCNode Id="5815973b-0fd5-46d4-8f23-70a855156187" Title="QualitasTypes Properties" Url="html/Properties_T_Scripts_Game_Model_QualitasTypes.htm">
+        <HelpTOCNode Title="Get Property " Url="html/P_Scripts_Game_Model_QualitasTypes_Get.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4ed2d2cd-06a6-4430-8d7e-ba66e2602711" Title="QualitasTypes Methods" Url="html/Methods_T_Scripts_Game_Model_QualitasTypes.htm">
+        <HelpTOCNode Title="BuildType Method " Url="html/M_Scripts_Game_Model_QualitasTypes_BuildType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b49bc71c-f3fa-4c05-8dad-535ebc3fc014" Title="Scripts.Game.QuickTesting" Url="html/N_Scripts_Game_QuickTesting.htm">
+    <HelpTOCNode Id="8789bab5-8036-45b5-b4bd-ccabb4b45005" Title="SimpleInteractor Class" Url="html/T_Scripts_Game_QuickTesting_SimpleInteractor.htm">
+      <HelpTOCNode Title="SimpleInteractor Constructor " Url="html/M_Scripts_Game_QuickTesting_SimpleInteractor__ctor.htm" />
+      <HelpTOCNode Title="SimpleInteractor Properties" Url="html/Properties_T_Scripts_Game_QuickTesting_SimpleInteractor.htm" />
+      <HelpTOCNode Title="SimpleInteractor Methods" Url="html/Methods_T_Scripts_Game_QuickTesting_SimpleInteractor.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="09b0b15f-aef8-41a7-8c30-22c32da962c5" Title="Scripts.Game.RoomFactory.Visualization" Url="html/N_Scripts_Game_RoomFactory_Visualization.htm">
+    <HelpTOCNode Id="a013e5da-0865-4b0e-a2a1-1ab8a5cd2398" Title="AbstractRoomFactory Class" Url="html/T_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory.htm">
+      <HelpTOCNode Title="AbstractRoomFactory Constructor " Url="html/M_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory__ctor.htm" />
+      <HelpTOCNode Title="AbstractRoomFactory Methods" Url="html/Methods_T_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5ed99e2d-2764-478a-9966-ea8362f82bd0" Title="RectangularRoomGenerationTest Class" Url="html/T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest.htm">
+      <HelpTOCNode Title="RectangularRoomGenerationTest Constructor " Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest__ctor.htm" />
+      <HelpTOCNode Title="RectangularRoomGenerationTest Properties" Url="html/Properties_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest.htm" />
+      <HelpTOCNode Title="RectangularRoomGenerationTest Methods" Url="html/Methods_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1eb5a4e0-a0b6-4f7d-93bd-59cbdd053b7d" Title="RectangularRoomGenerator Class" Url="html/T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm">
+      <HelpTOCNode Title="RectangularRoomGenerator Constructor " Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator__ctor.htm" />
+      <HelpTOCNode Title="RectangularRoomGenerator Properties" Url="html/Properties_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm" />
+      <HelpTOCNode Id="7c29812a-6785-43ad-9fe9-70a7fa8c973c" Title="RectangularRoomGenerator Methods" Url="html/Methods_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm">
+        <HelpTOCNode Title="GenerateRectangularRoom Method " Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_GenerateRectangularRoom.htm" />
+        <HelpTOCNode Title="GenerateRectangularRoomIn Method " Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_GenerateRectangularRoomIn.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a74cdc66-91ff-4315-b1e8-931c7f5461e7" Title="RectangularRoomGenerator Fields" Url="html/Fields_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm">
+        <HelpTOCNode Title="tileBottomWallDoor Field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileBottomWallDoor.htm" />
+        <HelpTOCNode Title="tileBottomWallPlain Field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileBottomWallPlain.htm" />
+        <HelpTOCNode Title="tileCeiling Field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileCeiling.htm" />
+        <HelpTOCNode Title="tileFloor Field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileFloor.htm" />
+        <HelpTOCNode Title="tileMiddleWall Field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileMiddleWall.htm" />
+        <HelpTOCNode Title="tileTopWall Field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileTopWall.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="RoomCoordinatesSystem Enumeration" Url="html/T_Scripts_Game_RoomFactory_Visualization_RoomCoordinatesSystem.htm" />
+    <HelpTOCNode Id="b6da2f2b-cdd3-4804-9ceb-8f0d3f8d520f" Title="SwitchCaseUnhandledException Class" Url="html/T_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException.htm">
+      <HelpTOCNode Id="39d0d46c-8722-4d4a-aa0d-4539f3e7ca88" Title="SwitchCaseUnhandledException Constructor " Url="html/Overload_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException__ctor.htm">
+        <HelpTOCNode Title="SwitchCaseUnhandledException Constructor " Url="html/M_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException__ctor.htm" />
+        <HelpTOCNode Title="SwitchCaseUnhandledException Constructor (String)" Url="html/M_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SwitchCaseUnhandledException Properties" Url="html/Properties_T_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException.htm" />
+      <HelpTOCNode Title="SwitchCaseUnhandledException Methods" Url="html/Methods_T_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="6ae74e7f-d198-4af7-933f-68a435f9c07e" Title="Scripts.Game.UI" Url="html/N_Scripts_Game_UI.htm">
+    <HelpTOCNode Id="2c968146-941d-45c2-b56d-ead3f3c65f6b" Title="HpBarUi Class" Url="html/T_Scripts_Game_UI_HpBarUi.htm">
+      <HelpTOCNode Title="HpBarUi Constructor " Url="html/M_Scripts_Game_UI_HpBarUi__ctor.htm" />
+      <HelpTOCNode Id="be57322f-579c-442d-8798-92c3674000e5" Title="HpBarUi Properties" Url="html/Properties_T_Scripts_Game_UI_HpBarUi.htm">
+        <HelpTOCNode Title="HpBarViewModel Property " Url="html/P_Scripts_Game_UI_HpBarUi_HpBarViewModel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="69e5dd87-a528-49fe-850c-0b3a3c3fd56d" Title="HpBarUi Methods" Url="html/Methods_T_Scripts_Game_UI_HpBarUi.htm">
+        <HelpTOCNode Title="OnGUI Method " Url="html/M_Scripts_Game_UI_HpBarUi_OnGUI.htm" />
+        <HelpTOCNode Title="Start Method " Url="html/M_Scripts_Game_UI_HpBarUi_Start.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0030e673-7832-4485-bbd3-60c0d9dc8664" Title="HpBarUi Fields" Url="html/Fields_T_Scripts_Game_UI_HpBarUi.htm">
+        <HelpTOCNode Title="activateInEditMode Field" Url="html/F_Scripts_Game_UI_HpBarUi_activateInEditMode.htm" />
+        <HelpTOCNode Title="borderRect Field" Url="html/F_Scripts_Game_UI_HpBarUi_borderRect.htm" />
+        <HelpTOCNode Title="borderThickness Field" Url="html/F_Scripts_Game_UI_HpBarUi_borderThickness.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68fc6960-49ca-40a7-a341-fb033a75f676" Title="HpBarViewModel Class" Url="html/T_Scripts_Game_UI_HpBarViewModel.htm">
+      <HelpTOCNode Title="HpBarViewModel Constructor " Url="html/M_Scripts_Game_UI_HpBarViewModel__ctor.htm" />
+      <HelpTOCNode Id="ba21c1d2-80f6-49db-aa5f-6fdcea95b55a" Title="HpBarViewModel Properties" Url="html/Properties_T_Scripts_Game_UI_HpBarViewModel.htm">
+        <HelpTOCNode Title="MaxValue Property " Url="html/P_Scripts_Game_UI_HpBarViewModel_MaxValue.htm" />
+        <HelpTOCNode Title="MinValue Property " Url="html/P_Scripts_Game_UI_HpBarViewModel_MinValue.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/P_Scripts_Game_UI_HpBarViewModel_Value.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e95d420-d278-4e38-8918-7c951a38f944" Title="HpBarViewModel Methods" Url="html/Methods_T_Scripts_Game_UI_HpBarViewModel.htm">
+        <HelpTOCNode Title="MoveBar Method " Url="html/M_Scripts_Game_UI_HpBarViewModel_MoveBar.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="3cd59418-ddc0-4ee1-be55-f939aa6054ac" Title="SharpGraphs" Url="html/N_SharpGraphs.htm">
+    <HelpTOCNode Id="62a2dfab-aef9-4ddc-ac91-8909662480a5" Title="GraphException Class" Url="html/T_SharpGraphs_GraphException.htm">
+      <HelpTOCNode Id="88f5881e-0eb5-4d88-8629-c09793b45454" Title="GraphException Constructor " Url="html/Overload_SharpGraphs_GraphException__ctor.htm">
+        <HelpTOCNode Title="GraphException Constructor (Exception)" Url="html/M_SharpGraphs_GraphException__ctor.htm" />
+        <HelpTOCNode Title="GraphException Constructor (String)" Url="html/M_SharpGraphs_GraphException__ctor_1.htm" />
+        <HelpTOCNode Title="GraphException Constructor (String, Exception)" Url="html/M_SharpGraphs_GraphException__ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GraphException Properties" Url="html/Properties_T_SharpGraphs_GraphException.htm" />
+      <HelpTOCNode Title="GraphException Methods" Url="html/Methods_T_SharpGraphs_GraphException.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="02e81e70-0f90-4782-ab16-f2d6418e68af" Title="GraphFactory Class" Url="html/T_SharpGraphs_GraphFactory.htm">
+      <HelpTOCNode Id="7bb20102-767b-4a8e-ad24-007e47e382bd" Title="GraphFactory Methods" Url="html/Methods_T_SharpGraphs_GraphFactory.htm">
+        <HelpTOCNode Title="get Method " Url="html/M_SharpGraphs_GraphFactory_get.htm" />
+        <HelpTOCNode Title="getCompleteFocusGraph(NODE, EDGE) Method " Url="html/M_SharpGraphs_GraphFactory_getCompleteFocusGraph__2.htm" />
+        <HelpTOCNode Title="getGraph(NODE, EDGE) Method " Url="html/M_SharpGraphs_GraphFactory_getGraph__2.htm" />
+        <HelpTOCNode Title="getSparseFocusGraph(NODE, EDGE) Method " Url="html/M_SharpGraphs_GraphFactory_getSparseFocusGraph__2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d9c16ae-0bd7-4893-9d68-51b3f41114ac" Title="IGraph(NODE, EDGE) Interface" Url="html/T_SharpGraphs_IGraph_2.htm">
+      <HelpTOCNode Id="029aaf7e-97ed-4ab5-b95a-6d747fe0c87d" Title="IGraph(NODE, EDGE) Properties" Url="html/Properties_T_SharpGraphs_IGraph_2.htm">
+        <HelpTOCNode Title="AreEdgesImplicitlyPresent Property " Url="html/P_SharpGraphs_IGraph_2_AreEdgesImplicitlyPresent.htm" />
+        <HelpTOCNode Title="IsEmpty Property " Url="html/P_SharpGraphs_IGraph_2_IsEmpty.htm" />
+        <HelpTOCNode Id="bfe139d0-fefb-4f0d-bad1-ae42d49cabc1" Title="Item Property " Url="html/Overload_SharpGraphs_IGraph_2_Item.htm">
+          <HelpTOCNode Title="Item Property (Int64)" Url="html/P_SharpGraphs_IGraph_2_Item.htm" />
+          <HelpTOCNode Title="Item Property (Int64, Int64)" Url="html/P_SharpGraphs_IGraph_2_Item_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Name Property " Url="html/P_SharpGraphs_IGraph_2_Name.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_SharpGraphs_IGraph_2_Size.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="56fc0997-2ec2-423e-9db6-3ec738f8f495" Title="IGraph(NODE, EDGE) Methods" Url="html/Methods_T_SharpGraphs_IGraph_2.htm">
+        <HelpTOCNode Title="AddEdge Method " Url="html/M_SharpGraphs_IGraph_2_AddEdge.htm" />
+        <HelpTOCNode Title="AddNode Method " Url="html/M_SharpGraphs_IGraph_2_AddNode.htm" />
+        <HelpTOCNode Title="AddOrUpdateEdge Method " Url="html/M_SharpGraphs_IGraph_2_AddOrUpdateEdge.htm" />
+        <HelpTOCNode Title="ContainsEdge Method " Url="html/M_SharpGraphs_IGraph_2_ContainsEdge.htm" />
+        <HelpTOCNode Title="ContainsNode Method " Url="html/M_SharpGraphs_IGraph_2_ContainsNode.htm" />
+        <HelpTOCNode Title="DrawGraph Method " Url="html/M_SharpGraphs_IGraph_2_DrawGraph.htm" />
+        <HelpTOCNode Title="GetEdge Method " Url="html/M_SharpGraphs_IGraph_2_GetEdge.htm" />
+        <HelpTOCNode Title="GetEdgesEnumerable Method " Url="html/M_SharpGraphs_IGraph_2_GetEdgesEnumerable.htm" />
+        <HelpTOCNode Title="GetNode Method " Url="html/M_SharpGraphs_IGraph_2_GetNode.htm" />
+        <HelpTOCNode Title="GetNodesEnumerable Method " Url="html/M_SharpGraphs_IGraph_2_GetNodesEnumerable.htm" />
+        <HelpTOCNode Title="GetPredecessorsOfNode Method " Url="html/M_SharpGraphs_IGraph_2_GetPredecessorsOfNode.htm" />
+        <HelpTOCNode Title="GetSuccessorsOfNode Method " Url="html/M_SharpGraphs_IGraph_2_GetSuccessorsOfNode.htm" />
+        <HelpTOCNode Title="HasEdge Method " Url="html/M_SharpGraphs_IGraph_2_HasEdge.htm" />
+        <HelpTOCNode Title="RemoveEdge Method " Url="html/M_SharpGraphs_IGraph_2_RemoveEdge.htm" />
+        <HelpTOCNode Title="RemoveNode Method " Url="html/M_SharpGraphs_IGraph_2_RemoveNode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1c39873d-a680-44af-8b7d-dd1eedafbebf" Title="MatrixGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_MatrixGraph_2.htm">
+      <HelpTOCNode Title="MatrixGraph(NODE, EDGE) Constructor " Url="html/M_SharpGraphs_MatrixGraph_2__ctor.htm" />
+      <HelpTOCNode Id="0baef903-2591-45be-b930-8511c677b6cf" Title="MatrixGraph(NODE, EDGE) Properties" Url="html/Properties_T_SharpGraphs_MatrixGraph_2.htm">
+        <HelpTOCNode Title="AreEdgesImplicitlyPresent Property " Url="html/P_SharpGraphs_MatrixGraph_2_AreEdgesImplicitlyPresent.htm" />
+        <HelpTOCNode Title="DefaultEdgeLabel Property " Url="html/P_SharpGraphs_MatrixGraph_2_DefaultEdgeLabel.htm" />
+        <HelpTOCNode Title="IsEmpty Property " Url="html/P_SharpGraphs_MatrixGraph_2_IsEmpty.htm" />
+        <HelpTOCNode Id="66bda79f-c89f-4e8e-a570-1a621bc5a3d4" Title="Item Property " Url="html/Overload_SharpGraphs_MatrixGraph_2_Item.htm">
+          <HelpTOCNode Title="Item Property (Int64)" Url="html/P_SharpGraphs_MatrixGraph_2_Item.htm" />
+          <HelpTOCNode Title="Item Property (Int64, Int64)" Url="html/P_SharpGraphs_MatrixGraph_2_Item_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Name Property " Url="html/P_SharpGraphs_MatrixGraph_2_Name.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_SharpGraphs_MatrixGraph_2_Size.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="950f7e77-110a-47d9-829a-39e4cf0371d6" Title="MatrixGraph(NODE, EDGE) Methods" Url="html/Methods_T_SharpGraphs_MatrixGraph_2.htm">
+        <HelpTOCNode Title="AddEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_AddEdge.htm" />
+        <HelpTOCNode Title="AddNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_AddNode.htm" />
+        <HelpTOCNode Title="AddOrUpdateEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_AddOrUpdateEdge.htm" />
+        <HelpTOCNode Title="ContainsEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_ContainsEdge.htm" />
+        <HelpTOCNode Title="ContainsNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_ContainsNode.htm" />
+        <HelpTOCNode Title="DrawGraph Method " Url="html/M_SharpGraphs_MatrixGraph_2_DrawGraph.htm" />
+        <HelpTOCNode Title="GetEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetEdge.htm" />
+        <HelpTOCNode Title="GetEdgesEnumerable Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetEdgesEnumerable.htm" />
+        <HelpTOCNode Title="GetNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetNode.htm" />
+        <HelpTOCNode Title="GetNodesEnumerable Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetNodesEnumerable.htm" />
+        <HelpTOCNode Title="GetPredecessorsOfNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetPredecessorsOfNode.htm" />
+        <HelpTOCNode Title="GetSuccessorsOfNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetSuccessorsOfNode.htm" />
+        <HelpTOCNode Title="HasEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_HasEdge.htm" />
+        <HelpTOCNode Title="RemoveEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_RemoveEdge.htm" />
+        <HelpTOCNode Title="RemoveNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_RemoveNode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f5f6cbb3-ddb8-4abb-bde9-4f55e5026ec3" Title="NLGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_NLGraph_2.htm">
+      <HelpTOCNode Title="NLGraph(NODE, EDGE) Constructor " Url="html/M_SharpGraphs_NLGraph_2__ctor.htm" />
+      <HelpTOCNode Id="bdeb95e0-0936-4c0c-a2be-44233370a762" Title="NLGraph(NODE, EDGE) Properties" Url="html/Properties_T_SharpGraphs_NLGraph_2.htm">
+        <HelpTOCNode Title="AreEdgesImplicitlyPresent Property " Url="html/P_SharpGraphs_NLGraph_2_AreEdgesImplicitlyPresent.htm" />
+        <HelpTOCNode Title="IsEmpty Property " Url="html/P_SharpGraphs_NLGraph_2_IsEmpty.htm" />
+        <HelpTOCNode Id="f814f181-ee9e-415a-bfa5-4c6a2331111b" Title="Item Property " Url="html/Overload_SharpGraphs_NLGraph_2_Item.htm">
+          <HelpTOCNode Title="Item Property (Int64)" Url="html/P_SharpGraphs_NLGraph_2_Item.htm" />
+          <HelpTOCNode Title="Item Property (Int64, Int64)" Url="html/P_SharpGraphs_NLGraph_2_Item_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Name Property " Url="html/P_SharpGraphs_NLGraph_2_Name.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_SharpGraphs_NLGraph_2_Size.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ef456c25-f78a-4767-ad0e-421869b92aea" Title="NLGraph(NODE, EDGE) Methods" Url="html/Methods_T_SharpGraphs_NLGraph_2.htm">
+        <HelpTOCNode Title="AddEdge Method " Url="html/M_SharpGraphs_NLGraph_2_AddEdge.htm" />
+        <HelpTOCNode Title="AddNode Method " Url="html/M_SharpGraphs_NLGraph_2_AddNode.htm" />
+        <HelpTOCNode Title="AddOrUpdateEdge Method " Url="html/M_SharpGraphs_NLGraph_2_AddOrUpdateEdge.htm" />
+        <HelpTOCNode Title="ContainsEdge Method " Url="html/M_SharpGraphs_NLGraph_2_ContainsEdge.htm" />
+        <HelpTOCNode Title="ContainsNode Method " Url="html/M_SharpGraphs_NLGraph_2_ContainsNode.htm" />
+        <HelpTOCNode Title="DrawGraph Method " Url="html/M_SharpGraphs_NLGraph_2_DrawGraph.htm" />
+        <HelpTOCNode Title="GetEdge Method " Url="html/M_SharpGraphs_NLGraph_2_GetEdge.htm" />
+        <HelpTOCNode Title="GetEdgesEnumerable Method " Url="html/M_SharpGraphs_NLGraph_2_GetEdgesEnumerable.htm" />
+        <HelpTOCNode Title="GetNode Method " Url="html/M_SharpGraphs_NLGraph_2_GetNode.htm" />
+        <HelpTOCNode Title="GetNodesEnumerable Method " Url="html/M_SharpGraphs_NLGraph_2_GetNodesEnumerable.htm" />
+        <HelpTOCNode Title="GetPredecessorsOfNode Method " Url="html/M_SharpGraphs_NLGraph_2_GetPredecessorsOfNode.htm" />
+        <HelpTOCNode Title="GetSuccessorsOfNode Method " Url="html/M_SharpGraphs_NLGraph_2_GetSuccessorsOfNode.htm" />
+        <HelpTOCNode Title="HasEdge Method " Url="html/M_SharpGraphs_NLGraph_2_HasEdge.htm" />
+        <HelpTOCNode Title="RemoveEdge Method " Url="html/M_SharpGraphs_NLGraph_2_RemoveEdge.htm" />
+        <HelpTOCNode Title="RemoveNode Method " Url="html/M_SharpGraphs_NLGraph_2_RemoveNode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="720e2bf0-9f6c-42f2-8b66-478aa9fb18ea" Title="PSLGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_PSLGraph_2.htm">
+      <HelpTOCNode Title="PSLGraph(NODE, EDGE) Constructor " Url="html/M_SharpGraphs_PSLGraph_2__ctor.htm" />
+      <HelpTOCNode Id="ab3c58f5-86d4-482d-bc32-e4bc42075ad8" Title="PSLGraph(NODE, EDGE) Properties" Url="html/Properties_T_SharpGraphs_PSLGraph_2.htm">
+        <HelpTOCNode Title="AreEdgesImplicitlyPresent Property " Url="html/P_SharpGraphs_PSLGraph_2_AreEdgesImplicitlyPresent.htm" />
+        <HelpTOCNode Title="IsEmpty Property " Url="html/P_SharpGraphs_PSLGraph_2_IsEmpty.htm" />
+        <HelpTOCNode Id="a5858b0d-cd17-460b-a1d5-5fc3032a279c" Title="Item Property " Url="html/Overload_SharpGraphs_PSLGraph_2_Item.htm">
+          <HelpTOCNode Title="Item Property (Int64)" Url="html/P_SharpGraphs_PSLGraph_2_Item.htm" />
+          <HelpTOCNode Title="Item Property (Int64, Int64)" Url="html/P_SharpGraphs_PSLGraph_2_Item_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Name Property " Url="html/P_SharpGraphs_PSLGraph_2_Name.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_SharpGraphs_PSLGraph_2_Size.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="44795c1f-ae78-467a-9bc6-a3afaf2b72e8" Title="PSLGraph(NODE, EDGE) Methods" Url="html/Methods_T_SharpGraphs_PSLGraph_2.htm">
+        <HelpTOCNode Title="AddEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_AddEdge.htm" />
+        <HelpTOCNode Title="AddNode Method " Url="html/M_SharpGraphs_PSLGraph_2_AddNode.htm" />
+        <HelpTOCNode Title="AddOrUpdateEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_AddOrUpdateEdge.htm" />
+        <HelpTOCNode Title="ContainsEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_ContainsEdge.htm" />
+        <HelpTOCNode Title="ContainsNode Method " Url="html/M_SharpGraphs_PSLGraph_2_ContainsNode.htm" />
+        <HelpTOCNode Title="DrawGraph Method " Url="html/M_SharpGraphs_PSLGraph_2_DrawGraph.htm" />
+        <HelpTOCNode Title="GetEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_GetEdge.htm" />
+        <HelpTOCNode Title="GetEdgesEnumerable Method " Url="html/M_SharpGraphs_PSLGraph_2_GetEdgesEnumerable.htm" />
+        <HelpTOCNode Title="GetNode Method " Url="html/M_SharpGraphs_PSLGraph_2_GetNode.htm" />
+        <HelpTOCNode Title="GetNodesEnumerable Method " Url="html/M_SharpGraphs_PSLGraph_2_GetNodesEnumerable.htm" />
+        <HelpTOCNode Title="GetPredecessorsOfNode Method " Url="html/M_SharpGraphs_PSLGraph_2_GetPredecessorsOfNode.htm" />
+        <HelpTOCNode Title="GetSuccessorsOfNode Method " Url="html/M_SharpGraphs_PSLGraph_2_GetSuccessorsOfNode.htm" />
+        <HelpTOCNode Title="HasEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_HasEdge.htm" />
+        <HelpTOCNode Title="RemoveEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_RemoveEdge.htm" />
+        <HelpTOCNode Title="RemoveNode Method " Url="html/M_SharpGraphs_PSLGraph_2_RemoveNode.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="dd292246-526f-4bc7-af8e-d2b99cd60462" Title="SharpNotificationCenter" Url="html/N_SharpNotificationCenter.htm">
+    <HelpTOCNode Id="c426e5d7-0e87-4a33-98fc-35f26469a2ab" Title="AbstractNotificationCenterFactory Class" Url="html/T_SharpNotificationCenter_AbstractNotificationCenterFactory.htm">
+      <HelpTOCNode Title="AbstractNotificationCenterFactory Constructor " Url="html/M_SharpNotificationCenter_AbstractNotificationCenterFactory__ctor.htm" />
+      <HelpTOCNode Id="f6222521-f443-469f-884e-89fd7e8a7f3d" Title="AbstractNotificationCenterFactory Methods" Url="html/Methods_T_SharpNotificationCenter_AbstractNotificationCenterFactory.htm">
+        <HelpTOCNode Title="BuildNotification Method " Url="html/M_SharpNotificationCenter_AbstractNotificationCenterFactory_BuildNotification.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa9f6173-ebbc-44d4-b703-852c464e3c9f" Title="DefaultNotificationCenter Class" Url="html/T_SharpNotificationCenter_DefaultNotificationCenter.htm">
+      <HelpTOCNode Id="70afa1af-3e71-4ba8-8b88-90e093f186db" Title="DefaultNotificationCenter Properties" Url="html/Properties_T_SharpNotificationCenter_DefaultNotificationCenter.htm">
+        <HelpTOCNode Title="Get Property " Url="html/P_SharpNotificationCenter_DefaultNotificationCenter_Get.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="83a51037-3802-49bc-8605-c9419c854d5a" Title="DefaultNotificationCenterFactory Class" Url="html/T_SharpNotificationCenter_DefaultNotificationCenterFactory.htm">
+      <HelpTOCNode Title="DefaultNotificationCenterFactory Constructor " Url="html/M_SharpNotificationCenter_DefaultNotificationCenterFactory__ctor.htm" />
+      <HelpTOCNode Id="2a80d701-84d5-4e8e-b66f-feb8501c4a35" Title="DefaultNotificationCenterFactory Methods" Url="html/Methods_T_SharpNotificationCenter_DefaultNotificationCenterFactory.htm">
+        <HelpTOCNode Title="BuildNotification Method " Url="html/M_SharpNotificationCenter_DefaultNotificationCenterFactory_BuildNotification.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="17bc0c1a-407c-4005-95f9-bceec5dfb27e" Title="INotification Interface" Url="html/T_SharpNotificationCenter_INotification.htm">
+      <HelpTOCNode Id="1312f844-cb35-4b0f-8496-ed98b4b7fa46" Title="INotification Properties" Url="html/Properties_T_SharpNotificationCenter_INotification.htm">
+        <HelpTOCNode Title="Data Property " Url="html/P_SharpNotificationCenter_INotification_Data.htm" />
+        <HelpTOCNode Title="DataSize Property " Url="html/P_SharpNotificationCenter_INotification_DataSize.htm" />
+        <HelpTOCNode Title="IsEmpty Property " Url="html/P_SharpNotificationCenter_INotification_IsEmpty.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/P_SharpNotificationCenter_INotification_Item.htm" />
+        <HelpTOCNode Title="Source Property " Url="html/P_SharpNotificationCenter_INotification_Source.htm" />
+        <HelpTOCNode Title="Type Property " Url="html/P_SharpNotificationCenter_INotification_Type.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="34cadd66-fe36-4aaa-b480-4fd5ab9f8e16" Title="INotification Methods" Url="html/Methods_T_SharpNotificationCenter_INotification.htm">
+        <HelpTOCNode Title="Contains Method " Url="html/M_SharpNotificationCenter_INotification_Contains.htm" />
+        <HelpTOCNode Title="Get Method " Url="html/M_SharpNotificationCenter_INotification_Get.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d1b0217b-dfe2-4e03-9227-3a0cc757ba8d" Title="NotificationCenter Class" Url="html/T_SharpNotificationCenter_NotificationCenter.htm">
+      <HelpTOCNode Id="e684ddcb-53eb-4fc3-9e0b-8f6d3a215dec" Title="NotificationCenter Properties" Url="html/Properties_T_SharpNotificationCenter_NotificationCenter.htm">
+        <HelpTOCNode Title="Factory Property " Url="html/P_SharpNotificationCenter_NotificationCenter_Factory.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="66bbb94f-3d20-4c06-a88a-8cf3b28c1d10" Title="NotificationCenter Methods" Url="html/Methods_T_SharpNotificationCenter_NotificationCenter.htm">
+        <HelpTOCNode Title="SendASynchronousNotification Method " Url="html/M_SharpNotificationCenter_NotificationCenter_SendASynchronousNotification.htm" />
+        <HelpTOCNode Title="SendSynchronousNotification Method " Url="html/M_SharpNotificationCenter_NotificationCenter_SendSynchronousNotification.htm" />
+        <HelpTOCNode Title="SubscribeFor Method " Url="html/M_SharpNotificationCenter_NotificationCenter_SubscribeFor.htm" />
+        <HelpTOCNode Title="UnsubscribeFor Method " Url="html/M_SharpNotificationCenter_NotificationCenter_UnsubscribeFor.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="NotificationEventHandler Delegate" Url="html/T_SharpNotificationCenter_NotificationEventHandler.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="4917574e-02e5-4e0b-bb11-a65c31495c46" Title="SharpSearches" Url="html/N_SharpSearches.htm">
+    <HelpTOCNode Id="a49346a4-1ce3-4b0a-872f-7375fd5ef14b" Title="AStar(NODE) Class" Url="html/T_SharpSearches_AStar_1.htm">
+      <HelpTOCNode Id="248b3603-a407-48d4-afa4-44472ebd1c01" Title="AStar(NODE) Constructor " Url="html/Overload_SharpSearches_AStar_1__ctor.htm">
+        <HelpTOCNode Title="AStar(NODE) Constructor (CostEvaluator(NODE), HeuristicEvaluator(NODE))" Url="html/M_SharpSearches_AStar_1__ctor.htm" />
+        <HelpTOCNode Title="AStar(NODE) Constructor (CostEvaluator(NODE), HeuristicEvaluator(NODE), BiFunction)" Url="html/M_SharpSearches_AStar_1__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="53494301-b4f1-4ca2-9141-28fc84930511" Title="AStar(NODE) Properties" Url="html/Properties_T_SharpSearches_AStar_1.htm">
+        <HelpTOCNode Title="CostFunction Property " Url="html/P_SharpSearches_AStar_1_CostFunction.htm" />
+        <HelpTOCNode Title="CurrentNode Property " Url="html/P_SharpSearches_AStar_1_CurrentNode.htm" />
+        <HelpTOCNode Title="Goal Property " Url="html/P_SharpSearches_AStar_1_Goal.htm" />
+        <HelpTOCNode Title="Heuristic Property " Url="html/P_SharpSearches_AStar_1_Heuristic.htm" />
+        <HelpTOCNode Title="Start Property " Url="html/P_SharpSearches_AStar_1_Start.htm" />
+        <HelpTOCNode Title="Steps Property " Url="html/P_SharpSearches_AStar_1_Steps.htm" />
+        <HelpTOCNode Title="TotalCostComputer Property " Url="html/P_SharpSearches_AStar_1_TotalCostComputer.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e6b18a6b-c124-4ca3-a128-3bb833bc88cd" Title="AStar(NODE) Methods" Url="html/Methods_T_SharpSearches_AStar_1.htm">
+        <HelpTOCNode Title="AnalyzeNextState Method " Url="html/M_SharpSearches_AStar_1_AnalyzeNextState.htm" />
+        <HelpTOCNode Title="GetPath Method " Url="html/M_SharpSearches_AStar_1_GetPath.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/M_SharpSearches_AStar_1_Reset.htm" />
+        <HelpTOCNode Title="StartSearch Method " Url="html/M_SharpSearches_AStar_1_StartSearch.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="BiFunction Delegate" Url="html/T_SharpSearches_BiFunction.htm" />
+    <HelpTOCNode Id="2f943739-f1b1-44de-bd7e-e52d0c657f9d" Title="CostEvaluator(NODE) Interface" Url="html/T_SharpSearches_CostEvaluator_1.htm">
+      <HelpTOCNode Id="6829bc5d-dbfc-46d8-b2e8-3034095cdb42" Title="CostEvaluator(NODE) Methods" Url="html/Methods_T_SharpSearches_CostEvaluator_1.htm">
+        <HelpTOCNode Id="039c5a28-886d-4e6b-acd3-830d2568520c" Title="EvaluateFromStart Method " Url="html/Overload_SharpSearches_CostEvaluator_1_EvaluateFromStart.htm">
+          <HelpTOCNode Title="EvaluateFromStart Method (NODE, Int32)" Url="html/M_SharpSearches_CostEvaluator_1_EvaluateFromStart.htm" />
+          <HelpTOCNode Title="EvaluateFromStart Method (NODE, NODE, Int32)" Url="html/M_SharpSearches_CostEvaluator_1_EvaluateFromStart_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f1c08ed9-7137-44e0-ab4d-5e2f8c8a1720" Title="HeuristicEvaluator(NODE) Interface" Url="html/T_SharpSearches_HeuristicEvaluator_1.htm">
+      <HelpTOCNode Id="0384656b-485f-4dfe-a387-fca1d00935a3" Title="HeuristicEvaluator(NODE) Methods" Url="html/Methods_T_SharpSearches_HeuristicEvaluator_1.htm">
+        <HelpTOCNode Id="cfcd53f6-74b0-4093-a634-712c7236f196" Title="EvaluateToGoal Method " Url="html/Overload_SharpSearches_HeuristicEvaluator_1_EvaluateToGoal.htm">
+          <HelpTOCNode Title="EvaluateToGoal Method (NODE, Int32)" Url="html/M_SharpSearches_HeuristicEvaluator_1_EvaluateToGoal.htm" />
+          <HelpTOCNode Title="EvaluateToGoal Method (NODE, NODE, Int32)" Url="html/M_SharpSearches_HeuristicEvaluator_1_EvaluateToGoal_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a1047d0c-8faa-47a7-b77d-58cc4ee594b8" Title="SearchableNode Interface" Url="html/T_SharpSearches_SearchableNode.htm">
+      <HelpTOCNode Id="854ba23a-b05c-4b6a-991b-ebf7c0303829" Title="SearchableNode Properties" Url="html/Properties_T_SharpSearches_SearchableNode.htm">
+        <HelpTOCNode Title="Children Property " Url="html/P_SharpSearches_SearchableNode_Children.htm" />
+        <HelpTOCNode Title="IsClosed Property " Url="html/P_SharpSearches_SearchableNode_IsClosed.htm" />
+        <HelpTOCNode Title="IsOpen Property " Url="html/P_SharpSearches_SearchableNode_IsOpen.htm" />
+        <HelpTOCNode Title="Parent Property " Url="html/P_SharpSearches_SearchableNode_Parent.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="State Enumeration" Url="html/T_SharpSearches_State.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="b6666e1d-db32-4ff9-8fe3-97461a8538e9" Title="SharpUtilities" Url="html/N_SharpUtilities.htm">
+    <HelpTOCNode Id="f5be8c3c-028b-4da8-9879-c5c9aab75933" Title="OrderedList(VALUE) Class" Url="html/T_SharpUtilities_OrderedList_1.htm">
+      <HelpTOCNode Id="359d541a-23be-47f7-b4ce-d31eb05d0e02" Title="OrderedList(VALUE) Constructor " Url="html/Overload_SharpUtilities_OrderedList_1__ctor.htm">
+        <HelpTOCNode Title="OrderedList(VALUE) Constructor " Url="html/M_SharpUtilities_OrderedList_1__ctor.htm" />
+        <HelpTOCNode Title="OrderedList(VALUE) Constructor (IComparer(VALUE))" Url="html/M_SharpUtilities_OrderedList_1__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2e8b0f92-98f7-40d0-b569-2035c3cc5274" Title="OrderedList(VALUE) Properties" Url="html/Properties_T_SharpUtilities_OrderedList_1.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_SharpUtilities_OrderedList_1_Count.htm" />
+        <HelpTOCNode Title="IsEmpty Property " Url="html/P_SharpUtilities_OrderedList_1_IsEmpty.htm" />
+        <HelpTOCNode Title="IsReadOnly Property " Url="html/P_SharpUtilities_OrderedList_1_IsReadOnly.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/P_SharpUtilities_OrderedList_1_Item.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7f9bec46-2e8b-48d3-a813-2b61c8fcbd42" Title="OrderedList(VALUE) Methods" Url="html/Methods_T_SharpUtilities_OrderedList_1.htm">
+        <HelpTOCNode Title="Add Method " Url="html/M_SharpUtilities_OrderedList_1_Add.htm" />
+        <HelpTOCNode Title="Clear Method " Url="html/M_SharpUtilities_OrderedList_1_Clear.htm" />
+        <HelpTOCNode Title="Contains Method " Url="html/M_SharpUtilities_OrderedList_1_Contains.htm" />
+        <HelpTOCNode Title="CopyTo Method " Url="html/M_SharpUtilities_OrderedList_1_CopyTo.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M_SharpUtilities_OrderedList_1_GetEnumerator.htm" />
+        <HelpTOCNode Title="Remove Method " Url="html/M_SharpUtilities_OrderedList_1_Remove.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a43509d9-a8f6-4c41-823c-02aefd1402b1" Title="Pair(XTYPE, YTYPE) Structure" Url="html/T_SharpUtilities_Pair_2.htm">
+      <HelpTOCNode Title="Pair(XTYPE, YTYPE) Constructor " Url="html/M_SharpUtilities_Pair_2__ctor.htm" />
+      <HelpTOCNode Id="d5eee80d-4be3-453d-a050-a883329e7276" Title="Pair(XTYPE, YTYPE) Properties" Url="html/Properties_T_SharpUtilities_Pair_2.htm">
+        <HelpTOCNode Title="X Property " Url="html/P_SharpUtilities_Pair_2_X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_SharpUtilities_Pair_2_Y.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e4b7b215-8a7e-4281-8fb9-c3e5f8fc4171" Title="Pair(XTYPE, YTYPE) Methods" Url="html/Methods_T_SharpUtilities_Pair_2.htm">
+        <HelpTOCNode Title="Build Method " Url="html/M_SharpUtilities_Pair_2_Build.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Priority Enumeration" Url="html/T_SharpUtilities_Priority.htm" />
+    <HelpTOCNode Id="508438b2-78ec-4a87-922c-5b386f2e48f3" Title="ProcessUtils Class" Url="html/T_SharpUtilities_ProcessUtils.htm">
+      <HelpTOCNode Id="87541515-56b8-4188-b295-0a49d1052dc1" Title="ProcessUtils Methods" Url="html/Methods_T_SharpUtilities_ProcessUtils.htm">
+        <HelpTOCNode Title="ExecuteCommandAndWait Method " Url="html/M_SharpUtilities_ProcessUtils_ExecuteCommandAndWait.htm" />
+        <HelpTOCNode Title="IsExecutableInPath Method " Url="html/M_SharpUtilities_ProcessUtils_IsExecutableInPath.htm" />
+        <HelpTOCNode Title="WhichIsExecutable Method " Url="html/M_SharpUtilities_ProcessUtils_WhichIsExecutable.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c79008e1-6bea-4be5-8dc7-09d165f3f620" Title="SortedEventList(VALUE) Class" Url="html/T_SharpUtilities_SortedEventList_1.htm">
+      <HelpTOCNode Id="5f330adb-bf57-4f05-bbff-5aa231df120f" Title="SortedEventList(VALUE) Constructor " Url="html/Overload_SharpUtilities_SortedEventList_1__ctor.htm">
+        <HelpTOCNode Title="SortedEventList(VALUE) Constructor " Url="html/M_SharpUtilities_SortedEventList_1__ctor.htm" />
+        <HelpTOCNode Title="SortedEventList(VALUE) Constructor (Priority)" Url="html/M_SharpUtilities_SortedEventList_1__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="722e6847-7449-4e48-9d0f-24570ac6670c" Title="SortedEventList(VALUE) Properties" Url="html/Properties_T_SharpUtilities_SortedEventList_1.htm">
+        <HelpTOCNode Title="DefaultPriority Property " Url="html/P_SharpUtilities_SortedEventList_1_DefaultPriority.htm" />
+        <HelpTOCNode Title="Keys Property " Url="html/P_SharpUtilities_SortedEventList_1_Keys.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2abd4c07-2678-41b3-a9a7-5cb02d0e870c" Title="SortedEventList(VALUE) Methods" Url="html/Methods_T_SharpUtilities_SortedEventList_1.htm">
+        <HelpTOCNode Title="FireEvents Method " Url="html/M_SharpUtilities_SortedEventList_1_FireEvents.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M_SharpUtilities_SortedEventList_1_GetEnumerator.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ae688862-455b-41b5-844d-ccc6aa1d7776" Title="SortedEventList(VALUE) Operators" Url="html/Operators_T_SharpUtilities_SortedEventList_1.htm">
+        <HelpTOCNode Id="36eaaa1c-7e78-456c-ae5f-7fd71e669535" Title="Addition Operator " Url="html/Overload_SharpUtilities_SortedEventList_1_op_Addition.htm">
+          <HelpTOCNode Title="Addition Operator (SortedEventList(VALUE), Pair(Priority, VALUE))" Url="html/M_SharpUtilities_SortedEventList_1_op_Addition.htm" />
+          <HelpTOCNode Title="Addition Operator (SortedEventList(VALUE), Pair(Int32, VALUE))" Url="html/M_SharpUtilities_SortedEventList_1_op_Addition_1.htm" />
+          <HelpTOCNode Title="Addition Operator (SortedEventList(VALUE), VALUE)" Url="html/M_SharpUtilities_SortedEventList_1_op_Addition_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8b49db31-e127-4239-a832-829f5b6a0146" Title="Subtraction Operator " Url="html/Overload_SharpUtilities_SortedEventList_1_op_Subtraction.htm">
+          <HelpTOCNode Title="Subtraction Operator (SortedEventList(VALUE), Pair(Priority, VALUE))" Url="html/M_SharpUtilities_SortedEventList_1_op_Subtraction.htm" />
+          <HelpTOCNode Title="Subtraction Operator (SortedEventList(VALUE), Pair(Int32, VALUE))" Url="html/M_SharpUtilities_SortedEventList_1_op_Subtraction_1.htm" />
+          <HelpTOCNode Title="Subtraction Operator (SortedEventList(VALUE), VALUE)" Url="html/M_SharpUtilities_SortedEventList_1_op_Subtraction_2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f2695129-31c3-4cc2-84e5-4ff64c26f08f" Title="Triple(XTYPE, YTYPE, ZTYPE) Structure" Url="html/T_SharpUtilities_Triple_3.htm">
+      <HelpTOCNode Title="Triple(XTYPE, YTYPE, ZTYPE) Constructor " Url="html/M_SharpUtilities_Triple_3__ctor.htm" />
+      <HelpTOCNode Id="d2f847f1-c4ee-4b22-90f5-e1105dfad37c" Title="Triple(XTYPE, YTYPE, ZTYPE) Properties" Url="html/Properties_T_SharpUtilities_Triple_3.htm">
+        <HelpTOCNode Title="X Property " Url="html/P_SharpUtilities_Triple_3_X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_SharpUtilities_Triple_3_Y.htm" />
+        <HelpTOCNode Title="Z Property " Url="html/P_SharpUtilities_Triple_3_Z.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a3f6171a-6615-4b19-ae35-05f36bc95cca" Title="Triple(XTYPE, YTYPE, ZTYPE) Methods" Url="html/Methods_T_SharpUtilities_Triple_3.htm">
+        <HelpTOCNode Title="Build Method " Url="html/M_SharpUtilities_Triple_3_Build.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -1,0 +1,1143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="ABOVE_AVERAGE enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="AbstractDefaultProp class">
+    <HelpKINode Title="AbstractDefaultProp Class" Url="html/T_Scripts_Game_Model_AbstractDefaultProp.htm" />
+    <HelpKINode Title="about AbstractDefaultProp class" Url="html/T_Scripts_Game_Model_AbstractDefaultProp.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Scripts_Game_Model_AbstractDefaultProp__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_AbstractDefaultProp.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_AbstractDefaultProp.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractDefaultProp.AbstractDefaultProp constructor" Url="html/Overload_Scripts_Game_Model_AbstractDefaultProp__ctor.htm" />
+  <HelpKINode Title="AbstractDefaultProp.Class property" Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Class.htm" />
+  <HelpKINode Title="AbstractDefaultProp.Id property" Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Id.htm" />
+  <HelpKINode Title="AbstractDefaultProp.Qualitates property" Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Qualitates.htm" />
+  <HelpKINode Title="AbstractDefaultQualitas class">
+    <HelpKINode Title="AbstractDefaultQualitas Class" Url="html/T_Scripts_Game_Model_AbstractDefaultQualitas.htm" />
+    <HelpKINode Title="about AbstractDefaultQualitas class" Url="html/T_Scripts_Game_Model_AbstractDefaultQualitas.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Scripts_Game_Model_AbstractDefaultQualitas__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_AbstractDefaultQualitas.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_AbstractDefaultQualitas.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractDefaultQualitas.AbstractDefaultQualitas constructor" Url="html/Overload_Scripts_Game_Model_AbstractDefaultQualitas__ctor.htm" />
+  <HelpKINode Title="AbstractDefaultQualitas.Class property" Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Class.htm" />
+  <HelpKINode Title="AbstractDefaultQualitas.Id property" Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Id.htm" />
+  <HelpKINode Title="AbstractDefaultQualitas.Prop property" Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Prop.htm" />
+  <HelpKINode Title="AbstractNotificationCenterFactory class">
+    <HelpKINode Title="AbstractNotificationCenterFactory Class" Url="html/T_SharpNotificationCenter_AbstractNotificationCenterFactory.htm" />
+    <HelpKINode Title="about AbstractNotificationCenterFactory class" Url="html/T_SharpNotificationCenter_AbstractNotificationCenterFactory.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpNotificationCenter_AbstractNotificationCenterFactory__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpNotificationCenter_AbstractNotificationCenterFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractNotificationCenterFactory.AbstractNotificationCenterFactory constructor" Url="html/M_SharpNotificationCenter_AbstractNotificationCenterFactory__ctor.htm" />
+  <HelpKINode Title="AbstractNotificationCenterFactory.BuildNotification method" Url="html/M_SharpNotificationCenter_AbstractNotificationCenterFactory_BuildNotification.htm" />
+  <HelpKINode Title="AbstractPropScript(Of PROP) class">
+    <HelpKINode Title="AbstractPropScript(PROP) Class" Url="html/T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+    <HelpKINode Title="about AbstractPropScript(Of PROP) class" Url="html/T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractPropScript(Of PROP).AbstractPropScript constructor" Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1__ctor.htm" />
+  <HelpKINode Title="AbstractPropScript(Of PROP).Class property" Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Class.htm" />
+  <HelpKINode Title="AbstractPropScript(Of PROP).getImplementedInterfaces method" Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1_getImplementedInterfaces.htm" />
+  <HelpKINode Title="AbstractPropScript(Of PROP).Id property" Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Id.htm" />
+  <HelpKINode Title="AbstractPropScript(Of PROP).Prop property" Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Prop.htm" />
+  <HelpKINode Title="AbstractPropScript(Of PROP).Qualitates property" Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Qualitates.htm" />
+  <HelpKINode Title="AbstractPropScript&lt;PROP&gt; class">
+    <HelpKINode Title="AbstractPropScript(PROP) Class" Url="html/T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+    <HelpKINode Title="about AbstractPropScript&lt;PROP&gt; class" Url="html/T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractPropScript&lt;PROP&gt;.AbstractPropScript constructor" Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1__ctor.htm" />
+  <HelpKINode Title="AbstractPropScript&lt;PROP&gt;.Class property" Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Class.htm" />
+  <HelpKINode Title="AbstractPropScript&lt;PROP&gt;.getImplementedInterfaces method" Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1_getImplementedInterfaces.htm" />
+  <HelpKINode Title="AbstractPropScript&lt;PROP&gt;.Id property" Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Id.htm" />
+  <HelpKINode Title="AbstractPropScript&lt;PROP&gt;.Prop property" Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Prop.htm" />
+  <HelpKINode Title="AbstractPropScript&lt;PROP&gt;.Qualitates property" Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Qualitates.htm" />
+  <HelpKINode Title="AbstractQualitasScript(Of QUALITAS) class">
+    <HelpKINode Title="AbstractQualitasScript(QUALITAS) Class" Url="html/T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+    <HelpKINode Title="about AbstractQualitasScript(Of QUALITAS) class" Url="html/T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractQualitasScript(Of QUALITAS).AbstractQualitasScript constructor" Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1__ctor.htm" />
+  <HelpKINode Title="AbstractQualitasScript(Of QUALITAS).Class property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Class.htm" />
+  <HelpKINode Title="AbstractQualitasScript(Of QUALITAS).getImplementedInterfaces method" Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1_getImplementedInterfaces.htm" />
+  <HelpKINode Title="AbstractQualitasScript(Of QUALITAS).Id property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Id.htm" />
+  <HelpKINode Title="AbstractQualitasScript(Of QUALITAS).Prop property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Prop.htm" />
+  <HelpKINode Title="AbstractQualitasScript(Of QUALITAS).Qualitas property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Qualitas.htm" />
+  <HelpKINode Title="AbstractQualitasScript&lt;QUALITAS&gt; class">
+    <HelpKINode Title="AbstractQualitasScript(QUALITAS) Class" Url="html/T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+    <HelpKINode Title="about AbstractQualitasScript&lt;QUALITAS&gt; class" Url="html/T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractQualitasScript&lt;QUALITAS&gt;.AbstractQualitasScript constructor" Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1__ctor.htm" />
+  <HelpKINode Title="AbstractQualitasScript&lt;QUALITAS&gt;.Class property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Class.htm" />
+  <HelpKINode Title="AbstractQualitasScript&lt;QUALITAS&gt;.getImplementedInterfaces method" Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1_getImplementedInterfaces.htm" />
+  <HelpKINode Title="AbstractQualitasScript&lt;QUALITAS&gt;.Id property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Id.htm" />
+  <HelpKINode Title="AbstractQualitasScript&lt;QUALITAS&gt;.Prop property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Prop.htm" />
+  <HelpKINode Title="AbstractQualitasScript&lt;QUALITAS&gt;.Qualitas property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Qualitas.htm" />
+  <HelpKINode Title="AbstractRoomFactory class">
+    <HelpKINode Title="AbstractRoomFactory Class" Url="html/T_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory.htm" />
+    <HelpKINode Title="about AbstractRoomFactory class" Url="html/T_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractRoomFactory.AbstractRoomFactory constructor" Url="html/M_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory__ctor.htm" />
+  <HelpKINode Title="AbstractTypes(Of TYPE) class">
+    <HelpKINode Title="AbstractTypes(TYPE) Class" Url="html/T_Scripts_Game_Model_AbstractTypes_1.htm" />
+    <HelpKINode Title="about AbstractTypes(Of TYPE) class" Url="html/T_Scripts_Game_Model_AbstractTypes_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_AbstractTypes_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_AbstractTypes_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractTypes(Of TYPE).Add method" Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Add.htm" />
+  <HelpKINode Title="AbstractTypes(Of TYPE).ALL property" Url="html/P_Scripts_Game_Model_AbstractTypes_1_ALL.htm" />
+  <HelpKINode Title="AbstractTypes(Of TYPE).BuildType method" Url="html/M_Scripts_Game_Model_AbstractTypes_1_BuildType.htm" />
+  <HelpKINode Title="AbstractTypes(Of TYPE).Contains method" Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Contains.htm" />
+  <HelpKINode Title="AbstractTypes(Of TYPE).Item property" Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Item.htm" />
+  <HelpKINode Title="AbstractTypes&lt;TYPE&gt; class">
+    <HelpKINode Title="AbstractTypes(TYPE) Class" Url="html/T_Scripts_Game_Model_AbstractTypes_1.htm" />
+    <HelpKINode Title="about AbstractTypes&lt;TYPE&gt; class" Url="html/T_Scripts_Game_Model_AbstractTypes_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_AbstractTypes_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_AbstractTypes_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AbstractTypes&lt;TYPE&gt;.Add method" Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Add.htm" />
+  <HelpKINode Title="AbstractTypes&lt;TYPE&gt;.ALL property" Url="html/P_Scripts_Game_Model_AbstractTypes_1_ALL.htm" />
+  <HelpKINode Title="AbstractTypes&lt;TYPE&gt;.BuildType method" Url="html/M_Scripts_Game_Model_AbstractTypes_1_BuildType.htm" />
+  <HelpKINode Title="AbstractTypes&lt;TYPE&gt;.Contains method" Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Contains.htm" />
+  <HelpKINode Title="AbstractTypes&lt;TYPE&gt;.Item property" Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Item.htm" />
+  <HelpKINode Title="activateInEditMode field" Url="html/F_Scripts_Game_UI_HpBarUi_activateInEditMode.htm" />
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="AbstractTypes(TYPE).Add Method " Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Add.htm" />
+    <HelpKINode Title="OrderedList(VALUE).Add Method " Url="html/M_SharpUtilities_OrderedList_1_Add.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddEdge method">
+    <HelpKINode Title="IGraph(NODE, EDGE).AddEdge Method " Url="html/M_SharpGraphs_IGraph_2_AddEdge.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).AddEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_AddEdge.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).AddEdge Method " Url="html/M_SharpGraphs_NLGraph_2_AddEdge.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).AddEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_AddEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Addition operator" Url="html/Overload_SharpUtilities_SortedEventList_1_op_Addition.htm" />
+  <HelpKINode Title="AddNode method">
+    <HelpKINode Title="IGraph(NODE, EDGE).AddNode Method " Url="html/M_SharpGraphs_IGraph_2_AddNode.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).AddNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_AddNode.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).AddNode Method " Url="html/M_SharpGraphs_NLGraph_2_AddNode.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).AddNode Method " Url="html/M_SharpGraphs_PSLGraph_2_AddNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddOrUpdateEdge method">
+    <HelpKINode Title="IGraph(NODE, EDGE).AddOrUpdateEdge Method " Url="html/M_SharpGraphs_IGraph_2_AddOrUpdateEdge.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).AddOrUpdateEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_AddOrUpdateEdge.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).AddOrUpdateEdge Method " Url="html/M_SharpGraphs_NLGraph_2_AddOrUpdateEdge.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).AddOrUpdateEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_AddOrUpdateEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ALL property" Url="html/P_Scripts_Game_Model_AbstractTypes_1_ALL.htm" />
+  <HelpKINode Title="AnalyzeNextState method" Url="html/M_SharpSearches_AStar_1_AnalyzeNextState.htm" />
+  <HelpKINode Title="AreEdgesImplicitlyPresent property">
+    <HelpKINode Title="IGraph(NODE, EDGE).AreEdgesImplicitlyPresent Property " Url="html/P_SharpGraphs_IGraph_2_AreEdgesImplicitlyPresent.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).AreEdgesImplicitlyPresent Property " Url="html/P_SharpGraphs_MatrixGraph_2_AreEdgesImplicitlyPresent.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).AreEdgesImplicitlyPresent Property " Url="html/P_SharpGraphs_NLGraph_2_AreEdgesImplicitlyPresent.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).AreEdgesImplicitlyPresent Property " Url="html/P_SharpGraphs_PSLGraph_2_AreEdgesImplicitlyPresent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AStar(Of NODE) class">
+    <HelpKINode Title="AStar(NODE) Class" Url="html/T_SharpSearches_AStar_1.htm" />
+    <HelpKINode Title="about AStar(Of NODE) class" Url="html/T_SharpSearches_AStar_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SharpSearches_AStar_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpSearches_AStar_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpSearches_AStar_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AStar(Of NODE).AnalyzeNextState method" Url="html/M_SharpSearches_AStar_1_AnalyzeNextState.htm" />
+  <HelpKINode Title="AStar(Of NODE).AStar constructor" Url="html/Overload_SharpSearches_AStar_1__ctor.htm" />
+  <HelpKINode Title="AStar(Of NODE).CostFunction property" Url="html/P_SharpSearches_AStar_1_CostFunction.htm" />
+  <HelpKINode Title="AStar(Of NODE).CurrentNode property" Url="html/P_SharpSearches_AStar_1_CurrentNode.htm" />
+  <HelpKINode Title="AStar(Of NODE).GetPath method" Url="html/M_SharpSearches_AStar_1_GetPath.htm" />
+  <HelpKINode Title="AStar(Of NODE).Goal property" Url="html/P_SharpSearches_AStar_1_Goal.htm" />
+  <HelpKINode Title="AStar(Of NODE).Heuristic property" Url="html/P_SharpSearches_AStar_1_Heuristic.htm" />
+  <HelpKINode Title="AStar(Of NODE).Reset method" Url="html/M_SharpSearches_AStar_1_Reset.htm" />
+  <HelpKINode Title="AStar(Of NODE).Start property" Url="html/P_SharpSearches_AStar_1_Start.htm" />
+  <HelpKINode Title="AStar(Of NODE).StartSearch method" Url="html/M_SharpSearches_AStar_1_StartSearch.htm" />
+  <HelpKINode Title="AStar(Of NODE).Steps property" Url="html/P_SharpSearches_AStar_1_Steps.htm" />
+  <HelpKINode Title="AStar(Of NODE).TotalCostComputer property" Url="html/P_SharpSearches_AStar_1_TotalCostComputer.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt; class">
+    <HelpKINode Title="AStar(NODE) Class" Url="html/T_SharpSearches_AStar_1.htm" />
+    <HelpKINode Title="about AStar&lt;NODE&gt; class" Url="html/T_SharpSearches_AStar_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SharpSearches_AStar_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpSearches_AStar_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpSearches_AStar_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AStar&lt;NODE&gt;.AnalyzeNextState method" Url="html/M_SharpSearches_AStar_1_AnalyzeNextState.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.AStar constructor" Url="html/Overload_SharpSearches_AStar_1__ctor.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.CostFunction property" Url="html/P_SharpSearches_AStar_1_CostFunction.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.CurrentNode property" Url="html/P_SharpSearches_AStar_1_CurrentNode.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.GetPath method" Url="html/M_SharpSearches_AStar_1_GetPath.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.Goal property" Url="html/P_SharpSearches_AStar_1_Goal.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.Heuristic property" Url="html/P_SharpSearches_AStar_1_Heuristic.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.Reset method" Url="html/M_SharpSearches_AStar_1_Reset.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.Start property" Url="html/P_SharpSearches_AStar_1_Start.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.StartSearch method" Url="html/M_SharpSearches_AStar_1_StartSearch.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.Steps property" Url="html/P_SharpSearches_AStar_1_Steps.htm" />
+  <HelpKINode Title="AStar&lt;NODE&gt;.TotalCostComputer property" Url="html/P_SharpSearches_AStar_1_TotalCostComputer.htm" />
+  <HelpKINode Title="BaseCentered enumeration member" Url="html/T_Scripts_Game_RoomFactory_Visualization_RoomCoordinatesSystem.htm" />
+  <HelpKINode Title="BELOW_AVERAGE enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="BiFunction delegate" Url="html/T_SharpSearches_BiFunction.htm" />
+  <HelpKINode Title="borderRect field" Url="html/F_Scripts_Game_UI_HpBarUi_borderRect.htm" />
+  <HelpKINode Title="borderThickness field" Url="html/F_Scripts_Game_UI_HpBarUi_borderThickness.htm" />
+  <HelpKINode Title="Build method">
+    <HelpKINode Title="Pair(XTYPE, YTYPE).Build Method " Url="html/M_SharpUtilities_Pair_2_Build.htm" />
+    <HelpKINode Title="Triple(XTYPE, YTYPE, ZTYPE).Build Method " Url="html/M_SharpUtilities_Triple_3_Build.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BuildNotification method">
+    <HelpKINode Title="AbstractNotificationCenterFactory.BuildNotification Method " Url="html/M_SharpNotificationCenter_AbstractNotificationCenterFactory_BuildNotification.htm" />
+    <HelpKINode Title="DefaultNotificationCenterFactory.BuildNotification Method " Url="html/M_SharpNotificationCenter_DefaultNotificationCenterFactory_BuildNotification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BuildType method">
+    <HelpKINode Title="AbstractTypes(TYPE).BuildType Method " Url="html/M_Scripts_Game_Model_AbstractTypes_1_BuildType.htm" />
+    <HelpKINode Title="PropTypes.BuildType Method " Url="html/M_Scripts_Game_Model_PropTypes_BuildType.htm" />
+    <HelpKINode Title="QualitasTypes.BuildType Method " Url="html/M_Scripts_Game_Model_QualitasTypes_BuildType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BYNAME enumeration member" Url="html/T_Scripts_Game_Controls_GroundCollisionDetectionStrategy.htm" />
+  <HelpKINode Title="BYTAG enumeration member" Url="html/T_Scripts_Game_Controls_GroundCollisionDetectionStrategy.htm" />
+  <HelpKINode Title="CanRequestJump property" Url="html/P_Scripts_Game_Controls_JumpScript_CanRequestJump.htm" />
+  <HelpKINode Title="Children property" Url="html/P_SharpSearches_SearchableNode_Children.htm" />
+  <HelpKINode Title="Class property">
+    <HelpKINode Title="AbstractDefaultProp.Class Property " Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Class.htm" />
+    <HelpKINode Title="AbstractDefaultQualitas.Class Property " Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Class.htm" />
+    <HelpKINode Title="AbstractPropScript(PROP).Class Property " Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Class.htm" />
+    <HelpKINode Title="AbstractQualitasScript(QUALITAS).Class Property " Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Class.htm" />
+    <HelpKINode Title="IProp.Class Property " Url="html/P_Scripts_Game_Model_IProp_Class.htm" />
+    <HelpKINode Title="IQualitas.Class Property " Url="html/P_Scripts_Game_Model_IQualitas_Class.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Clear method" Url="html/M_SharpUtilities_OrderedList_1_Clear.htm" />
+  <HelpKINode Title="Contains method">
+    <HelpKINode Title="AbstractTypes(TYPE).Contains Method " Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Contains.htm" />
+    <HelpKINode Title="INotification.Contains Method " Url="html/M_SharpNotificationCenter_INotification_Contains.htm" />
+    <HelpKINode Title="OrderedList(VALUE).Contains Method " Url="html/M_SharpUtilities_OrderedList_1_Contains.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsEdge method">
+    <HelpKINode Title="IGraph(NODE, EDGE).ContainsEdge Method " Url="html/M_SharpGraphs_IGraph_2_ContainsEdge.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).ContainsEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_ContainsEdge.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).ContainsEdge Method " Url="html/M_SharpGraphs_NLGraph_2_ContainsEdge.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).ContainsEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_ContainsEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ContainsNode method">
+    <HelpKINode Title="IGraph(NODE, EDGE).ContainsNode Method " Url="html/M_SharpGraphs_IGraph_2_ContainsNode.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).ContainsNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_ContainsNode.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).ContainsNode Method " Url="html/M_SharpGraphs_NLGraph_2_ContainsNode.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).ContainsNode Method " Url="html/M_SharpGraphs_PSLGraph_2_ContainsNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CopyTo method" Url="html/M_SharpUtilities_OrderedList_1_CopyTo.htm" />
+  <HelpKINode Title="CostEvaluator(Of NODE) interface">
+    <HelpKINode Title="CostEvaluator(NODE) Interface" Url="html/T_SharpSearches_CostEvaluator_1.htm" />
+    <HelpKINode Title="about CostEvaluator(Of NODE) interface" Url="html/T_SharpSearches_CostEvaluator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpSearches_CostEvaluator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostEvaluator(Of NODE).EvaluateFromStart method" Url="html/Overload_SharpSearches_CostEvaluator_1_EvaluateFromStart.htm" />
+  <HelpKINode Title="CostEvaluator&lt;NODE&gt; interface">
+    <HelpKINode Title="CostEvaluator(NODE) Interface" Url="html/T_SharpSearches_CostEvaluator_1.htm" />
+    <HelpKINode Title="about CostEvaluator&lt;NODE&gt; interface" Url="html/T_SharpSearches_CostEvaluator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpSearches_CostEvaluator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CostEvaluator&lt;NODE&gt;.EvaluateFromStart method" Url="html/Overload_SharpSearches_CostEvaluator_1_EvaluateFromStart.htm" />
+  <HelpKINode Title="CostFunction property" Url="html/P_SharpSearches_AStar_1_CostFunction.htm" />
+  <HelpKINode Title="Count property" Url="html/P_SharpUtilities_OrderedList_1_Count.htm" />
+  <HelpKINode Title="CurrentNode property" Url="html/P_SharpSearches_AStar_1_CurrentNode.htm" />
+  <HelpKINode Title="Data property" Url="html/P_SharpNotificationCenter_INotification_Data.htm" />
+  <HelpKINode Title="DataSize property" Url="html/P_SharpNotificationCenter_INotification_DataSize.htm" />
+  <HelpKINode Title="DefaultEdgeLabel property" Url="html/P_SharpGraphs_MatrixGraph_2_DefaultEdgeLabel.htm" />
+  <HelpKINode Title="DefaultNotificationCenter class">
+    <HelpKINode Title="DefaultNotificationCenter Class" Url="html/T_SharpNotificationCenter_DefaultNotificationCenter.htm" />
+    <HelpKINode Title="about DefaultNotificationCenter class" Url="html/T_SharpNotificationCenter_DefaultNotificationCenter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpNotificationCenter_DefaultNotificationCenter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultNotificationCenter.Get property" Url="html/P_SharpNotificationCenter_DefaultNotificationCenter_Get.htm" />
+  <HelpKINode Title="DefaultNotificationCenterFactory class">
+    <HelpKINode Title="DefaultNotificationCenterFactory Class" Url="html/T_SharpNotificationCenter_DefaultNotificationCenterFactory.htm" />
+    <HelpKINode Title="about DefaultNotificationCenterFactory class" Url="html/T_SharpNotificationCenter_DefaultNotificationCenterFactory.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpNotificationCenter_DefaultNotificationCenterFactory__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpNotificationCenter_DefaultNotificationCenterFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultNotificationCenterFactory.BuildNotification method" Url="html/M_SharpNotificationCenter_DefaultNotificationCenterFactory_BuildNotification.htm" />
+  <HelpKINode Title="DefaultNotificationCenterFactory.DefaultNotificationCenterFactory constructor" Url="html/M_SharpNotificationCenter_DefaultNotificationCenterFactory__ctor.htm" />
+  <HelpKINode Title="DefaultPriority property" Url="html/P_SharpUtilities_SortedEventList_1_DefaultPriority.htm" />
+  <HelpKINode Title="DefaultPropType class">
+    <HelpKINode Title="DefaultPropType Class" Url="html/T_Scripts_Game_Model_DefaultPropType.htm" />
+    <HelpKINode Title="about DefaultPropType class" Url="html/T_Scripts_Game_Model_DefaultPropType.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Model_DefaultPropType__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_DefaultPropType.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_DefaultPropType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultPropType.DefaultPropType constructor" Url="html/M_Scripts_Game_Model_DefaultPropType__ctor.htm" />
+  <HelpKINode Title="DefaultPropType.GetHashCode method" Url="html/M_Scripts_Game_Model_DefaultPropType_GetHashCode.htm" />
+  <HelpKINode Title="DefaultPropType.Name property" Url="html/P_Scripts_Game_Model_DefaultPropType_Name.htm" />
+  <HelpKINode Title="DefaultQualitasType class">
+    <HelpKINode Title="DefaultQualitasType Class" Url="html/T_Scripts_Game_Model_DefaultQualitasType.htm" />
+    <HelpKINode Title="about DefaultQualitasType class" Url="html/T_Scripts_Game_Model_DefaultQualitasType.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Model_DefaultQualitasType__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_DefaultQualitasType.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_DefaultQualitasType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DefaultQualitasType.DefaultQualitasType constructor" Url="html/M_Scripts_Game_Model_DefaultQualitasType__ctor.htm" />
+  <HelpKINode Title="DefaultQualitasType.GetHashCode method" Url="html/M_Scripts_Game_Model_DefaultQualitasType_GetHashCode.htm" />
+  <HelpKINode Title="DefaultQualitasType.Name property" Url="html/P_Scripts_Game_Model_DefaultQualitasType_Name.htm" />
+  <HelpKINode Title="doJump method" Url="html/M_Scripts_Game_Controls_JumpScript_doJump.htm" />
+  <HelpKINode Title="DrawGraph method">
+    <HelpKINode Title="IGraph(NODE, EDGE).DrawGraph Method " Url="html/M_SharpGraphs_IGraph_2_DrawGraph.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).DrawGraph Method " Url="html/M_SharpGraphs_MatrixGraph_2_DrawGraph.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).DrawGraph Method " Url="html/M_SharpGraphs_NLGraph_2_DrawGraph.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).DrawGraph Method " Url="html/M_SharpGraphs_PSLGraph_2_DrawGraph.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EvaluateFromStart method" Url="html/Overload_SharpSearches_CostEvaluator_1_EvaluateFromStart.htm" />
+  <HelpKINode Title="EvaluateToGoal method" Url="html/Overload_SharpSearches_HeuristicEvaluator_1_EvaluateToGoal.htm" />
+  <HelpKINode Title="ExecuteCommandAndWait method" Url="html/M_SharpUtilities_ProcessUtils_ExecuteCommandAndWait.htm" />
+  <HelpKINode Title="Factory property" Url="html/P_SharpNotificationCenter_NotificationCenter_Factory.htm" />
+  <HelpKINode Title="Failed enumeration member" Url="html/T_SharpSearches_State.htm" />
+  <HelpKINode Title="FireEvents method" Url="html/M_SharpUtilities_SortedEventList_1_FireEvents.htm" />
+  <HelpKINode Title="FixedUpdate method" Url="html/M_Scripts_Game_Controls_JumpScript_FixedUpdate.htm" />
+  <HelpKINode Title="Fountain class">
+    <HelpKINode Title="Fountain Class" Url="html/T_Scripts_Game_ActualProps_Fountain.htm" />
+    <HelpKINode Title="about Fountain class" Url="html/T_Scripts_Game_ActualProps_Fountain.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_ActualProps_Fountain__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_ActualProps_Fountain.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_ActualProps_Fountain.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Fountain.Fountain constructor" Url="html/M_Scripts_Game_ActualProps_Fountain__ctor.htm" />
+  <HelpKINode Title="FountainPropScript class">
+    <HelpKINode Title="FountainPropScript Class" Url="html/T_Scripts_Game_Bridges_FountainPropScript.htm" />
+    <HelpKINode Title="about FountainPropScript class" Url="html/T_Scripts_Game_Bridges_FountainPropScript.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Bridges_FountainPropScript__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Bridges_FountainPropScript.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Bridges_FountainPropScript.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FountainPropScript.FountainPropScript constructor" Url="html/M_Scripts_Game_Bridges_FountainPropScript__ctor.htm" />
+  <HelpKINode Title="GenerateRectangularRoom method" Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_GenerateRectangularRoom.htm" />
+  <HelpKINode Title="GenerateRectangularRoomIn method" Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_GenerateRectangularRoomIn.htm" />
+  <HelpKINode Title="Get method" Url="html/M_SharpNotificationCenter_INotification_Get.htm" />
+  <HelpKINode Title="get method" Url="html/M_SharpGraphs_GraphFactory_get.htm" />
+  <HelpKINode Title="Get property">
+    <HelpKINode Title="DefaultNotificationCenter.Get Property " Url="html/P_SharpNotificationCenter_DefaultNotificationCenter_Get.htm" />
+    <HelpKINode Title="QualitasTypes.Get Property " Url="html/P_Scripts_Game_Model_QualitasTypes_Get.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getCompleteFocusGraph(Of NODE, EDGE) method" Url="html/M_SharpGraphs_GraphFactory_getCompleteFocusGraph__2.htm" />
+  <HelpKINode Title="getCompleteFocusGraph&lt;NODE, EDGE&gt; method" Url="html/M_SharpGraphs_GraphFactory_getCompleteFocusGraph__2.htm" />
+  <HelpKINode Title="GetEdge method">
+    <HelpKINode Title="IGraph(NODE, EDGE).GetEdge Method " Url="html/M_SharpGraphs_IGraph_2_GetEdge.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).GetEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetEdge.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).GetEdge Method " Url="html/M_SharpGraphs_NLGraph_2_GetEdge.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).GetEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_GetEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEdgesEnumerable method">
+    <HelpKINode Title="IGraph(NODE, EDGE).GetEdgesEnumerable Method " Url="html/M_SharpGraphs_IGraph_2_GetEdgesEnumerable.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).GetEdgesEnumerable Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetEdgesEnumerable.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).GetEdgesEnumerable Method " Url="html/M_SharpGraphs_NLGraph_2_GetEdgesEnumerable.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).GetEdgesEnumerable Method " Url="html/M_SharpGraphs_PSLGraph_2_GetEdgesEnumerable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEnumerator method">
+    <HelpKINode Title="OrderedList(VALUE).GetEnumerator Method " Url="html/M_SharpUtilities_OrderedList_1_GetEnumerator.htm" />
+    <HelpKINode Title="SortedEventList(VALUE).GetEnumerator Method " Url="html/M_SharpUtilities_SortedEventList_1_GetEnumerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getGraph(Of NODE, EDGE) method" Url="html/M_SharpGraphs_GraphFactory_getGraph__2.htm" />
+  <HelpKINode Title="getGraph&lt;NODE, EDGE&gt; method" Url="html/M_SharpGraphs_GraphFactory_getGraph__2.htm" />
+  <HelpKINode Title="GetHashCode method">
+    <HelpKINode Title="DefaultPropType.GetHashCode Method " Url="html/M_Scripts_Game_Model_DefaultPropType_GetHashCode.htm" />
+    <HelpKINode Title="DefaultQualitasType.GetHashCode Method " Url="html/M_Scripts_Game_Model_DefaultQualitasType_GetHashCode.htm" />
+    <HelpKINode Title="IPropType.GetHashCode Method " Url="html/M_Scripts_Game_Model_IPropType_GetHashCode.htm" />
+    <HelpKINode Title="IQualitasType.GetHashCode Method " Url="html/M_Scripts_Game_Model_IQualitasType_GetHashCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getImplementedInterfaces method">
+    <HelpKINode Title="AbstractPropScript(PROP).getImplementedInterfaces Method " Url="html/M_Scripts_Game_Bridges_AbstractPropScript_1_getImplementedInterfaces.htm" />
+    <HelpKINode Title="AbstractQualitasScript(QUALITAS).getImplementedInterfaces Method " Url="html/M_Scripts_Game_Bridges_AbstractQualitasScript_1_getImplementedInterfaces.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetNode method">
+    <HelpKINode Title="IGraph(NODE, EDGE).GetNode Method " Url="html/M_SharpGraphs_IGraph_2_GetNode.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).GetNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetNode.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).GetNode Method " Url="html/M_SharpGraphs_NLGraph_2_GetNode.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).GetNode Method " Url="html/M_SharpGraphs_PSLGraph_2_GetNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetNodesEnumerable method">
+    <HelpKINode Title="IGraph(NODE, EDGE).GetNodesEnumerable Method " Url="html/M_SharpGraphs_IGraph_2_GetNodesEnumerable.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).GetNodesEnumerable Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetNodesEnumerable.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).GetNodesEnumerable Method " Url="html/M_SharpGraphs_NLGraph_2_GetNodesEnumerable.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).GetNodesEnumerable Method " Url="html/M_SharpGraphs_PSLGraph_2_GetNodesEnumerable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPath method" Url="html/M_SharpSearches_AStar_1_GetPath.htm" />
+  <HelpKINode Title="GetPredecessorsOfNode method">
+    <HelpKINode Title="IGraph(NODE, EDGE).GetPredecessorsOfNode Method " Url="html/M_SharpGraphs_IGraph_2_GetPredecessorsOfNode.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).GetPredecessorsOfNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetPredecessorsOfNode.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).GetPredecessorsOfNode Method " Url="html/M_SharpGraphs_NLGraph_2_GetPredecessorsOfNode.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).GetPredecessorsOfNode Method " Url="html/M_SharpGraphs_PSLGraph_2_GetPredecessorsOfNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getSparseFocusGraph(Of NODE, EDGE) method" Url="html/M_SharpGraphs_GraphFactory_getSparseFocusGraph__2.htm" />
+  <HelpKINode Title="getSparseFocusGraph&lt;NODE, EDGE&gt; method" Url="html/M_SharpGraphs_GraphFactory_getSparseFocusGraph__2.htm" />
+  <HelpKINode Title="GetSuccessorsOfNode method">
+    <HelpKINode Title="IGraph(NODE, EDGE).GetSuccessorsOfNode Method " Url="html/M_SharpGraphs_IGraph_2_GetSuccessorsOfNode.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).GetSuccessorsOfNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_GetSuccessorsOfNode.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).GetSuccessorsOfNode Method " Url="html/M_SharpGraphs_NLGraph_2_GetSuccessorsOfNode.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).GetSuccessorsOfNode Method " Url="html/M_SharpGraphs_PSLGraph_2_GetSuccessorsOfNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Goal property" Url="html/P_SharpSearches_AStar_1_Goal.htm" />
+  <HelpKINode Title="GoalFound enumeration member" Url="html/T_SharpSearches_State.htm" />
+  <HelpKINode Title="GraphException class">
+    <HelpKINode Title="GraphException Class" Url="html/T_SharpGraphs_GraphException.htm" />
+    <HelpKINode Title="about GraphException class" Url="html/T_SharpGraphs_GraphException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SharpGraphs_GraphException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_GraphException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_GraphException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GraphException.GraphException constructor" Url="html/Overload_SharpGraphs_GraphException__ctor.htm" />
+  <HelpKINode Title="GraphFactory class">
+    <HelpKINode Title="GraphFactory Class" Url="html/T_SharpGraphs_GraphFactory.htm" />
+    <HelpKINode Title="about GraphFactory class" Url="html/T_SharpGraphs_GraphFactory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_GraphFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GraphFactory.get method" Url="html/M_SharpGraphs_GraphFactory_get.htm" />
+  <HelpKINode Title="GraphFactory.getCompleteFocusGraph(Of NODE, EDGE) method" Url="html/M_SharpGraphs_GraphFactory_getCompleteFocusGraph__2.htm" />
+  <HelpKINode Title="GraphFactory.getCompleteFocusGraph&lt;NODE, EDGE&gt; method" Url="html/M_SharpGraphs_GraphFactory_getCompleteFocusGraph__2.htm" />
+  <HelpKINode Title="GraphFactory.getGraph(Of NODE, EDGE) method" Url="html/M_SharpGraphs_GraphFactory_getGraph__2.htm" />
+  <HelpKINode Title="GraphFactory.getGraph&lt;NODE, EDGE&gt; method" Url="html/M_SharpGraphs_GraphFactory_getGraph__2.htm" />
+  <HelpKINode Title="GraphFactory.getSparseFocusGraph(Of NODE, EDGE) method" Url="html/M_SharpGraphs_GraphFactory_getSparseFocusGraph__2.htm" />
+  <HelpKINode Title="GraphFactory.getSparseFocusGraph&lt;NODE, EDGE&gt; method" Url="html/M_SharpGraphs_GraphFactory_getSparseFocusGraph__2.htm" />
+  <HelpKINode Title="GroundCollisionDetectionStrategy enumeration" Url="html/T_Scripts_Game_Controls_GroundCollisionDetectionStrategy.htm" />
+  <HelpKINode Title="HasEdge method">
+    <HelpKINode Title="IGraph(NODE, EDGE).HasEdge Method " Url="html/M_SharpGraphs_IGraph_2_HasEdge.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).HasEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_HasEdge.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).HasEdge Method " Url="html/M_SharpGraphs_NLGraph_2_HasEdge.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).HasEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_HasEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Heuristic property" Url="html/P_SharpSearches_AStar_1_Heuristic.htm" />
+  <HelpKINode Title="HeuristicEvaluator(Of NODE) interface">
+    <HelpKINode Title="HeuristicEvaluator(NODE) Interface" Url="html/T_SharpSearches_HeuristicEvaluator_1.htm" />
+    <HelpKINode Title="about HeuristicEvaluator(Of NODE) interface" Url="html/T_SharpSearches_HeuristicEvaluator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpSearches_HeuristicEvaluator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HeuristicEvaluator(Of NODE).EvaluateToGoal method" Url="html/Overload_SharpSearches_HeuristicEvaluator_1_EvaluateToGoal.htm" />
+  <HelpKINode Title="HeuristicEvaluator&lt;NODE&gt; interface">
+    <HelpKINode Title="HeuristicEvaluator(NODE) Interface" Url="html/T_SharpSearches_HeuristicEvaluator_1.htm" />
+    <HelpKINode Title="about HeuristicEvaluator&lt;NODE&gt; interface" Url="html/T_SharpSearches_HeuristicEvaluator_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpSearches_HeuristicEvaluator_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HeuristicEvaluator&lt;NODE&gt;.EvaluateToGoal method" Url="html/Overload_SharpSearches_HeuristicEvaluator_1_EvaluateToGoal.htm" />
+  <HelpKINode Title="HIGH enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="HIGHER enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="HIGHEST enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="HpBarUi class">
+    <HelpKINode Title="HpBarUi Class" Url="html/T_Scripts_Game_UI_HpBarUi.htm" />
+    <HelpKINode Title="about HpBarUi class" Url="html/T_Scripts_Game_UI_HpBarUi.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_UI_HpBarUi__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Scripts_Game_UI_HpBarUi.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_UI_HpBarUi.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_UI_HpBarUi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HpBarUi.activateInEditMode field" Url="html/F_Scripts_Game_UI_HpBarUi_activateInEditMode.htm" />
+  <HelpKINode Title="HpBarUi.borderRect field" Url="html/F_Scripts_Game_UI_HpBarUi_borderRect.htm" />
+  <HelpKINode Title="HpBarUi.borderThickness field" Url="html/F_Scripts_Game_UI_HpBarUi_borderThickness.htm" />
+  <HelpKINode Title="HpBarUi.HpBarUi constructor" Url="html/M_Scripts_Game_UI_HpBarUi__ctor.htm" />
+  <HelpKINode Title="HpBarUi.HpBarViewModel property" Url="html/P_Scripts_Game_UI_HpBarUi_HpBarViewModel.htm" />
+  <HelpKINode Title="HpBarUi.OnGUI method" Url="html/M_Scripts_Game_UI_HpBarUi_OnGUI.htm" />
+  <HelpKINode Title="HpBarUi.Start method" Url="html/M_Scripts_Game_UI_HpBarUi_Start.htm" />
+  <HelpKINode Title="HpBarViewModel class">
+    <HelpKINode Title="HpBarViewModel Class" Url="html/T_Scripts_Game_UI_HpBarViewModel.htm" />
+    <HelpKINode Title="about HpBarViewModel class" Url="html/T_Scripts_Game_UI_HpBarViewModel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_UI_HpBarViewModel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_UI_HpBarViewModel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_UI_HpBarViewModel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HpBarViewModel property" Url="html/P_Scripts_Game_UI_HpBarUi_HpBarViewModel.htm" />
+  <HelpKINode Title="HpBarViewModel.HpBarViewModel constructor" Url="html/M_Scripts_Game_UI_HpBarViewModel__ctor.htm" />
+  <HelpKINode Title="HpBarViewModel.MaxValue property" Url="html/P_Scripts_Game_UI_HpBarViewModel_MaxValue.htm" />
+  <HelpKINode Title="HpBarViewModel.MinValue property" Url="html/P_Scripts_Game_UI_HpBarViewModel_MinValue.htm" />
+  <HelpKINode Title="HpBarViewModel.MoveBar method" Url="html/M_Scripts_Game_UI_HpBarViewModel_MoveBar.htm" />
+  <HelpKINode Title="HpBarViewModel.Value property" Url="html/P_Scripts_Game_UI_HpBarViewModel_Value.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="AbstractDefaultProp.Id Property " Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Id.htm" />
+    <HelpKINode Title="AbstractDefaultQualitas.Id Property " Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Id.htm" />
+    <HelpKINode Title="AbstractPropScript(PROP).Id Property " Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Id.htm" />
+    <HelpKINode Title="AbstractQualitasScript(QUALITAS).Id Property " Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Id.htm" />
+    <HelpKINode Title="IProp.Id Property " Url="html/P_Scripts_Game_Model_IProp_Id.htm" />
+    <HelpKINode Title="IQualitas.Id Property " Url="html/P_Scripts_Game_Model_IQualitas_Id.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGraph(Of NODE, EDGE) interface">
+    <HelpKINode Title="IGraph(NODE, EDGE) Interface" Url="html/T_SharpGraphs_IGraph_2.htm" />
+    <HelpKINode Title="about IGraph(Of NODE, EDGE) interface" Url="html/T_SharpGraphs_IGraph_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_IGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_IGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGraph(Of NODE, EDGE).AddEdge method" Url="html/M_SharpGraphs_IGraph_2_AddEdge.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).AddNode method" Url="html/M_SharpGraphs_IGraph_2_AddNode.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).AddOrUpdateEdge method" Url="html/M_SharpGraphs_IGraph_2_AddOrUpdateEdge.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).AreEdgesImplicitlyPresent property" Url="html/P_SharpGraphs_IGraph_2_AreEdgesImplicitlyPresent.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).ContainsEdge method" Url="html/M_SharpGraphs_IGraph_2_ContainsEdge.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).ContainsNode method" Url="html/M_SharpGraphs_IGraph_2_ContainsNode.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).DrawGraph method" Url="html/M_SharpGraphs_IGraph_2_DrawGraph.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).GetEdge method" Url="html/M_SharpGraphs_IGraph_2_GetEdge.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).GetEdgesEnumerable method" Url="html/M_SharpGraphs_IGraph_2_GetEdgesEnumerable.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).GetNode method" Url="html/M_SharpGraphs_IGraph_2_GetNode.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).GetNodesEnumerable method" Url="html/M_SharpGraphs_IGraph_2_GetNodesEnumerable.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).GetPredecessorsOfNode method" Url="html/M_SharpGraphs_IGraph_2_GetPredecessorsOfNode.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).GetSuccessorsOfNode method" Url="html/M_SharpGraphs_IGraph_2_GetSuccessorsOfNode.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).HasEdge method" Url="html/M_SharpGraphs_IGraph_2_HasEdge.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).IsEmpty property" Url="html/P_SharpGraphs_IGraph_2_IsEmpty.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).Item property" Url="html/Overload_SharpGraphs_IGraph_2_Item.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).Name property" Url="html/P_SharpGraphs_IGraph_2_Name.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).RemoveEdge method" Url="html/M_SharpGraphs_IGraph_2_RemoveEdge.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).RemoveNode method" Url="html/M_SharpGraphs_IGraph_2_RemoveNode.htm" />
+  <HelpKINode Title="IGraph(Of NODE, EDGE).Size property" Url="html/P_SharpGraphs_IGraph_2_Size.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt; interface">
+    <HelpKINode Title="IGraph(NODE, EDGE) Interface" Url="html/T_SharpGraphs_IGraph_2.htm" />
+    <HelpKINode Title="about IGraph&lt;NODE, EDGE&gt; interface" Url="html/T_SharpGraphs_IGraph_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_IGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_IGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.AddEdge method" Url="html/M_SharpGraphs_IGraph_2_AddEdge.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.AddNode method" Url="html/M_SharpGraphs_IGraph_2_AddNode.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.AddOrUpdateEdge method" Url="html/M_SharpGraphs_IGraph_2_AddOrUpdateEdge.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.AreEdgesImplicitlyPresent property" Url="html/P_SharpGraphs_IGraph_2_AreEdgesImplicitlyPresent.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.ContainsEdge method" Url="html/M_SharpGraphs_IGraph_2_ContainsEdge.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.ContainsNode method" Url="html/M_SharpGraphs_IGraph_2_ContainsNode.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.DrawGraph method" Url="html/M_SharpGraphs_IGraph_2_DrawGraph.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.GetEdge method" Url="html/M_SharpGraphs_IGraph_2_GetEdge.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.GetEdgesEnumerable method" Url="html/M_SharpGraphs_IGraph_2_GetEdgesEnumerable.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.GetNode method" Url="html/M_SharpGraphs_IGraph_2_GetNode.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.GetNodesEnumerable method" Url="html/M_SharpGraphs_IGraph_2_GetNodesEnumerable.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.GetPredecessorsOfNode method" Url="html/M_SharpGraphs_IGraph_2_GetPredecessorsOfNode.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.GetSuccessorsOfNode method" Url="html/M_SharpGraphs_IGraph_2_GetSuccessorsOfNode.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.HasEdge method" Url="html/M_SharpGraphs_IGraph_2_HasEdge.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.IsEmpty property" Url="html/P_SharpGraphs_IGraph_2_IsEmpty.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.Item property" Url="html/Overload_SharpGraphs_IGraph_2_Item.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.Name property" Url="html/P_SharpGraphs_IGraph_2_Name.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.RemoveEdge method" Url="html/M_SharpGraphs_IGraph_2_RemoveEdge.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.RemoveNode method" Url="html/M_SharpGraphs_IGraph_2_RemoveNode.htm" />
+  <HelpKINode Title="IGraph&lt;NODE, EDGE&gt;.Size property" Url="html/P_SharpGraphs_IGraph_2_Size.htm" />
+  <HelpKINode Title="INotification interface">
+    <HelpKINode Title="INotification Interface" Url="html/T_SharpNotificationCenter_INotification.htm" />
+    <HelpKINode Title="about INotification interface" Url="html/T_SharpNotificationCenter_INotification.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpNotificationCenter_INotification.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpNotificationCenter_INotification.htm" />
+  </HelpKINode>
+  <HelpKINode Title="INotification.Contains method" Url="html/M_SharpNotificationCenter_INotification_Contains.htm" />
+  <HelpKINode Title="INotification.Data property" Url="html/P_SharpNotificationCenter_INotification_Data.htm" />
+  <HelpKINode Title="INotification.DataSize property" Url="html/P_SharpNotificationCenter_INotification_DataSize.htm" />
+  <HelpKINode Title="INotification.Get method" Url="html/M_SharpNotificationCenter_INotification_Get.htm" />
+  <HelpKINode Title="INotification.IsEmpty property" Url="html/P_SharpNotificationCenter_INotification_IsEmpty.htm" />
+  <HelpKINode Title="INotification.Item property" Url="html/P_SharpNotificationCenter_INotification_Item.htm" />
+  <HelpKINode Title="INotification.Source property" Url="html/P_SharpNotificationCenter_INotification_Source.htm" />
+  <HelpKINode Title="INotification.Type property" Url="html/P_SharpNotificationCenter_INotification_Type.htm" />
+  <HelpKINode Title="INSTANCE field" Url="html/F_Scripts_Game_Model_PropTypes_INSTANCE.htm" />
+  <HelpKINode Title="IProp interface">
+    <HelpKINode Title="IProp Interface" Url="html/T_Scripts_Game_Model_IProp.htm" />
+    <HelpKINode Title="about IProp interface" Url="html/T_Scripts_Game_Model_IProp.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_IProp.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IProp.Class property" Url="html/P_Scripts_Game_Model_IProp_Class.htm" />
+  <HelpKINode Title="IProp.Id property" Url="html/P_Scripts_Game_Model_IProp_Id.htm" />
+  <HelpKINode Title="IProp.Qualitates property" Url="html/P_Scripts_Game_Model_IProp_Qualitates.htm" />
+  <HelpKINode Title="IPropType interface">
+    <HelpKINode Title="IPropType Interface" Url="html/T_Scripts_Game_Model_IPropType.htm" />
+    <HelpKINode Title="about IPropType interface" Url="html/T_Scripts_Game_Model_IPropType.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_IPropType.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_IPropType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPropType.GetHashCode method" Url="html/M_Scripts_Game_Model_IPropType_GetHashCode.htm" />
+  <HelpKINode Title="IPropType.Name property" Url="html/P_Scripts_Game_Model_IPropType_Name.htm" />
+  <HelpKINode Title="IQualitas interface">
+    <HelpKINode Title="IQualitas Interface" Url="html/T_Scripts_Game_Model_IQualitas.htm" />
+    <HelpKINode Title="about IQualitas interface" Url="html/T_Scripts_Game_Model_IQualitas.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_IQualitas.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IQualitas.Class property" Url="html/P_Scripts_Game_Model_IQualitas_Class.htm" />
+  <HelpKINode Title="IQualitas.Id property" Url="html/P_Scripts_Game_Model_IQualitas_Id.htm" />
+  <HelpKINode Title="IQualitas.Prop property" Url="html/P_Scripts_Game_Model_IQualitas_Prop.htm" />
+  <HelpKINode Title="IQualitasType interface">
+    <HelpKINode Title="IQualitasType Interface" Url="html/T_Scripts_Game_Model_IQualitasType.htm" />
+    <HelpKINode Title="about IQualitasType interface" Url="html/T_Scripts_Game_Model_IQualitasType.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_IQualitasType.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_IQualitasType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IQualitasType.GetHashCode method" Url="html/M_Scripts_Game_Model_IQualitasType_GetHashCode.htm" />
+  <HelpKINode Title="IQualitasType.Name property" Url="html/P_Scripts_Game_Model_IQualitasType_Name.htm" />
+  <HelpKINode Title="IsClosed property" Url="html/P_SharpSearches_SearchableNode_IsClosed.htm" />
+  <HelpKINode Title="IsEmpty property">
+    <HelpKINode Title="IGraph(NODE, EDGE).IsEmpty Property " Url="html/P_SharpGraphs_IGraph_2_IsEmpty.htm" />
+    <HelpKINode Title="INotification.IsEmpty Property " Url="html/P_SharpNotificationCenter_INotification_IsEmpty.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).IsEmpty Property " Url="html/P_SharpGraphs_MatrixGraph_2_IsEmpty.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).IsEmpty Property " Url="html/P_SharpGraphs_NLGraph_2_IsEmpty.htm" />
+    <HelpKINode Title="OrderedList(VALUE).IsEmpty Property " Url="html/P_SharpUtilities_OrderedList_1_IsEmpty.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).IsEmpty Property " Url="html/P_SharpGraphs_PSLGraph_2_IsEmpty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsExecutableInPath method" Url="html/M_SharpUtilities_ProcessUtils_IsExecutableInPath.htm" />
+  <HelpKINode Title="IsOpen property" Url="html/P_SharpSearches_SearchableNode_IsOpen.htm" />
+  <HelpKINode Title="IsReadOnly property" Url="html/P_SharpUtilities_OrderedList_1_IsReadOnly.htm" />
+  <HelpKINode Title="Item property">
+    <HelpKINode Title="AbstractTypes(TYPE).Item Property " Url="html/Overload_Scripts_Game_Model_AbstractTypes_1_Item.htm" />
+    <HelpKINode Title="IGraph(NODE, EDGE).Item Property " Url="html/Overload_SharpGraphs_IGraph_2_Item.htm" />
+    <HelpKINode Title="INotification.Item Property " Url="html/P_SharpNotificationCenter_INotification_Item.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).Item Property " Url="html/Overload_SharpGraphs_MatrixGraph_2_Item.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).Item Property " Url="html/Overload_SharpGraphs_NLGraph_2_Item.htm" />
+    <HelpKINode Title="OrderedList(VALUE).Item Property " Url="html/P_SharpUtilities_OrderedList_1_Item.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).Item Property " Url="html/Overload_SharpGraphs_PSLGraph_2_Item.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JumpHandler delegate" Url="html/T_Scripts_Game_Controls_JumpHandler.htm" />
+  <HelpKINode Title="JumpScript class">
+    <HelpKINode Title="JumpScript Class" Url="html/T_Scripts_Game_Controls_JumpScript.htm" />
+    <HelpKINode Title="about JumpScript class" Url="html/T_Scripts_Game_Controls_JumpScript.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Controls_JumpScript__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Scripts_Game_Controls_JumpScript.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Controls_JumpScript.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Controls_JumpScript.htm" />
+  </HelpKINode>
+  <HelpKINode Title="JumpScript.CanRequestJump property" Url="html/P_Scripts_Game_Controls_JumpScript_CanRequestJump.htm" />
+  <HelpKINode Title="JumpScript.doJump method" Url="html/M_Scripts_Game_Controls_JumpScript_doJump.htm" />
+  <HelpKINode Title="JumpScript.FixedUpdate method" Url="html/M_Scripts_Game_Controls_JumpScript_FixedUpdate.htm" />
+  <HelpKINode Title="JumpScript.JumpScript constructor" Url="html/M_Scripts_Game_Controls_JumpScript__ctor.htm" />
+  <HelpKINode Title="JumpScript.OnJumpStarted field" Url="html/F_Scripts_Game_Controls_JumpScript_OnJumpStarted.htm" />
+  <HelpKINode Title="JumpScript.OnJumpStopped field" Url="html/F_Scripts_Game_Controls_JumpScript_OnJumpStopped.htm" />
+  <HelpKINode Title="JumpScript.VelocityYThreshHold field" Url="html/F_Scripts_Game_Controls_JumpScript_VelocityYThreshHold.htm" />
+  <HelpKINode Title="Keys property" Url="html/P_SharpUtilities_SortedEventList_1_Keys.htm" />
+  <HelpKINode Title="LOW enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="LOWER enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="LOWEST enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE) class">
+    <HelpKINode Title="MatrixGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_MatrixGraph_2.htm" />
+    <HelpKINode Title="about MatrixGraph(Of NODE, EDGE) class" Url="html/T_SharpGraphs_MatrixGraph_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpGraphs_MatrixGraph_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_MatrixGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_MatrixGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).AddEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_AddEdge.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).AddNode method" Url="html/M_SharpGraphs_MatrixGraph_2_AddNode.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).AddOrUpdateEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_AddOrUpdateEdge.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).AreEdgesImplicitlyPresent property" Url="html/P_SharpGraphs_MatrixGraph_2_AreEdgesImplicitlyPresent.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).ContainsEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_ContainsEdge.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).ContainsNode method" Url="html/M_SharpGraphs_MatrixGraph_2_ContainsNode.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).DefaultEdgeLabel property" Url="html/P_SharpGraphs_MatrixGraph_2_DefaultEdgeLabel.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).DrawGraph method" Url="html/M_SharpGraphs_MatrixGraph_2_DrawGraph.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).GetEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_GetEdge.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).GetEdgesEnumerable method" Url="html/M_SharpGraphs_MatrixGraph_2_GetEdgesEnumerable.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).GetNode method" Url="html/M_SharpGraphs_MatrixGraph_2_GetNode.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).GetNodesEnumerable method" Url="html/M_SharpGraphs_MatrixGraph_2_GetNodesEnumerable.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).GetPredecessorsOfNode method" Url="html/M_SharpGraphs_MatrixGraph_2_GetPredecessorsOfNode.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).GetSuccessorsOfNode method" Url="html/M_SharpGraphs_MatrixGraph_2_GetSuccessorsOfNode.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).HasEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_HasEdge.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).IsEmpty property" Url="html/P_SharpGraphs_MatrixGraph_2_IsEmpty.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).Item property" Url="html/Overload_SharpGraphs_MatrixGraph_2_Item.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).MatrixGraph constructor" Url="html/M_SharpGraphs_MatrixGraph_2__ctor.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).Name property" Url="html/P_SharpGraphs_MatrixGraph_2_Name.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).RemoveEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_RemoveEdge.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).RemoveNode method" Url="html/M_SharpGraphs_MatrixGraph_2_RemoveNode.htm" />
+  <HelpKINode Title="MatrixGraph(Of NODE, EDGE).Size property" Url="html/P_SharpGraphs_MatrixGraph_2_Size.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt; class">
+    <HelpKINode Title="MatrixGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_MatrixGraph_2.htm" />
+    <HelpKINode Title="about MatrixGraph&lt;NODE, EDGE&gt; class" Url="html/T_SharpGraphs_MatrixGraph_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpGraphs_MatrixGraph_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_MatrixGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_MatrixGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.AddEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_AddEdge.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.AddNode method" Url="html/M_SharpGraphs_MatrixGraph_2_AddNode.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.AddOrUpdateEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_AddOrUpdateEdge.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.AreEdgesImplicitlyPresent property" Url="html/P_SharpGraphs_MatrixGraph_2_AreEdgesImplicitlyPresent.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.ContainsEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_ContainsEdge.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.ContainsNode method" Url="html/M_SharpGraphs_MatrixGraph_2_ContainsNode.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.DefaultEdgeLabel property" Url="html/P_SharpGraphs_MatrixGraph_2_DefaultEdgeLabel.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.DrawGraph method" Url="html/M_SharpGraphs_MatrixGraph_2_DrawGraph.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.GetEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_GetEdge.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.GetEdgesEnumerable method" Url="html/M_SharpGraphs_MatrixGraph_2_GetEdgesEnumerable.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.GetNode method" Url="html/M_SharpGraphs_MatrixGraph_2_GetNode.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.GetNodesEnumerable method" Url="html/M_SharpGraphs_MatrixGraph_2_GetNodesEnumerable.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.GetPredecessorsOfNode method" Url="html/M_SharpGraphs_MatrixGraph_2_GetPredecessorsOfNode.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.GetSuccessorsOfNode method" Url="html/M_SharpGraphs_MatrixGraph_2_GetSuccessorsOfNode.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.HasEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_HasEdge.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.IsEmpty property" Url="html/P_SharpGraphs_MatrixGraph_2_IsEmpty.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.Item property" Url="html/Overload_SharpGraphs_MatrixGraph_2_Item.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.MatrixGraph constructor" Url="html/M_SharpGraphs_MatrixGraph_2__ctor.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.Name property" Url="html/P_SharpGraphs_MatrixGraph_2_Name.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.RemoveEdge method" Url="html/M_SharpGraphs_MatrixGraph_2_RemoveEdge.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.RemoveNode method" Url="html/M_SharpGraphs_MatrixGraph_2_RemoveNode.htm" />
+  <HelpKINode Title="MatrixGraph&lt;NODE, EDGE&gt;.Size property" Url="html/P_SharpGraphs_MatrixGraph_2_Size.htm" />
+  <HelpKINode Title="MaxValue property" Url="html/P_Scripts_Game_UI_HpBarViewModel_MaxValue.htm" />
+  <HelpKINode Title="MEDIUM enumeration member" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="MinValue property" Url="html/P_Scripts_Game_UI_HpBarViewModel_MinValue.htm" />
+  <HelpKINode Title="MoveBar method" Url="html/M_Scripts_Game_UI_HpBarViewModel_MoveBar.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="DefaultPropType.Name Property " Url="html/P_Scripts_Game_Model_DefaultPropType_Name.htm" />
+    <HelpKINode Title="DefaultQualitasType.Name Property " Url="html/P_Scripts_Game_Model_DefaultQualitasType_Name.htm" />
+    <HelpKINode Title="IGraph(NODE, EDGE).Name Property " Url="html/P_SharpGraphs_IGraph_2_Name.htm" />
+    <HelpKINode Title="IPropType.Name Property " Url="html/P_Scripts_Game_Model_IPropType_Name.htm" />
+    <HelpKINode Title="IQualitasType.Name Property " Url="html/P_Scripts_Game_Model_IQualitasType_Name.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).Name Property " Url="html/P_SharpGraphs_MatrixGraph_2_Name.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).Name Property " Url="html/P_SharpGraphs_NLGraph_2_Name.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).Name Property " Url="html/P_SharpGraphs_PSLGraph_2_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NLGraph(Of NODE, EDGE) class">
+    <HelpKINode Title="NLGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_NLGraph_2.htm" />
+    <HelpKINode Title="about NLGraph(Of NODE, EDGE) class" Url="html/T_SharpGraphs_NLGraph_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpGraphs_NLGraph_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_NLGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_NLGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).AddEdge method" Url="html/M_SharpGraphs_NLGraph_2_AddEdge.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).AddNode method" Url="html/M_SharpGraphs_NLGraph_2_AddNode.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).AddOrUpdateEdge method" Url="html/M_SharpGraphs_NLGraph_2_AddOrUpdateEdge.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).AreEdgesImplicitlyPresent property" Url="html/P_SharpGraphs_NLGraph_2_AreEdgesImplicitlyPresent.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).ContainsEdge method" Url="html/M_SharpGraphs_NLGraph_2_ContainsEdge.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).ContainsNode method" Url="html/M_SharpGraphs_NLGraph_2_ContainsNode.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).DrawGraph method" Url="html/M_SharpGraphs_NLGraph_2_DrawGraph.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).GetEdge method" Url="html/M_SharpGraphs_NLGraph_2_GetEdge.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).GetEdgesEnumerable method" Url="html/M_SharpGraphs_NLGraph_2_GetEdgesEnumerable.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).GetNode method" Url="html/M_SharpGraphs_NLGraph_2_GetNode.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).GetNodesEnumerable method" Url="html/M_SharpGraphs_NLGraph_2_GetNodesEnumerable.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).GetPredecessorsOfNode method" Url="html/M_SharpGraphs_NLGraph_2_GetPredecessorsOfNode.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).GetSuccessorsOfNode method" Url="html/M_SharpGraphs_NLGraph_2_GetSuccessorsOfNode.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).HasEdge method" Url="html/M_SharpGraphs_NLGraph_2_HasEdge.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).IsEmpty property" Url="html/P_SharpGraphs_NLGraph_2_IsEmpty.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).Item property" Url="html/Overload_SharpGraphs_NLGraph_2_Item.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).Name property" Url="html/P_SharpGraphs_NLGraph_2_Name.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).NLGraph constructor" Url="html/M_SharpGraphs_NLGraph_2__ctor.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).RemoveEdge method" Url="html/M_SharpGraphs_NLGraph_2_RemoveEdge.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).RemoveNode method" Url="html/M_SharpGraphs_NLGraph_2_RemoveNode.htm" />
+  <HelpKINode Title="NLGraph(Of NODE, EDGE).Size property" Url="html/P_SharpGraphs_NLGraph_2_Size.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt; class">
+    <HelpKINode Title="NLGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_NLGraph_2.htm" />
+    <HelpKINode Title="about NLGraph&lt;NODE, EDGE&gt; class" Url="html/T_SharpGraphs_NLGraph_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpGraphs_NLGraph_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_NLGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_NLGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.AddEdge method" Url="html/M_SharpGraphs_NLGraph_2_AddEdge.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.AddNode method" Url="html/M_SharpGraphs_NLGraph_2_AddNode.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.AddOrUpdateEdge method" Url="html/M_SharpGraphs_NLGraph_2_AddOrUpdateEdge.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.AreEdgesImplicitlyPresent property" Url="html/P_SharpGraphs_NLGraph_2_AreEdgesImplicitlyPresent.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.ContainsEdge method" Url="html/M_SharpGraphs_NLGraph_2_ContainsEdge.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.ContainsNode method" Url="html/M_SharpGraphs_NLGraph_2_ContainsNode.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.DrawGraph method" Url="html/M_SharpGraphs_NLGraph_2_DrawGraph.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.GetEdge method" Url="html/M_SharpGraphs_NLGraph_2_GetEdge.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.GetEdgesEnumerable method" Url="html/M_SharpGraphs_NLGraph_2_GetEdgesEnumerable.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.GetNode method" Url="html/M_SharpGraphs_NLGraph_2_GetNode.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.GetNodesEnumerable method" Url="html/M_SharpGraphs_NLGraph_2_GetNodesEnumerable.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.GetPredecessorsOfNode method" Url="html/M_SharpGraphs_NLGraph_2_GetPredecessorsOfNode.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.GetSuccessorsOfNode method" Url="html/M_SharpGraphs_NLGraph_2_GetSuccessorsOfNode.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.HasEdge method" Url="html/M_SharpGraphs_NLGraph_2_HasEdge.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.IsEmpty property" Url="html/P_SharpGraphs_NLGraph_2_IsEmpty.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.Item property" Url="html/Overload_SharpGraphs_NLGraph_2_Item.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.Name property" Url="html/P_SharpGraphs_NLGraph_2_Name.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.NLGraph constructor" Url="html/M_SharpGraphs_NLGraph_2__ctor.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.RemoveEdge method" Url="html/M_SharpGraphs_NLGraph_2_RemoveEdge.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.RemoveNode method" Url="html/M_SharpGraphs_NLGraph_2_RemoveNode.htm" />
+  <HelpKINode Title="NLGraph&lt;NODE, EDGE&gt;.Size property" Url="html/P_SharpGraphs_NLGraph_2_Size.htm" />
+  <HelpKINode Title="NotificationCenter class">
+    <HelpKINode Title="NotificationCenter Class" Url="html/T_SharpNotificationCenter_NotificationCenter.htm" />
+    <HelpKINode Title="about NotificationCenter class" Url="html/T_SharpNotificationCenter_NotificationCenter.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpNotificationCenter_NotificationCenter.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpNotificationCenter_NotificationCenter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NotificationCenter.Factory property" Url="html/P_SharpNotificationCenter_NotificationCenter_Factory.htm" />
+  <HelpKINode Title="NotificationCenter.SendASynchronousNotification method" Url="html/M_SharpNotificationCenter_NotificationCenter_SendASynchronousNotification.htm" />
+  <HelpKINode Title="NotificationCenter.SendSynchronousNotification method" Url="html/M_SharpNotificationCenter_NotificationCenter_SendSynchronousNotification.htm" />
+  <HelpKINode Title="NotificationCenter.SubscribeFor method" Url="html/M_SharpNotificationCenter_NotificationCenter_SubscribeFor.htm" />
+  <HelpKINode Title="NotificationCenter.UnsubscribeFor method" Url="html/M_SharpNotificationCenter_NotificationCenter_UnsubscribeFor.htm" />
+  <HelpKINode Title="NotificationEventHandler delegate" Url="html/T_SharpNotificationCenter_NotificationEventHandler.htm" />
+  <HelpKINode Title="OnGUI method" Url="html/M_Scripts_Game_UI_HpBarUi_OnGUI.htm" />
+  <HelpKINode Title="OnJumpStarted field" Url="html/F_Scripts_Game_Controls_JumpScript_OnJumpStarted.htm" />
+  <HelpKINode Title="OnJumpStopped field" Url="html/F_Scripts_Game_Controls_JumpScript_OnJumpStopped.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE) class">
+    <HelpKINode Title="OrderedList(VALUE) Class" Url="html/T_SharpUtilities_OrderedList_1.htm" />
+    <HelpKINode Title="about OrderedList(Of VALUE) class" Url="html/T_SharpUtilities_OrderedList_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SharpUtilities_OrderedList_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_OrderedList_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpUtilities_OrderedList_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrderedList(Of VALUE).Add method" Url="html/M_SharpUtilities_OrderedList_1_Add.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).Clear method" Url="html/M_SharpUtilities_OrderedList_1_Clear.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).Contains method" Url="html/M_SharpUtilities_OrderedList_1_Contains.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).CopyTo method" Url="html/M_SharpUtilities_OrderedList_1_CopyTo.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).Count property" Url="html/P_SharpUtilities_OrderedList_1_Count.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).GetEnumerator method" Url="html/M_SharpUtilities_OrderedList_1_GetEnumerator.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).IsEmpty property" Url="html/P_SharpUtilities_OrderedList_1_IsEmpty.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).IsReadOnly property" Url="html/P_SharpUtilities_OrderedList_1_IsReadOnly.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).Item property" Url="html/P_SharpUtilities_OrderedList_1_Item.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).OrderedList constructor" Url="html/Overload_SharpUtilities_OrderedList_1__ctor.htm" />
+  <HelpKINode Title="OrderedList(Of VALUE).Remove method" Url="html/M_SharpUtilities_OrderedList_1_Remove.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt; class">
+    <HelpKINode Title="OrderedList(VALUE) Class" Url="html/T_SharpUtilities_OrderedList_1.htm" />
+    <HelpKINode Title="about OrderedList&lt;VALUE&gt; class" Url="html/T_SharpUtilities_OrderedList_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SharpUtilities_OrderedList_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_OrderedList_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpUtilities_OrderedList_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.Add method" Url="html/M_SharpUtilities_OrderedList_1_Add.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.Clear method" Url="html/M_SharpUtilities_OrderedList_1_Clear.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.Contains method" Url="html/M_SharpUtilities_OrderedList_1_Contains.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.CopyTo method" Url="html/M_SharpUtilities_OrderedList_1_CopyTo.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.Count property" Url="html/P_SharpUtilities_OrderedList_1_Count.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.GetEnumerator method" Url="html/M_SharpUtilities_OrderedList_1_GetEnumerator.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.IsEmpty property" Url="html/P_SharpUtilities_OrderedList_1_IsEmpty.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.IsReadOnly property" Url="html/P_SharpUtilities_OrderedList_1_IsReadOnly.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.Item property" Url="html/P_SharpUtilities_OrderedList_1_Item.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.OrderedList constructor" Url="html/Overload_SharpUtilities_OrderedList_1__ctor.htm" />
+  <HelpKINode Title="OrderedList&lt;VALUE&gt;.Remove method" Url="html/M_SharpUtilities_OrderedList_1_Remove.htm" />
+  <HelpKINode Title="Pair(Of XTYPE, YTYPE) structure">
+    <HelpKINode Title="Pair(XTYPE, YTYPE) Structure" Url="html/T_SharpUtilities_Pair_2.htm" />
+    <HelpKINode Title="about Pair(Of XTYPE, YTYPE) structure" Url="html/T_SharpUtilities_Pair_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpUtilities_Pair_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_Pair_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpUtilities_Pair_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Pair(Of XTYPE, YTYPE).Build method" Url="html/M_SharpUtilities_Pair_2_Build.htm" />
+  <HelpKINode Title="Pair(Of XTYPE, YTYPE).Pair constructor" Url="html/M_SharpUtilities_Pair_2__ctor.htm" />
+  <HelpKINode Title="Pair(Of XTYPE, YTYPE).X property" Url="html/P_SharpUtilities_Pair_2_X.htm" />
+  <HelpKINode Title="Pair(Of XTYPE, YTYPE).Y property" Url="html/P_SharpUtilities_Pair_2_Y.htm" />
+  <HelpKINode Title="Pair&lt;XTYPE, YTYPE&gt; structure">
+    <HelpKINode Title="Pair(XTYPE, YTYPE) Structure" Url="html/T_SharpUtilities_Pair_2.htm" />
+    <HelpKINode Title="about Pair&lt;XTYPE, YTYPE&gt; structure" Url="html/T_SharpUtilities_Pair_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpUtilities_Pair_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_Pair_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpUtilities_Pair_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Pair&lt;XTYPE, YTYPE&gt;.Build method" Url="html/M_SharpUtilities_Pair_2_Build.htm" />
+  <HelpKINode Title="Pair&lt;XTYPE, YTYPE&gt;.Pair constructor" Url="html/M_SharpUtilities_Pair_2__ctor.htm" />
+  <HelpKINode Title="Pair&lt;XTYPE, YTYPE&gt;.X property" Url="html/P_SharpUtilities_Pair_2_X.htm" />
+  <HelpKINode Title="Pair&lt;XTYPE, YTYPE&gt;.Y property" Url="html/P_SharpUtilities_Pair_2_Y.htm" />
+  <HelpKINode Title="Parent property" Url="html/P_SharpSearches_SearchableNode_Parent.htm" />
+  <HelpKINode Title="Priority enumeration" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="ProcessUtils class">
+    <HelpKINode Title="ProcessUtils Class" Url="html/T_SharpUtilities_ProcessUtils.htm" />
+    <HelpKINode Title="about ProcessUtils class" Url="html/T_SharpUtilities_ProcessUtils.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_ProcessUtils.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProcessUtils.ExecuteCommandAndWait method" Url="html/M_SharpUtilities_ProcessUtils_ExecuteCommandAndWait.htm" />
+  <HelpKINode Title="ProcessUtils.IsExecutableInPath method" Url="html/M_SharpUtilities_ProcessUtils_IsExecutableInPath.htm" />
+  <HelpKINode Title="ProcessUtils.WhichIsExecutable method" Url="html/M_SharpUtilities_ProcessUtils_WhichIsExecutable.htm" />
+  <HelpKINode Title="Prop property">
+    <HelpKINode Title="AbstractDefaultQualitas.Prop Property " Url="html/P_Scripts_Game_Model_AbstractDefaultQualitas_Prop.htm" />
+    <HelpKINode Title="AbstractPropScript(PROP).Prop Property " Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Prop.htm" />
+    <HelpKINode Title="AbstractQualitasScript(QUALITAS).Prop Property " Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Prop.htm" />
+    <HelpKINode Title="IQualitas.Prop Property " Url="html/P_Scripts_Game_Model_IQualitas_Prop.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PropTypes class">
+    <HelpKINode Title="PropTypes Class" Url="html/T_Scripts_Game_Model_PropTypes.htm" />
+    <HelpKINode Title="about PropTypes class" Url="html/T_Scripts_Game_Model_PropTypes.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Scripts_Game_Model_PropTypes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_PropTypes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_PropTypes.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PropTypes.BuildType method" Url="html/M_Scripts_Game_Model_PropTypes_BuildType.htm" />
+  <HelpKINode Title="PropTypes.INSTANCE field" Url="html/F_Scripts_Game_Model_PropTypes_INSTANCE.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE) class">
+    <HelpKINode Title="PSLGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_PSLGraph_2.htm" />
+    <HelpKINode Title="about PSLGraph(Of NODE, EDGE) class" Url="html/T_SharpGraphs_PSLGraph_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpGraphs_PSLGraph_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_PSLGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_PSLGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).AddEdge method" Url="html/M_SharpGraphs_PSLGraph_2_AddEdge.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).AddNode method" Url="html/M_SharpGraphs_PSLGraph_2_AddNode.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).AddOrUpdateEdge method" Url="html/M_SharpGraphs_PSLGraph_2_AddOrUpdateEdge.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).AreEdgesImplicitlyPresent property" Url="html/P_SharpGraphs_PSLGraph_2_AreEdgesImplicitlyPresent.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).ContainsEdge method" Url="html/M_SharpGraphs_PSLGraph_2_ContainsEdge.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).ContainsNode method" Url="html/M_SharpGraphs_PSLGraph_2_ContainsNode.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).DrawGraph method" Url="html/M_SharpGraphs_PSLGraph_2_DrawGraph.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).GetEdge method" Url="html/M_SharpGraphs_PSLGraph_2_GetEdge.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).GetEdgesEnumerable method" Url="html/M_SharpGraphs_PSLGraph_2_GetEdgesEnumerable.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).GetNode method" Url="html/M_SharpGraphs_PSLGraph_2_GetNode.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).GetNodesEnumerable method" Url="html/M_SharpGraphs_PSLGraph_2_GetNodesEnumerable.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).GetPredecessorsOfNode method" Url="html/M_SharpGraphs_PSLGraph_2_GetPredecessorsOfNode.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).GetSuccessorsOfNode method" Url="html/M_SharpGraphs_PSLGraph_2_GetSuccessorsOfNode.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).HasEdge method" Url="html/M_SharpGraphs_PSLGraph_2_HasEdge.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).IsEmpty property" Url="html/P_SharpGraphs_PSLGraph_2_IsEmpty.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).Item property" Url="html/Overload_SharpGraphs_PSLGraph_2_Item.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).Name property" Url="html/P_SharpGraphs_PSLGraph_2_Name.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).PSLGraph constructor" Url="html/M_SharpGraphs_PSLGraph_2__ctor.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).RemoveEdge method" Url="html/M_SharpGraphs_PSLGraph_2_RemoveEdge.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).RemoveNode method" Url="html/M_SharpGraphs_PSLGraph_2_RemoveNode.htm" />
+  <HelpKINode Title="PSLGraph(Of NODE, EDGE).Size property" Url="html/P_SharpGraphs_PSLGraph_2_Size.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt; class">
+    <HelpKINode Title="PSLGraph(NODE, EDGE) Class" Url="html/T_SharpGraphs_PSLGraph_2.htm" />
+    <HelpKINode Title="about PSLGraph&lt;NODE, EDGE&gt; class" Url="html/T_SharpGraphs_PSLGraph_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpGraphs_PSLGraph_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpGraphs_PSLGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpGraphs_PSLGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.AddEdge method" Url="html/M_SharpGraphs_PSLGraph_2_AddEdge.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.AddNode method" Url="html/M_SharpGraphs_PSLGraph_2_AddNode.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.AddOrUpdateEdge method" Url="html/M_SharpGraphs_PSLGraph_2_AddOrUpdateEdge.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.AreEdgesImplicitlyPresent property" Url="html/P_SharpGraphs_PSLGraph_2_AreEdgesImplicitlyPresent.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.ContainsEdge method" Url="html/M_SharpGraphs_PSLGraph_2_ContainsEdge.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.ContainsNode method" Url="html/M_SharpGraphs_PSLGraph_2_ContainsNode.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.DrawGraph method" Url="html/M_SharpGraphs_PSLGraph_2_DrawGraph.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.GetEdge method" Url="html/M_SharpGraphs_PSLGraph_2_GetEdge.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.GetEdgesEnumerable method" Url="html/M_SharpGraphs_PSLGraph_2_GetEdgesEnumerable.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.GetNode method" Url="html/M_SharpGraphs_PSLGraph_2_GetNode.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.GetNodesEnumerable method" Url="html/M_SharpGraphs_PSLGraph_2_GetNodesEnumerable.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.GetPredecessorsOfNode method" Url="html/M_SharpGraphs_PSLGraph_2_GetPredecessorsOfNode.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.GetSuccessorsOfNode method" Url="html/M_SharpGraphs_PSLGraph_2_GetSuccessorsOfNode.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.HasEdge method" Url="html/M_SharpGraphs_PSLGraph_2_HasEdge.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.IsEmpty property" Url="html/P_SharpGraphs_PSLGraph_2_IsEmpty.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.Item property" Url="html/Overload_SharpGraphs_PSLGraph_2_Item.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.Name property" Url="html/P_SharpGraphs_PSLGraph_2_Name.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.PSLGraph constructor" Url="html/M_SharpGraphs_PSLGraph_2__ctor.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.RemoveEdge method" Url="html/M_SharpGraphs_PSLGraph_2_RemoveEdge.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.RemoveNode method" Url="html/M_SharpGraphs_PSLGraph_2_RemoveNode.htm" />
+  <HelpKINode Title="PSLGraph&lt;NODE, EDGE&gt;.Size property" Url="html/P_SharpGraphs_PSLGraph_2_Size.htm" />
+  <HelpKINode Title="Qualitas property" Url="html/P_Scripts_Game_Bridges_AbstractQualitasScript_1_Qualitas.htm" />
+  <HelpKINode Title="QualitasGraph class">
+    <HelpKINode Title="QualitasGraph Class" Url="html/T_Scripts_Game_Model_QualitasGraph.htm" />
+    <HelpKINode Title="about QualitasGraph class" Url="html/T_Scripts_Game_Model_QualitasGraph.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_Model_QualitasGraph__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_QualitasGraph.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_QualitasGraph.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QualitasGraph.QualitasGraph constructor" Url="html/M_Scripts_Game_Model_QualitasGraph__ctor.htm" />
+  <HelpKINode Title="QualitasTypes class">
+    <HelpKINode Title="QualitasTypes Class" Url="html/T_Scripts_Game_Model_QualitasTypes.htm" />
+    <HelpKINode Title="about QualitasTypes class" Url="html/T_Scripts_Game_Model_QualitasTypes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_Model_QualitasTypes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_Model_QualitasTypes.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QualitasTypes.BuildType method" Url="html/M_Scripts_Game_Model_QualitasTypes_BuildType.htm" />
+  <HelpKINode Title="QualitasTypes.Get property" Url="html/P_Scripts_Game_Model_QualitasTypes_Get.htm" />
+  <HelpKINode Title="Qualitates property">
+    <HelpKINode Title="AbstractDefaultProp.Qualitates Property " Url="html/P_Scripts_Game_Model_AbstractDefaultProp_Qualitates.htm" />
+    <HelpKINode Title="AbstractPropScript(PROP).Qualitates Property " Url="html/P_Scripts_Game_Bridges_AbstractPropScript_1_Qualitates.htm" />
+    <HelpKINode Title="IProp.Qualitates Property " Url="html/P_Scripts_Game_Model_IProp_Qualitates.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RectangularRoomGenerationTest class">
+    <HelpKINode Title="RectangularRoomGenerationTest Class" Url="html/T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest.htm" />
+    <HelpKINode Title="about RectangularRoomGenerationTest class" Url="html/T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RectangularRoomGenerationTest.RectangularRoomGenerationTest constructor" Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest__ctor.htm" />
+  <HelpKINode Title="RectangularRoomGenerator class">
+    <HelpKINode Title="RectangularRoomGenerator Class" Url="html/T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm" />
+    <HelpKINode Title="about RectangularRoomGenerator class" Url="html/T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RectangularRoomGenerator.GenerateRectangularRoom method" Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_GenerateRectangularRoom.htm" />
+  <HelpKINode Title="RectangularRoomGenerator.GenerateRectangularRoomIn method" Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_GenerateRectangularRoomIn.htm" />
+  <HelpKINode Title="RectangularRoomGenerator.RectangularRoomGenerator constructor" Url="html/M_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator__ctor.htm" />
+  <HelpKINode Title="RectangularRoomGenerator.tileBottomWallDoor field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileBottomWallDoor.htm" />
+  <HelpKINode Title="RectangularRoomGenerator.tileBottomWallPlain field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileBottomWallPlain.htm" />
+  <HelpKINode Title="RectangularRoomGenerator.tileCeiling field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileCeiling.htm" />
+  <HelpKINode Title="RectangularRoomGenerator.tileFloor field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileFloor.htm" />
+  <HelpKINode Title="RectangularRoomGenerator.tileMiddleWall field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileMiddleWall.htm" />
+  <HelpKINode Title="RectangularRoomGenerator.tileTopWall field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileTopWall.htm" />
+  <HelpKINode Title="Remove method" Url="html/M_SharpUtilities_OrderedList_1_Remove.htm" />
+  <HelpKINode Title="RemoveEdge method">
+    <HelpKINode Title="IGraph(NODE, EDGE).RemoveEdge Method " Url="html/M_SharpGraphs_IGraph_2_RemoveEdge.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).RemoveEdge Method " Url="html/M_SharpGraphs_MatrixGraph_2_RemoveEdge.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).RemoveEdge Method " Url="html/M_SharpGraphs_NLGraph_2_RemoveEdge.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).RemoveEdge Method " Url="html/M_SharpGraphs_PSLGraph_2_RemoveEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RemoveNode method">
+    <HelpKINode Title="IGraph(NODE, EDGE).RemoveNode Method " Url="html/M_SharpGraphs_IGraph_2_RemoveNode.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).RemoveNode Method " Url="html/M_SharpGraphs_MatrixGraph_2_RemoveNode.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).RemoveNode Method " Url="html/M_SharpGraphs_NLGraph_2_RemoveNode.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).RemoveNode Method " Url="html/M_SharpGraphs_PSLGraph_2_RemoveNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Reset method" Url="html/M_SharpSearches_AStar_1_Reset.htm" />
+  <HelpKINode Title="RoomCoordinatesSystem enumeration" Url="html/T_Scripts_Game_RoomFactory_Visualization_RoomCoordinatesSystem.htm" />
+  <HelpKINode Title="Scripts.Game.ActualProps namespace" Url="html/N_Scripts_Game_ActualProps.htm" />
+  <HelpKINode Title="Scripts.Game.ActualProps.Fountain class" Url="html/T_Scripts_Game_ActualProps_Fountain.htm" />
+  <HelpKINode Title="Scripts.Game.Bridges namespace" Url="html/N_Scripts_Game_Bridges.htm" />
+  <HelpKINode Title="Scripts.Game.Bridges.AbstractPropScript(Of PROP) class" Url="html/T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+  <HelpKINode Title="Scripts.Game.Bridges.AbstractPropScript&lt;PROP&gt; class" Url="html/T_Scripts_Game_Bridges_AbstractPropScript_1.htm" />
+  <HelpKINode Title="Scripts.Game.Bridges.AbstractQualitasScript(Of QUALITAS) class" Url="html/T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+  <HelpKINode Title="Scripts.Game.Bridges.AbstractQualitasScript&lt;QUALITAS&gt; class" Url="html/T_Scripts_Game_Bridges_AbstractQualitasScript_1.htm" />
+  <HelpKINode Title="Scripts.Game.Bridges.FountainPropScript class" Url="html/T_Scripts_Game_Bridges_FountainPropScript.htm" />
+  <HelpKINode Title="Scripts.Game.Controls namespace" Url="html/N_Scripts_Game_Controls.htm" />
+  <HelpKINode Title="Scripts.Game.Controls.GroundCollisionDetectionStrategy enumeration" Url="html/T_Scripts_Game_Controls_GroundCollisionDetectionStrategy.htm" />
+  <HelpKINode Title="Scripts.Game.Controls.JumpHandler delegate" Url="html/T_Scripts_Game_Controls_JumpHandler.htm" />
+  <HelpKINode Title="Scripts.Game.Controls.JumpScript class" Url="html/T_Scripts_Game_Controls_JumpScript.htm" />
+  <HelpKINode Title="Scripts.Game.Model namespace" Url="html/N_Scripts_Game_Model.htm" />
+  <HelpKINode Title="Scripts.Game.Model.AbstractDefaultProp class" Url="html/T_Scripts_Game_Model_AbstractDefaultProp.htm" />
+  <HelpKINode Title="Scripts.Game.Model.AbstractDefaultQualitas class" Url="html/T_Scripts_Game_Model_AbstractDefaultQualitas.htm" />
+  <HelpKINode Title="Scripts.Game.Model.AbstractTypes(Of TYPE) class" Url="html/T_Scripts_Game_Model_AbstractTypes_1.htm" />
+  <HelpKINode Title="Scripts.Game.Model.AbstractTypes&lt;TYPE&gt; class" Url="html/T_Scripts_Game_Model_AbstractTypes_1.htm" />
+  <HelpKINode Title="Scripts.Game.Model.DefaultPropType class" Url="html/T_Scripts_Game_Model_DefaultPropType.htm" />
+  <HelpKINode Title="Scripts.Game.Model.DefaultQualitasType class" Url="html/T_Scripts_Game_Model_DefaultQualitasType.htm" />
+  <HelpKINode Title="Scripts.Game.Model.IProp interface" Url="html/T_Scripts_Game_Model_IProp.htm" />
+  <HelpKINode Title="Scripts.Game.Model.IPropType interface" Url="html/T_Scripts_Game_Model_IPropType.htm" />
+  <HelpKINode Title="Scripts.Game.Model.IQualitas interface" Url="html/T_Scripts_Game_Model_IQualitas.htm" />
+  <HelpKINode Title="Scripts.Game.Model.IQualitasType interface" Url="html/T_Scripts_Game_Model_IQualitasType.htm" />
+  <HelpKINode Title="Scripts.Game.Model.PropTypes class" Url="html/T_Scripts_Game_Model_PropTypes.htm" />
+  <HelpKINode Title="Scripts.Game.Model.QualitasGraph class" Url="html/T_Scripts_Game_Model_QualitasGraph.htm" />
+  <HelpKINode Title="Scripts.Game.Model.QualitasTypes class" Url="html/T_Scripts_Game_Model_QualitasTypes.htm" />
+  <HelpKINode Title="Scripts.Game.QuickTesting namespace" Url="html/N_Scripts_Game_QuickTesting.htm" />
+  <HelpKINode Title="Scripts.Game.QuickTesting.SimpleInteractor class" Url="html/T_Scripts_Game_QuickTesting_SimpleInteractor.htm" />
+  <HelpKINode Title="Scripts.Game.RoomFactory.Visualization namespace" Url="html/N_Scripts_Game_RoomFactory_Visualization.htm" />
+  <HelpKINode Title="Scripts.Game.RoomFactory.Visualization.AbstractRoomFactory class" Url="html/T_Scripts_Game_RoomFactory_Visualization_AbstractRoomFactory.htm" />
+  <HelpKINode Title="Scripts.Game.RoomFactory.Visualization.RectangularRoomGenerationTest class" Url="html/T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerationTest.htm" />
+  <HelpKINode Title="Scripts.Game.RoomFactory.Visualization.RectangularRoomGenerator class" Url="html/T_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator.htm" />
+  <HelpKINode Title="Scripts.Game.RoomFactory.Visualization.RoomCoordinatesSystem enumeration" Url="html/T_Scripts_Game_RoomFactory_Visualization_RoomCoordinatesSystem.htm" />
+  <HelpKINode Title="Scripts.Game.RoomFactory.Visualization.SwitchCaseUnhandledException class" Url="html/T_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException.htm" />
+  <HelpKINode Title="Scripts.Game.UI namespace" Url="html/N_Scripts_Game_UI.htm" />
+  <HelpKINode Title="Scripts.Game.UI.HpBarUi class" Url="html/T_Scripts_Game_UI_HpBarUi.htm" />
+  <HelpKINode Title="Scripts.Game.UI.HpBarViewModel class" Url="html/T_Scripts_Game_UI_HpBarViewModel.htm" />
+  <HelpKINode Title="SearchableNode interface">
+    <HelpKINode Title="SearchableNode Interface" Url="html/T_SharpSearches_SearchableNode.htm" />
+    <HelpKINode Title="about SearchableNode interface" Url="html/T_SharpSearches_SearchableNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpSearches_SearchableNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SearchableNode.Children property" Url="html/P_SharpSearches_SearchableNode_Children.htm" />
+  <HelpKINode Title="SearchableNode.IsClosed property" Url="html/P_SharpSearches_SearchableNode_IsClosed.htm" />
+  <HelpKINode Title="SearchableNode.IsOpen property" Url="html/P_SharpSearches_SearchableNode_IsOpen.htm" />
+  <HelpKINode Title="SearchableNode.Parent property" Url="html/P_SharpSearches_SearchableNode_Parent.htm" />
+  <HelpKINode Title="Searching enumeration member" Url="html/T_SharpSearches_State.htm" />
+  <HelpKINode Title="SendASynchronousNotification method" Url="html/M_SharpNotificationCenter_NotificationCenter_SendASynchronousNotification.htm" />
+  <HelpKINode Title="SendSynchronousNotification method" Url="html/M_SharpNotificationCenter_NotificationCenter_SendSynchronousNotification.htm" />
+  <HelpKINode Title="ShapeCentered enumeration member" Url="html/T_Scripts_Game_RoomFactory_Visualization_RoomCoordinatesSystem.htm" />
+  <HelpKINode Title="SharpGraphs namespace" Url="html/N_SharpGraphs.htm" />
+  <HelpKINode Title="SharpGraphs.GraphException class" Url="html/T_SharpGraphs_GraphException.htm" />
+  <HelpKINode Title="SharpGraphs.GraphFactory class" Url="html/T_SharpGraphs_GraphFactory.htm" />
+  <HelpKINode Title="SharpGraphs.IGraph(Of NODE, EDGE) interface" Url="html/T_SharpGraphs_IGraph_2.htm" />
+  <HelpKINode Title="SharpGraphs.IGraph&lt;NODE, EDGE&gt; interface" Url="html/T_SharpGraphs_IGraph_2.htm" />
+  <HelpKINode Title="SharpGraphs.MatrixGraph(Of NODE, EDGE) class" Url="html/T_SharpGraphs_MatrixGraph_2.htm" />
+  <HelpKINode Title="SharpGraphs.MatrixGraph&lt;NODE, EDGE&gt; class" Url="html/T_SharpGraphs_MatrixGraph_2.htm" />
+  <HelpKINode Title="SharpGraphs.NLGraph(Of NODE, EDGE) class" Url="html/T_SharpGraphs_NLGraph_2.htm" />
+  <HelpKINode Title="SharpGraphs.NLGraph&lt;NODE, EDGE&gt; class" Url="html/T_SharpGraphs_NLGraph_2.htm" />
+  <HelpKINode Title="SharpGraphs.PSLGraph(Of NODE, EDGE) class" Url="html/T_SharpGraphs_PSLGraph_2.htm" />
+  <HelpKINode Title="SharpGraphs.PSLGraph&lt;NODE, EDGE&gt; class" Url="html/T_SharpGraphs_PSLGraph_2.htm" />
+  <HelpKINode Title="SharpNotificationCenter namespace" Url="html/N_SharpNotificationCenter.htm" />
+  <HelpKINode Title="SharpNotificationCenter.AbstractNotificationCenterFactory class" Url="html/T_SharpNotificationCenter_AbstractNotificationCenterFactory.htm" />
+  <HelpKINode Title="SharpNotificationCenter.DefaultNotificationCenter class" Url="html/T_SharpNotificationCenter_DefaultNotificationCenter.htm" />
+  <HelpKINode Title="SharpNotificationCenter.DefaultNotificationCenterFactory class" Url="html/T_SharpNotificationCenter_DefaultNotificationCenterFactory.htm" />
+  <HelpKINode Title="SharpNotificationCenter.INotification interface" Url="html/T_SharpNotificationCenter_INotification.htm" />
+  <HelpKINode Title="SharpNotificationCenter.NotificationCenter class" Url="html/T_SharpNotificationCenter_NotificationCenter.htm" />
+  <HelpKINode Title="SharpNotificationCenter.NotificationEventHandler delegate" Url="html/T_SharpNotificationCenter_NotificationEventHandler.htm" />
+  <HelpKINode Title="SharpSearches namespace" Url="html/N_SharpSearches.htm" />
+  <HelpKINode Title="SharpSearches.AStar(Of NODE) class" Url="html/T_SharpSearches_AStar_1.htm" />
+  <HelpKINode Title="SharpSearches.AStar&lt;NODE&gt; class" Url="html/T_SharpSearches_AStar_1.htm" />
+  <HelpKINode Title="SharpSearches.BiFunction delegate" Url="html/T_SharpSearches_BiFunction.htm" />
+  <HelpKINode Title="SharpSearches.CostEvaluator(Of NODE) interface" Url="html/T_SharpSearches_CostEvaluator_1.htm" />
+  <HelpKINode Title="SharpSearches.CostEvaluator&lt;NODE&gt; interface" Url="html/T_SharpSearches_CostEvaluator_1.htm" />
+  <HelpKINode Title="SharpSearches.HeuristicEvaluator(Of NODE) interface" Url="html/T_SharpSearches_HeuristicEvaluator_1.htm" />
+  <HelpKINode Title="SharpSearches.HeuristicEvaluator&lt;NODE&gt; interface" Url="html/T_SharpSearches_HeuristicEvaluator_1.htm" />
+  <HelpKINode Title="SharpSearches.SearchableNode interface" Url="html/T_SharpSearches_SearchableNode.htm" />
+  <HelpKINode Title="SharpSearches.State enumeration" Url="html/T_SharpSearches_State.htm" />
+  <HelpKINode Title="SharpUtilities namespace" Url="html/N_SharpUtilities.htm" />
+  <HelpKINode Title="SharpUtilities.OrderedList(Of VALUE) class" Url="html/T_SharpUtilities_OrderedList_1.htm" />
+  <HelpKINode Title="SharpUtilities.OrderedList&lt;VALUE&gt; class" Url="html/T_SharpUtilities_OrderedList_1.htm" />
+  <HelpKINode Title="SharpUtilities.Pair(Of XTYPE, YTYPE) structure" Url="html/T_SharpUtilities_Pair_2.htm" />
+  <HelpKINode Title="SharpUtilities.Pair&lt;XTYPE, YTYPE&gt; structure" Url="html/T_SharpUtilities_Pair_2.htm" />
+  <HelpKINode Title="SharpUtilities.Priority enumeration" Url="html/T_SharpUtilities_Priority.htm" />
+  <HelpKINode Title="SharpUtilities.ProcessUtils class" Url="html/T_SharpUtilities_ProcessUtils.htm" />
+  <HelpKINode Title="SharpUtilities.SortedEventList(Of VALUE) class" Url="html/T_SharpUtilities_SortedEventList_1.htm" />
+  <HelpKINode Title="SharpUtilities.SortedEventList&lt;VALUE&gt; class" Url="html/T_SharpUtilities_SortedEventList_1.htm" />
+  <HelpKINode Title="SharpUtilities.Triple(Of XTYPE, YTYPE, ZTYPE) structure" Url="html/T_SharpUtilities_Triple_3.htm" />
+  <HelpKINode Title="SharpUtilities.Triple&lt;XTYPE, YTYPE, ZTYPE&gt; structure" Url="html/T_SharpUtilities_Triple_3.htm" />
+  <HelpKINode Title="SimpleInteractor class">
+    <HelpKINode Title="SimpleInteractor Class" Url="html/T_Scripts_Game_QuickTesting_SimpleInteractor.htm" />
+    <HelpKINode Title="about SimpleInteractor class" Url="html/T_Scripts_Game_QuickTesting_SimpleInteractor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Scripts_Game_QuickTesting_SimpleInteractor__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_QuickTesting_SimpleInteractor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_QuickTesting_SimpleInteractor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleInteractor.SimpleInteractor constructor" Url="html/M_Scripts_Game_QuickTesting_SimpleInteractor__ctor.htm" />
+  <HelpKINode Title="Size property">
+    <HelpKINode Title="IGraph(NODE, EDGE).Size Property " Url="html/P_SharpGraphs_IGraph_2_Size.htm" />
+    <HelpKINode Title="MatrixGraph(NODE, EDGE).Size Property " Url="html/P_SharpGraphs_MatrixGraph_2_Size.htm" />
+    <HelpKINode Title="NLGraph(NODE, EDGE).Size Property " Url="html/P_SharpGraphs_NLGraph_2_Size.htm" />
+    <HelpKINode Title="PSLGraph(NODE, EDGE).Size Property " Url="html/P_SharpGraphs_PSLGraph_2_Size.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SortedEventList(Of VALUE) class">
+    <HelpKINode Title="SortedEventList(VALUE) Class" Url="html/T_SharpUtilities_SortedEventList_1.htm" />
+    <HelpKINode Title="about SortedEventList(Of VALUE) class" Url="html/T_SharpUtilities_SortedEventList_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SharpUtilities_SortedEventList_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_SortedEventList_1.htm" />
+    <HelpKINode Title="operators" Url="html/Operators_T_SharpUtilities_SortedEventList_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpUtilities_SortedEventList_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SortedEventList(Of VALUE).Addition operator" Url="html/Overload_SharpUtilities_SortedEventList_1_op_Addition.htm" />
+  <HelpKINode Title="SortedEventList(Of VALUE).DefaultPriority property" Url="html/P_SharpUtilities_SortedEventList_1_DefaultPriority.htm" />
+  <HelpKINode Title="SortedEventList(Of VALUE).FireEvents method" Url="html/M_SharpUtilities_SortedEventList_1_FireEvents.htm" />
+  <HelpKINode Title="SortedEventList(Of VALUE).GetEnumerator method" Url="html/M_SharpUtilities_SortedEventList_1_GetEnumerator.htm" />
+  <HelpKINode Title="SortedEventList(Of VALUE).Keys property" Url="html/P_SharpUtilities_SortedEventList_1_Keys.htm" />
+  <HelpKINode Title="SortedEventList(Of VALUE).SortedEventList constructor" Url="html/Overload_SharpUtilities_SortedEventList_1__ctor.htm" />
+  <HelpKINode Title="SortedEventList(Of VALUE).Subtraction operator" Url="html/Overload_SharpUtilities_SortedEventList_1_op_Subtraction.htm" />
+  <HelpKINode Title="SortedEventList&lt;VALUE&gt; class">
+    <HelpKINode Title="SortedEventList(VALUE) Class" Url="html/T_SharpUtilities_SortedEventList_1.htm" />
+    <HelpKINode Title="about SortedEventList&lt;VALUE&gt; class" Url="html/T_SharpUtilities_SortedEventList_1.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_SharpUtilities_SortedEventList_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_SortedEventList_1.htm" />
+    <HelpKINode Title="operators" Url="html/Operators_T_SharpUtilities_SortedEventList_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpUtilities_SortedEventList_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SortedEventList&lt;VALUE&gt;.Addition operator" Url="html/Overload_SharpUtilities_SortedEventList_1_op_Addition.htm" />
+  <HelpKINode Title="SortedEventList&lt;VALUE&gt;.DefaultPriority property" Url="html/P_SharpUtilities_SortedEventList_1_DefaultPriority.htm" />
+  <HelpKINode Title="SortedEventList&lt;VALUE&gt;.FireEvents method" Url="html/M_SharpUtilities_SortedEventList_1_FireEvents.htm" />
+  <HelpKINode Title="SortedEventList&lt;VALUE&gt;.GetEnumerator method" Url="html/M_SharpUtilities_SortedEventList_1_GetEnumerator.htm" />
+  <HelpKINode Title="SortedEventList&lt;VALUE&gt;.Keys property" Url="html/P_SharpUtilities_SortedEventList_1_Keys.htm" />
+  <HelpKINode Title="SortedEventList&lt;VALUE&gt;.SortedEventList constructor" Url="html/Overload_SharpUtilities_SortedEventList_1__ctor.htm" />
+  <HelpKINode Title="SortedEventList&lt;VALUE&gt;.Subtraction operator" Url="html/Overload_SharpUtilities_SortedEventList_1_op_Subtraction.htm" />
+  <HelpKINode Title="Source property" Url="html/P_SharpNotificationCenter_INotification_Source.htm" />
+  <HelpKINode Title="Start method" Url="html/M_Scripts_Game_UI_HpBarUi_Start.htm" />
+  <HelpKINode Title="Start property" Url="html/P_SharpSearches_AStar_1_Start.htm" />
+  <HelpKINode Title="StartSearch method" Url="html/M_SharpSearches_AStar_1_StartSearch.htm" />
+  <HelpKINode Title="State enumeration" Url="html/T_SharpSearches_State.htm" />
+  <HelpKINode Title="Steps property" Url="html/P_SharpSearches_AStar_1_Steps.htm" />
+  <HelpKINode Title="SubscribeFor method" Url="html/M_SharpNotificationCenter_NotificationCenter_SubscribeFor.htm" />
+  <HelpKINode Title="Subtraction operator" Url="html/Overload_SharpUtilities_SortedEventList_1_op_Subtraction.htm" />
+  <HelpKINode Title="SwitchCaseUnhandledException class">
+    <HelpKINode Title="SwitchCaseUnhandledException Class" Url="html/T_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException.htm" />
+    <HelpKINode Title="about SwitchCaseUnhandledException class" Url="html/T_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SwitchCaseUnhandledException.SwitchCaseUnhandledException constructor" Url="html/Overload_Scripts_Game_RoomFactory_Visualization_SwitchCaseUnhandledException__ctor.htm" />
+  <HelpKINode Title="tileBottomWallDoor field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileBottomWallDoor.htm" />
+  <HelpKINode Title="tileBottomWallPlain field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileBottomWallPlain.htm" />
+  <HelpKINode Title="tileCeiling field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileCeiling.htm" />
+  <HelpKINode Title="tileFloor field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileFloor.htm" />
+  <HelpKINode Title="tileMiddleWall field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileMiddleWall.htm" />
+  <HelpKINode Title="tileTopWall field" Url="html/F_Scripts_Game_RoomFactory_Visualization_RectangularRoomGenerator_tileTopWall.htm" />
+  <HelpKINode Title="TotalCostComputer property" Url="html/P_SharpSearches_AStar_1_TotalCostComputer.htm" />
+  <HelpKINode Title="Triple(Of XTYPE, YTYPE, ZTYPE) structure">
+    <HelpKINode Title="Triple(XTYPE, YTYPE, ZTYPE) Structure" Url="html/T_SharpUtilities_Triple_3.htm" />
+    <HelpKINode Title="about Triple(Of XTYPE, YTYPE, ZTYPE) structure" Url="html/T_SharpUtilities_Triple_3.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpUtilities_Triple_3__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_Triple_3.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpUtilities_Triple_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Triple(Of XTYPE, YTYPE, ZTYPE).Build method" Url="html/M_SharpUtilities_Triple_3_Build.htm" />
+  <HelpKINode Title="Triple(Of XTYPE, YTYPE, ZTYPE).Triple constructor" Url="html/M_SharpUtilities_Triple_3__ctor.htm" />
+  <HelpKINode Title="Triple(Of XTYPE, YTYPE, ZTYPE).X property" Url="html/P_SharpUtilities_Triple_3_X.htm" />
+  <HelpKINode Title="Triple(Of XTYPE, YTYPE, ZTYPE).Y property" Url="html/P_SharpUtilities_Triple_3_Y.htm" />
+  <HelpKINode Title="Triple(Of XTYPE, YTYPE, ZTYPE).Z property" Url="html/P_SharpUtilities_Triple_3_Z.htm" />
+  <HelpKINode Title="Triple&lt;XTYPE, YTYPE, ZTYPE&gt; structure">
+    <HelpKINode Title="Triple(XTYPE, YTYPE, ZTYPE) Structure" Url="html/T_SharpUtilities_Triple_3.htm" />
+    <HelpKINode Title="about Triple&lt;XTYPE, YTYPE, ZTYPE&gt; structure" Url="html/T_SharpUtilities_Triple_3.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SharpUtilities_Triple_3__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SharpUtilities_Triple_3.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SharpUtilities_Triple_3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Triple&lt;XTYPE, YTYPE, ZTYPE&gt;.Build method" Url="html/M_SharpUtilities_Triple_3_Build.htm" />
+  <HelpKINode Title="Triple&lt;XTYPE, YTYPE, ZTYPE&gt;.Triple constructor" Url="html/M_SharpUtilities_Triple_3__ctor.htm" />
+  <HelpKINode Title="Triple&lt;XTYPE, YTYPE, ZTYPE&gt;.X property" Url="html/P_SharpUtilities_Triple_3_X.htm" />
+  <HelpKINode Title="Triple&lt;XTYPE, YTYPE, ZTYPE&gt;.Y property" Url="html/P_SharpUtilities_Triple_3_Y.htm" />
+  <HelpKINode Title="Triple&lt;XTYPE, YTYPE, ZTYPE&gt;.Z property" Url="html/P_SharpUtilities_Triple_3_Z.htm" />
+  <HelpKINode Title="Type property" Url="html/P_SharpNotificationCenter_INotification_Type.htm" />
+  <HelpKINode Title="UnsubscribeFor method" Url="html/M_SharpNotificationCenter_NotificationCenter_UnsubscribeFor.htm" />
+  <HelpKINode Title="Value property" Url="html/P_Scripts_Game_UI_HpBarViewModel_Value.htm" />
+  <HelpKINode Title="VelocityYThreshHold field" Url="html/F_Scripts_Game_Controls_JumpScript_VelocityYThreshHold.htm" />
+  <HelpKINode Title="VertexCentered enumeration member" Url="html/T_Scripts_Game_RoomFactory_Visualization_RoomCoordinatesSystem.htm" />
+  <HelpKINode Title="Welcome" Url="html/155d95a6-7b41-47d6-b0db-edcf147d375e.htm" />
+  <HelpKINode Title="WhichIsExecutable method" Url="html/M_SharpUtilities_ProcessUtils_WhichIsExecutable.htm" />
+  <HelpKINode Title="X property">
+    <HelpKINode Title="Pair(XTYPE, YTYPE).X Property " Url="html/P_SharpUtilities_Pair_2_X.htm" />
+    <HelpKINode Title="Triple(XTYPE, YTYPE, ZTYPE).X Property " Url="html/P_SharpUtilities_Triple_3_X.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Y property">
+    <HelpKINode Title="Pair(XTYPE, YTYPE).Y Property " Url="html/P_SharpUtilities_Pair_2_Y.htm" />
+    <HelpKINode Title="Triple(XTYPE, YTYPE, ZTYPE).Y Property " Url="html/P_SharpUtilities_Triple_3_Y.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Z property" Url="html/P_SharpUtilities_Triple_3_Z.htm" />
+</HelpKI>
