@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace AssemblyCSharp
+// TODO Move file? (maybe)
+namespace Scripts.Game.RoomFactory.Visualizers
 {
 	/// <summary>
 	/// This enum allows to define one of the three type of coordinates system used in the room creation.

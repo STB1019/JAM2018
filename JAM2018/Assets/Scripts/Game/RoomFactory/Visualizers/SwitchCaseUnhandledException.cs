@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace AssemblyCSharp
+// TODO Move file? (maybe)
+namespace Scripts.Game.RoomFactory.Visualizers
 {
 	/// <summary>
 	/// This exception was originally conceived for "RoomCoordinatesSystem" enumeration usage into switch statements.

@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Scripts.Game.RoomFactory.Visualizers;
 
-namespace AssemblyCSharp
+namespace Scripts.Game.RoomFactory.Factories
 {
 	/// <summary>
 	/// This script creates the tiles that make the room visible, at the starting of the program.
@@ -17,7 +18,7 @@ namespace AssemblyCSharp
 	/// 
 	/// </summary>
 	/// <author>Michele Dusi</author>
-	public class RectangularRoomGenerator : MonoBehaviour {
+	public class RectangularRoomFactory : AbstractRoomFactory {
 
 		// room model tiles
 		public Transform tileFloor;
