@@ -10,7 +10,7 @@ namespace Scripts.Game.Controls
 
 	///This is the basic Player Controller script.
 	///Attach it to the Player to get him moving. To allow the jump you should change the parameters of GameObject.Find
-	///in line 29 to associate it with the proper JumpTrigger (see JumpScript.cs for explanation)
+	///in line 30 to associate it with the proper JumpTrigger (see JumpScript.cs for explanation)
 
 
 	public class PlayerController : MonoBehaviour
@@ -18,20 +18,20 @@ namespace Scripts.Game.Controls
 		public int jumpForce;
 
     
-		void Update()
+		void FixedUpdate()
 		{
 
-			var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
-			var z = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
+			var xMov = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
+			var zMov = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
 
-			transform.Rotate(0, x, 0);
-			transform.Translate(0, 0, z);
+			transform.Rotate(0, xMov, 0);
+			transform.Translate(0, 0, zMov);
 
-			GameObject jumpTrigger = GameObject.Find("JumpTrigger");
+			GameObject jumpTrigger = GameObject.Find("JumpTrigger"); //Remember to associate the right object here
 			JumpScript jumpScript = jumpTrigger.GetComponent<JumpScript>(); 
 			Rigidbody rb = GetComponent<Rigidbody>();
 
-			if (Input.GetKeyDown(KeyCode.S) && jumpScript.isGrounded==true)
+			if (Input.GetKeyDown(KeyCode.J) && jumpScript.isGrounded==true)
 			{
 				Debug.Log("I'm Jumping");
 				Vector3 jforce = new Vector3(0, jumpForce, 0);
