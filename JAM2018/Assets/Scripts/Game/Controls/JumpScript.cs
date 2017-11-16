@@ -32,7 +32,7 @@ namespace Scripts.Game.Controls {
         [HideInInspector] //Hides layerMask
         public int layerMask = 1 << 8; //This layerMask includes every object except those whose layer is 8
         public float height;
-        private float halfHeight;
+        private float halfHeight {get; set;}
         
         void Start()
         {
@@ -49,9 +49,10 @@ namespace Scripts.Game.Controls {
             {
                 isGrounded = true;
             }
-            Debug.Log(isGrounded);
         }
     }
 }
+
+
 
 
