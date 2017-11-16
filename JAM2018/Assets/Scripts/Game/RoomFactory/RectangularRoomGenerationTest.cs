@@ -22,8 +22,8 @@ namespace Scripts.Game.RoomFactory
 		/// 
 		/// <author>Michele Dusi</author>
 		void Start () {
-			this.GetComponent<RectangularRoomGenerator>()
-				.GenerateRectangularRoom(new Vector3(5, 5, -10), 7, 5, 8, RoomCoordinatesSystem.BaseCentered);
+			AbstractRoomFactory factory = new RectangularRoomFactory ();
+			GameObject myRoom = factory.makeRoom ();
 		}
 	}
 }

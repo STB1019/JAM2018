@@ -21,12 +21,10 @@ namespace Scripts.Game.RoomFactory
 	/// </summary>
 	public class RoomScript : MonoBehaviour
 	{
-		IRoom ConcreteRoom { get; set; }
-		IRoomVisualizer ConcreteRoomVisualizer { get; set; }
+		public IRoom ConcreteRoom { get; set; }
+		public IRoomVisualizer ConcreteRoomVisualizer { get; set; }
 
-		public RoomScript ()
-		{
-		}
+		public RoomScript () {}
 	}
 }
 
