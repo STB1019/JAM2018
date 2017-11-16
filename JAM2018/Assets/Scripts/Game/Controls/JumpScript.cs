@@ -29,27 +29,29 @@ namespace Scripts.Game.Controls {
     public class JumpScript : MonoBehaviour
     {
         public bool isGrounded {get; set;}
-        public int jumpForce;
         [HideInInspector] //Hides layerMask
         public int layerMask = 1 << 8; //This layerMask includes every object except those whose layer is 8
-        public int height;
+        public float height;
+        private float halfHeight;
         
         void Start()
         {
             isGrounded = false;
+            halfHeight = height/2;
         }
 
         void Update()
         {
-            layerMask = ~layerMask; //We reverse the layer excluding every object besides those whose layer is 8
+            layerMask = ~layerMask; //We reverse the layer excluding every object beside those whose layer is 8
             Rigidbody rb = GetComponent<Rigidbody>();
             Vector3 colliderOrigin = transform.position;
-            Debug.Log(colliderOrigin);
-
-            if (Physics.Raycast(colliderOrigin, Vector3.down, (height/2) + 0.5f, layerMask))
+            if (Physics.Raycast(colliderOrigin, Vector3.down, halfHeight+0.01f, layerMask))
             {
                 isGrounded = true;
             }
+            Debug.Log(isGrounded);
         }
     }
 }
+
+
