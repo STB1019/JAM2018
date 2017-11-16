@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{FDF59EDE-BAA8-4B91-B91D-01A4B113B548}|Default" StartupItem="Test/Test.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SharpUtilities/SharpUtilities.csproj">
+    <Files>
+      <File FileName="SharpUtilities/SharpUtilities.csproj" Line="32" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestAStar PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
