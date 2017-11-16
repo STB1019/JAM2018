@@ -31,7 +31,7 @@ namespace Scripts.Game.Controls
 			JumpScript jumpScript = jumpTrigger.GetComponent<JumpScript>(); 
 			Rigidbody rb = GetComponent<Rigidbody>();
 
-			if (Input.GetKeyDown(KeyCode.J) && jumpScript.isGrounded==true)
+			if (Input.GetKeyDown(KeyCode.Space) && jumpScript.isGrounded==true) //Change here the key we want to use for jumping
 			{
 				Debug.Log("I'm Jumping");
 				Vector3 jforce = new Vector3(0, jumpForce, 0);
