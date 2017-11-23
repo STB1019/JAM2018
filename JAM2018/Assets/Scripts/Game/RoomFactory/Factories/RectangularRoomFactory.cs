@@ -20,7 +20,29 @@ namespace Scripts.Game.RoomFactory.Factories
 	/// 
 	/// </summary>
 	/// <author>Michele Dusi</author>
-	public class RectangularRoomFactory : AbstractRoomFactory {
+	public class RectangularRoomFactory {
+
+		/// <summary>
+		/// The singleton instance of the factory.
+		/// </summary>
+		private static RectangularRoomFactory singletonFactory = null;
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Scripts.Game.RoomFactory.Factories.RectangularRoomFactory"/> class.
+		/// </summary>
+		private RectangularRoomFactory () {}
+
+		/// <summary>
+		/// Gets the singleton factory.
+		/// </summary>
+		/// <returns>The only RectangularRoomFactory in the program.</returns>
+		public static RectangularRoomFactory getFactory ()
+		{
+			if (RectangularRoomFactory.singletonFactory == null) {
+				RectangularRoomFactory.singletonFactory = new RectangularRoomFactory ();
+			}
+			return RectangularRoomFactory.singletonFactory;
+		}
 
 		/// <summary>
 		/// Room tiles models.
@@ -32,20 +54,17 @@ namespace Scripts.Game.RoomFactory.Factories
 		public static Transform tileBottomWallPlain = 	(Transform) AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/RoomTiles/tileBottomWallPlain", 	typeof (Transform));
 		public static Transform tileBottomWallDoor = 	(Transform) AssetDatabase.LoadAssetAtPath ("Assets/Prefabs/RoomTiles/tileBottomWallDoor", 	typeof (Transform));
 
-		// TODO Finish constructor implementation.
-		// Waiting for DefaultRoom to be finished.
-		/*
-		public RectangularRoomFactory () : base () {
-
-		}
-		*/
-
-		public RoomScript makeRoom () 
+		public RoomScript makeRoom (Triple<float, float, float> dimensions, Vector3 position) 
 		{
 			RoomScript roomScript = new RoomScript ();
-			// TODO ConcreteRoom HAS TO BE CLONED, not referenced.
-			roomScript.ConcreteRoom = this.defaultRoom;
-			roomScript.ConcreteRoomVisualizer = this.makeRectangularRoomVisualizer (new Vector3 (0, 0, 0), roomScript.ConcreteRoom.Shape); //TODO CHANGE!
+
+			// Creating room model
+			ModelRoomFactory modelRoomFactory = ModelRoomFactory.getFactory ();
+			IRoomShape roomShape = new RectangularRoomShape (dimensions);
+			roomScript.ConcreteRoom = modelRoomFactory.makeRoom (roomShape);
+
+			// Creating room visualizer
+			roomScript.ConcreteRoomVisualizer = this.makeRectangularRoomVisualizer (position, roomShape);
 		}
 
 		/// <summary>
@@ -61,9 +80,9 @@ namespace Scripts.Game.RoomFactory.Factories
 			RectangularRoomVisualizer visualizer = new RectangularRoomVisualizer ();
 
 			// Room tiled-dimensions
-			int roomSideX = roomShape.BoxDimension[0];
-			int roomSideY = roomShape.BoxDimension[1];
-			int roomSideZ = roomShape.BoxDimension[2];
+			int roomSideX = (int) roomShape.BoxDimension.X;
+			int roomSideY = (int) roomShape.BoxDimension.Y;
+			int roomSideZ = (int) roomShape.BoxDimension.Z;
 
 			// First, the side length of a tile is calculated. 
 			float tileSize = tileFloor.GetComponent<Renderer> ().bounds.size.x;

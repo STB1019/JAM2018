@@ -8,19 +8,14 @@ namespace Scripts.Game.Model
 	/// </summary>
 	public interface IRoomShape
 	{
-	/*
 		/// <summary>
 		/// Gets or sets the three box dimensions.
-		/// The box is the minimum parallelepiped (whit parallel faces to the axis)
-		/// which contains all the room.
+		/// The box is the minimum parallelepiped (whit parallel faces to the axis) containing the whole room.
 		/// It can be used to easily check collisions and intersections with adjacent rooms.
 		/// </summary>
 		/// <value>The three box dimensions.</value>
-		Tuple<float, float, float> BoxDimension { get; set; }
-		// TODO fix Tuple's problem.
-	*/
-
-		float [] BoxDimension { get; set; }
+		Triple<float, float, float> BoxDimension { get; set; }
+			// TODO Import SharpUtilities -> waiting the project to be linked with library.
 		
 	}
 }

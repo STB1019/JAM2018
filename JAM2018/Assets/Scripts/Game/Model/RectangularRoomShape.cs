@@ -8,15 +8,30 @@ namespace Scripts.Game.Model
 	/// </summary>
 	public class RectangularRoomShape : IRoomShape
 	{
-		float [] IRoomShape.BoxDimension { get; set; }
+		public Triple<float, float, float> BoxDimension { get; set; }
 
-		public RectangularRoomShape()
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Scripts.Game.Model.RectangularRoomShape"/> class.
+		/// </summary>
+		/// <param name="xSide">Length of X side.</param>
+		/// <param name="ySide">Length of Y side.</param>
+		/// <param name="zSide">Length of Z side.</param>
+		public RectangularRoomShape(float xSide, float ySide, float zSide)
 		{
-			/*
-			 * this.x = boxdimension.x
-			 * this.y = boxdimension.y
-			 * this.z = boxdimension.z
-			 */
+			this.BoxDimension.X = xSide;
+			this.BoxDimension.Y = ySide;
+			this.BoxDimension.Z = zSide;
+		}
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Scripts.Game.Model.RectangularRoomShape"/> class.
+		/// </summary>
+		/// <param name="dimensions">Triple representing the length of the three sides.</param>
+		public RectangularRoomShape(Triple<float, float, float> dimensions)
+		{
+			this.BoxDimension.X = dimensions.X;
+			this.BoxDimension.Y = dimensions.Y;
+			this.BoxDimension.Z = dimensions.Z;
 		}
 	}
 }

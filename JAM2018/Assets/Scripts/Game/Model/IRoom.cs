@@ -9,7 +9,11 @@ namespace Scripts.Game.Model
 	/// </summary>
 	public interface IRoom
 	{
-		IRoomShape Shape { get; set; }
+		/// <summary>
+		/// Gets or sets the shape of the room, as an IShapeRoom instance.
+		/// </summary>
+		/// <value>The shape.</value>
+		IRoomShape Shape { get; set; }		// Note: it is public by default
 	}
 }
 
