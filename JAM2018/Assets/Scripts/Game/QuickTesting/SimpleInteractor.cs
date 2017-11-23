@@ -29,8 +29,8 @@ namespace Scripts.Game.QuickTesting
 			if (Input.GetButtonDown("Fire1"))
 			{
 				//do something here!
-				Debug.Log("Started executing SimpleInteractor actions!!!");
-				this.gameObject.GetComponent<JumpScript>().doJump(5);
+				//Debug.Log("Started executing SimpleInteractor actions!!!");
+				//this.gameObject.GetComponent<JumpScript>().doJump(5);
 			}
 		}
 	}
