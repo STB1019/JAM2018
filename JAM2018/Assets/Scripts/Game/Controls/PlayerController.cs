@@ -1,43 +1,123 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using SharpUtilities;
-using System;
-using Assets.Scripts.Game.Commons;
 
-namespace Scripts.Game.Controls 
+public class PlayerController : MonoBehaviour
 {
+    [System.Serializable]
+    public class MoveSettings
+    {
+        public float speed = 12;
+        public float rotateVel = 1;
+        public float jumpVel = 25f;
+        public float distToGrounded;
+        public float height;
+        public LayerMask ground;
+        public float timeToStop;
+	public float currentVelX;
+	public float currentVelZ;
+    }
 
-	///This is the basic Player Controller script.
-	///Attach it to the Player to get him moving. To allow the jump you should change the parameters of GameObject.Find
-	///in line 30 to associate it with the proper JumpTrigger (see JumpScript.cs for explanation)
+    [System.Serializable]
+    public class PhysSettings
+    {
+        public float downAccel = 0.75f;
+    }
+
+    [System.Serializable]
+    public class InputSettings
+    {
+        public float inputDelay = 0.1f;
+        public string FORWARD_AXIS = "Vertical";
+        public string TURN_AXIS = "Horizontal";
+        public string JUMP_AXIS = "Jump";
+    }
+
+    public MoveSettings moveSetting = new MoveSettings();
+    public PhysSettings physSetting = new PhysSettings();
+    public InputSettings inputSetting = new InputSettings();
 
 
-	public class PlayerController : MonoBehaviour
-	{
-		public int jumpForce;
 
-    
-		void FixedUpdate()
-		{
+    Vector3 velocity = Vector3.zero;
 
-			var xMov = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
-			var zMov = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
+    Quaternion targetRotation;
 
-			transform.Rotate(0, xMov, 0);
-			transform.Translate(0, 0, zMov);
+    Rigidbody rb;
 
-			GameObject jumpTrigger = GameObject.Find("JumpTrigger"); //Remember to associate the right object here
-			JumpScript jumpScript = jumpTrigger.GetComponent<JumpScript>(); 
-			Rigidbody rb = GetComponent<Rigidbody>();
+    float forwardInput, turnInput, jumpInput;
 
-			if (Input.GetKeyDown(KeyCode.Space) && jumpScript.isGrounded==true) //Change here the key we want to use for jumping
-			{
-				Debug.Log("I'm Jumping");
-				Vector3 jforce = new Vector3(0, jumpForce, 0);
-				rb.AddForce(jforce, ForceMode.Impulse);
-				jumpScript.isGrounded=false;
-			}
-		}
-	}
+    public Quaternion TargetRotation
+    {
+        get { return targetRotation; }
+    }
+
+    bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, Vector3.down, moveSetting.distToGrounded, moveSetting.ground);
+    }
+
+    void Start()
+    {
+        moveSetting.timeToStop = 0;
+        moveSetting.distToGrounded = (moveSetting.height / 2) + 0.1f;
+        targetRotation = transform.rotation;
+        rb = GetComponent<Rigidbody>();
+
+        forwardInput = turnInput = jumpInput = 0;
+    }
+
+    void GetInput()
+    {
+        forwardInput = Input.GetAxis(inputSetting.FORWARD_AXIS);
+        turnInput = Input.GetAxis(inputSetting.TURN_AXIS);
+        jumpInput = Input.GetAxisRaw(inputSetting.JUMP_AXIS);
+    }
+
+    void Update()
+    {
+        GetInput();
+    }
+
+    void FixedUpdate()
+    {
+        Run();
+        Debug.Log(Grounded());
+        Jump();
+        rb.velocity = transform.TransformDirection(velocity);
+    }
+
+    void Run()
+    {
+        if (((Mathf.Abs(forwardInput) > inputSetting.inputDelay) || (Mathf.Abs(turnInput) > inputSetting.inputDelay)) && IsGrounded)
+        {
+            velocity.z = forwardInput * moveSetting.speed;
+            velocity.x = turnInput * moveSetting.speed;
+            moveSetting.timeToStop = 0;
+        }
+        else
+        {
+            velocity = Vector3.zero;
+        }
+    }
+
+    void Jump()
+    {
+        if (jumpInput > 0 && Grounded())
+        {
+            velocity.y = moveSetting.jumpVel;
+	    currentVelX = velocity.x;
+	    currentVelY = velocity.y;
+        }
+        else if (jumpInput == 0 && Grounded())
+        {
+            velocity.y = 0;
+        }
+        else if (!IsGrounded())
+        {
+            velocity.y -= physSetting.downAccel;
+	    velocity.x = currentVelX;
+	    velocity.z = currentVelZ;
+        }
+    }
 }
