@@ -8,13 +8,7 @@ namespace Scripts.Game.Controls
 	{
 		public Transform playerBody;
 		public float mouseSensitivity;
-
-		float xAxisClamp = 0.0f;
-
-		void Awake()
-		{
-			Cursor.lockState = CursorLockMode.Locked;
-		}
+		private float xAxisClamp = 0.0f;
 
 		void Update()
 		{
