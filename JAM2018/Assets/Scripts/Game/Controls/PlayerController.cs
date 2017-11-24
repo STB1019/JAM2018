@@ -5,36 +5,42 @@ using UnityEngine;
 namespace Scripts.Game.Controls
 {
 
+    ///<summary>
+    ///This script allows the player to move on the x and z axis and to jump on the y axis. Movement is done by changing
+    ///the velocity of the rigidbody component. Jumping is allowed only when the player is touching the ground, this 
+    ///check is made via a raycast down from the origin of the collider. 
+    ///</summary>
+
     public class PlayerController : MonoBehaviour
     {
         [System.Serializable]
         public class MoveSettings
         {
-            public float speed = 10;
-            public float jumpVel = 10f;
+            public float speed = 10; //The speed at which the player moves
+            public float jumpVel = 10f; //The velocity applied to the jump
             [HideInInspector]
             public float distToGrounded;
-            public float height;
-            public LayerMask ground;
+            public float height; //The height of the player collider 
+            public LayerMask ground; //Layer mask that specifies what is ground
             [HideInInspector]
-            public float currentVelX;
+            public float currentVelX; 
             [HideInInspector]
             public float currentVelZ;
-            public float maxVel = 5;
+            public float maxVel = 5; //The maximum velocity the player can reach
         }
 
         [System.Serializable]
         public class PhysSettings
         {
-            public float downAccel = 0.75f;
+            public float downAccel = 0.75f; //Accelleration downwads. Basically a gravity force
         }
 
         [System.Serializable]
         public class InputSettings
         {
-            public float inputDelay = 0.1f;
+            public float inputDelay = 0.1f; //Dead zone for the player input
             public string FORWARD_AXIS = "Vertical";
-            public string TURN_AXIS = "Horizontal";
+            public string STRAFE_AXIS = "Horizontal";
             public string JUMP_AXIS = "Jump";
         }
 
@@ -46,7 +52,11 @@ namespace Scripts.Game.Controls
 
         Rigidbody rb;
 
-        float forwardInput, turnInput, jumpInput;
+        float forwardInput, strafeInput, jumpInput;
+
+        ///<summary>
+        ///This method checks if the player is grounded using a raycast
+        ///</summary>
 
         bool IsGrounded()
         {
@@ -57,13 +67,13 @@ namespace Scripts.Game.Controls
         {
             moveSetting.distToGrounded = (moveSetting.height / 2) + 0.1f;
             rb = GetComponent<Rigidbody>();
-            forwardInput = turnInput = jumpInput = 0;
+            forwardInput = strafeInput = jumpInput = 0;
         }
 
         void GetInput()
         {
             forwardInput = Input.GetAxis(inputSetting.FORWARD_AXIS);
-            turnInput = Input.GetAxis(inputSetting.TURN_AXIS);
+            strafeInput = Input.GetAxis(inputSetting.STRAFE_AXIS);
             jumpInput = Input.GetAxisRaw(inputSetting.JUMP_AXIS);
         }
 
@@ -74,17 +84,24 @@ namespace Scripts.Game.Controls
 
         void FixedUpdate()
         {
-            Run();
+            Move();
             Jump();
             rb.velocity = transform.TransformDirection(velocity);
         }
 
-        void Run()
+        ///<summary>
+        ///This method is used to change the x and z components of the velocity vector accordingly to the player input
+        ///If the input is greater than the input delay then the velocity is calculated and it's clamped between 
+        ///the maximum speed and -(maximum speed).
+        ///If the player is not moving then the velocity on the x and z axis is set to zero.
+        ///</summary>
+
+        void Move()
         {
-            if (((Mathf.Abs(forwardInput) > inputSetting.inputDelay) || (Mathf.Abs(turnInput) > inputSetting.inputDelay)) && IsGrounded())
+            if (((Mathf.Abs(forwardInput) > inputSetting.inputDelay) || (Mathf.Abs(strafeInput) > inputSetting.inputDelay)) && IsGrounded())
             {
                 velocity.z = Mathf.Clamp(forwardInput * moveSetting.speed, -moveSetting.maxVel, moveSetting.maxVel);
-                velocity.x = Mathf.Clamp(turnInput * moveSetting.speed, -moveSetting.maxVel, moveSetting.maxVel);
+                velocity.x = Mathf.Clamp(strafeInput * moveSetting.speed, -moveSetting.maxVel, moveSetting.maxVel);
             }
             else
             {
@@ -92,6 +109,12 @@ namespace Scripts.Game.Controls
                 velocity.z = 0;
             }
         }
+
+        ///<summary>
+        ///This method allows the player to jump. If the player is grounded and he's not jumping then the current x and z
+        ///velocity is stored in a temp variable. If the player is grounded and jumps then a velocity is applied upwards
+        ///and if he's not grounded then a velocity downwards is applied but the x and z velocities stay constant.
+        ///</summary>
 
         void Jump()
         {
@@ -105,7 +128,7 @@ namespace Scripts.Game.Controls
                 moveSetting.currentVelX = velocity.x;
                 moveSetting.currentVelZ = velocity.z;
             }
-            else if (!IsGrounded())
+            else if(!IsGrounded())
             {
                 velocity.z = moveSetting.currentVelZ;
                 velocity.x = moveSetting.currentVelX;
