@@ -26,19 +26,19 @@ public class EnemyMovement : MonoBehaviour
         {
             Debug.Log("Activating mesh");
             nav.SetDestination (player.position);
-            nav.isStopped = false;
+            nav.Resume();
         }
 
         else if (distance > viewDistance)
         {
             Debug.Log("Far away");
-            nav.isStopped = true;
+            nav.Stop(true);
         }
 
         else if (distance < attackDistance)
         {
             Debug.Log("I'm Close"); 
-            nav.isStopped = true;
+            nav.Stop(true);
         }
         else
         {

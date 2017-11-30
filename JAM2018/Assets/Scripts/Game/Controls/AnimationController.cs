@@ -26,20 +26,22 @@ public class AnimationController : MonoBehaviour
 
 	void Animator()
 	{
-		if (distance > viewDistance)
+		if (distance < viewDistance && distance > attackDistance)
 		{
-			anim.SetBool ("isWalking", false);
-        	anim.SetBool ("isIdle", true);
+			anim.SetBool ("isWalking", true);
+        	anim.SetBool ("isIdle", false);
 		}
 
-		else if (rb.velocity != Vector3.zero)
+		else if (distance > viewDistance || distance < attackDistance)
 		{
-			anim.SetBool("isWalking", true);
-            anim.SetBool("isIdle", false);  
+			Debug.Log("I'm stopping");
+			anim.SetBool("isWalking", false);
+            anim.SetBool("isIdle", true);  
 		}
 
 		if (distance < attackDistance)
 		{
+			Debug.Log("Attack");
 			anim.SetTrigger("attack");
 		}
 	}
