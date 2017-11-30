@@ -13,6 +13,14 @@ namespace Scripts.Game.RoomFactory.Visualizers
 		/// The first index runs across the perimeter beginning from point (0,0) and going in clockwise direction
 		/// (i.e. if you're standing in the center of the room, from left to right).
 		/// 
+		///     Second_index
+		/// 	^    _______________________________________________
+		/// 	^	|			 	 |		|			 	 |		|
+		/// 	^	|	   ROOM		 |		|	   ROOM		 |		|
+		/// 		|	   WALLS	 |		|	   WALLS	 |		|
+		/// 		|________________|______|________________|______|		[Side view]
+		/// 					>> First_index
+		/// 
 		/// 				>>
 		/// 	(0,0)________________
 		/// 		|				 |
@@ -24,7 +32,7 @@ namespace Scripts.Game.RoomFactory.Visualizers
 		/// 
 		/// </summary>
 		/// <value>The wall matrix</value>
-		GameObject [][] WallMatrix { get; set; }
+		public GameObject [,] WallMatrix { get; internal protected set; }
 
 		/// <summary>
 		/// Gets or sets the floor matrix.
@@ -41,7 +49,7 @@ namespace Scripts.Game.RoomFactory.Visualizers
 		/// 
 		/// </summary>
 		/// <value>The floor matrix.</value>
-		GameObject [][] FloorMatrix { get; set; }
+		public GameObject [,] FloorMatrix { get; internal protected set; }
 
 		/// <summary>
 		/// Gets or sets the ceiling matrix.
@@ -58,24 +66,30 @@ namespace Scripts.Game.RoomFactory.Visualizers
 		/// 
 		/// </summary>
 		/// <value>The ceiling matrix.</value>
-		GameObject [][] CeilingMatrix { get; set; }
+		public GameObject [,] CeilingMatrix { get; internal protected set; }
 
 		/// <summary>
 		/// Gets or sets the coordinates system.
 		/// See RoomCoordinatesSystem enumeration for further informations.
 		/// </summary>
 		/// <value>The coordinates system.</value>
-		public RoomCoordinatesSystem CoordinatesSystem { get; set; }
+		public RoomCoordinatesSystem CoordinatesSystem { get; internal protected set; }
 
-		//
+		/// <summary>
+		/// The origin of the coordinates system.
+		/// </summary>
+		/*
 		private Vector3 origin;
+		*/
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Scripts.Game.RoomFactory.Visualizers.RectangularRoomVisualizer"/> class.
 		/// </summary>
-		public RectangularRoomVisualizer ()
+		public RectangularRoomVisualizer (int roomSideX, int roomSideY, int roomSideZ)
 		{
-			
+			this.CeilingMatrix = new GameObject [roomSideX, roomSideZ];
+			this.FloorMatrix = new GameObject [roomSideX, roomSideZ];
+			this.WallMatrix = new GameObject [2 * (roomSideX + roomSideZ), roomSideY];
 		}
 	}
 }

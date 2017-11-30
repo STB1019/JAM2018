@@ -13,7 +13,8 @@ namespace Scripts.Game.RoomFactory.Factories
 	///
 	/// The room is visualized by instancing different pieces (called "tiles") in the scene.
 	/// First, all the horizontal tiles are created, i.e. the floor and the ceiling.
-	/// Then, it creates the vertical walls traversing the room from the ground floor to the last one.
+	/// Then, it creates the vertical walls traversing the sides of the room in clock-wise direction.
+	/// 
 	/// Pre-conditions: integer side inputs have to be strictly greater than 0. Otherwise,
 	/// some walls will not be visualized. No controls are made on side inputs, since it's supposed 
 	/// an external algorithm will set them properly.
@@ -26,6 +27,11 @@ namespace Scripts.Game.RoomFactory.Factories
 		/// The singleton instance of the factory.
 		/// </summary>
 		private static RectangularRoomFactory singletonFactory = null;
+
+		/// <summary>
+		/// The default coordinates used for all the rooms instatiated with this factory.
+		/// </summary>
+		private static RoomCoordinatesSystem defaultCoordinates = RoomCoordinatesSystem.BaseCentered;
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Scripts.Game.RoomFactory.Factories.RectangularRoomFactory"/> class.
@@ -61,7 +67,7 @@ namespace Scripts.Game.RoomFactory.Factories
 			// Creating room model
 			ModelRoomFactory modelRoomFactory = ModelRoomFactory.getFactory ();
 			IRoomShape roomShape = new RectangularRoomShape (dimensions);
-			roomScript.ConcreteRoom = modelRoomFactory.makeRoom (roomShape);
+			roomScript.ConcreteRoom = modelRoomFactory.makeRoom (roomShape); // 
 
 			// Creating room visualizer
 			roomScript.ConcreteRoomVisualizer = this.makeRectangularRoomVisualizer (position, roomShape);
@@ -76,31 +82,34 @@ namespace Scripts.Game.RoomFactory.Factories
 		/// <param name="roomSideY">Room side y.</param>
 		/// <param name="roomSideZ">Room side z.</param>
 		private RectangularRoomVisualizer makeRectangularRoomVisualizer (Vector3 position, IRoomShape roomShape) {
-			// Instantiating the container for all the tiles
-			RectangularRoomVisualizer visualizer = new RectangularRoomVisualizer ();
 
 			// Room tiled-dimensions
 			int roomSideX = (int) roomShape.BoxDimension.X;
 			int roomSideY = (int) roomShape.BoxDimension.Y;
 			int roomSideZ = (int) roomShape.BoxDimension.Z;
 
+			// Instantiating the container for all the tiles
+			RectangularRoomVisualizer visualizer = new RectangularRoomVisualizer (roomSideX, roomSideY, roomSideZ);
+			visualizer.CoordinatesSystem = RectangularRoomFactory.defaultCoordinates;
+
 			// First, the side length of a tile is calculated. 
 			float tileSize = tileFloor.GetComponent<Renderer> ().bounds.size.x;
 
 			// Computing position based on RoomCoordinatesSystem
 			Vector3 originPosition = position;
-			switch (coordinatesSystem) {
-			case RoomCoordinatesSystem.VertexCentered:
-				// No translations
-				break;
-			case RoomCoordinatesSystem.BaseCentered :
-				originPosition += - new Vector3 (roomSideX / 2.0f, 0, roomSideZ / 2.0f) * tileSize;
-				break;
-			case RoomCoordinatesSystem.ShapeCentered :
-				originPosition += - new Vector3 (roomSideX / 2.0f, roomSideY / 2.0f, roomSideZ / 2.0f) * tileSize;
-				break;
-			default:
-				throw new SwitchCaseUnhandledException ("Unhandled case in RoomCoordinatesSystem switch.");
+
+			switch (visualizer.CoordinatesSystem) {
+				case RoomCoordinatesSystem.VertexCentered:
+					// No translations
+					break;
+				case RoomCoordinatesSystem.BaseCentered :
+					originPosition += - new Vector3 (roomSideX / 2.0f, 0, roomSideZ / 2.0f) * tileSize;
+					break;
+				case RoomCoordinatesSystem.ShapeCentered :
+					originPosition += - new Vector3 (roomSideX / 2.0f, roomSideY / 2.0f, roomSideZ / 2.0f) * tileSize;
+					break;
+				default:
+					throw new SwitchCaseUnhandledException ("Unhandled case in RoomCoordinatesSystem switch.");
 			}
 			originPosition += new Vector3 (tileSize / 2, 0, tileSize / 2);
 
@@ -114,69 +123,67 @@ namespace Scripts.Game.RoomFactory.Factories
 						tileFloor, 
 						new Vector3 (x, 0, z) * tileSize + originPosition, 
 						Quaternion.Euler (-90, 0, 0)) as Transform;
-					floor.SetParent (parent.transform);
+					visualizer.FloorMatrix [x, z] = floor;
 
 					// Creating Ceiling tiles
 					Transform ceiling = Object.Instantiate (
 						tileCeiling, 
 						new Vector3 (x, roomSideY, z) * tileSize + originPosition, 
 						Quaternion.Euler (-90, 0, 0)) as Transform;
-					ceiling.SetParent (parent.transform);
+					visualizer.CeilingMatrix [x, z] = ceiling;
 
 					// TODO: Correct the problem with rotation (even if models were remade from zero, the problem is still there)
 				}
 			}
 
-			// Creating vertical walls
-			for (int y = 0; y <= roomSideY; y++)
-			{
-				// Selecting the vertical wall based on the "floor"
-				// Exmp: Ground floor 	-> BottomWall
-				// Exmp: Last floor 	-> TopWall
-				Transform current_wall;
-				if (y == 0) {
-					//current_wall = (Random.value < 0.4) ? tileBottomWallDoor : tileBottomWallPlain;
-					current_wall = tileBottomWallPlain;
-				} else if (y == roomSideY) {
-					current_wall = tileTopWall;
-				} else {
-					current_wall = tileMiddleWall;
-				}
+			// Creating vertical walls (traversing the perimeter).
+			// The index for the èperimeter is called xz, because it runs along x and z axis.
+			for (int xz = 0; xz < 2 * (roomSideX + roomSideZ); xz++) {
+				
+				for (int y = 0; y <= roomSideY; y++) {
 
-				// Creating X-facing walls
-				for (int z = 0; z < roomSideZ; z++)
-				{
-					// Creating (x = 0) tiles
-					Transform middle_wall_A = Object.Instantiate (
-						current_wall,
-						new Vector3 (0, y, z) * tileSize + originPosition, 
-						Quaternion.Euler (-90, 90, 0));
-					middle_wall_A.SetParent (parent.transform);
+					// Selecting the vertical wall based on the "floor"
+					// Exmp: Ground floor 	-> BottomWall
+					// Exmp: Last floor 	-> TopWall
+					Transform current_wall;
+					if (y == 0) {
+						//current_wall = (Random.value < 0.4) ? tileBottomWallDoor : tileBottomWallPlain;
+						current_wall = tileBottomWallPlain;
+					} else if (y == roomSideY) {
+						current_wall = tileTopWall;
+					} else {
+						current_wall = tileMiddleWall;
+					}
 
-					// Creating (x = roomSideX - 1) tiles
-					Transform middle_wall_B = Object.Instantiate (
-						current_wall,
-						new Vector3 (roomSideX - 1, y, z) * tileSize + originPosition, 
-						Quaternion.Euler (-90, -90, 0));
-					middle_wall_B.SetParent (parent.transform);
-				}
+					Vector3 tile_position;
+					Quaternion tile_orientation;
 
-				// Creating Z-facing walls.
-				for (int x = 0; x < roomSideX; x++)
-				{
-					// Creating (z = 0) tiles
-					Transform middle_wall_A = Object.Instantiate (
-						current_wall,
-						new Vector3 (x, y, 0) * tileSize + originPosition, 
-						Quaternion.Euler (-90, 0, 0));
-					middle_wall_A.SetParent (parent.transform);
+					// Checking the face of the wall
+					// The perimeter traverses walls in this order: NORTH -> EAST -> SOUTH -> WEST.
+					if (xz < roomSideX) {
+						// Facing NORTH
+						tile_position = new Vector3 (xz, y, 0) * tileSize + originPosition;
+						tile_orientation = Quaternion.Euler (-90, 0, 0);
 
-					// Creating (z = roomSideZ - 1) tiles
-					Transform middle_wall_B = Object.Instantiate (
-						current_wall,
-						new Vector3 (x, y, roomSideZ - 1) * tileSize + originPosition, 
-						Quaternion.Euler (-90, 180, 0));
-					middle_wall_B.SetParent (parent.transform);
+					} else if (xz < roomSideX + roomSideZ) {
+						// Facing EAST
+						tile_position = new Vector3 (roomSideX - 1, y, xz) * tileSize + originPosition;
+						tile_orientation = Quaternion.Euler (-90, -90, 0);
+
+					} else if (xz < 2 * roomSideX + roomSideZ) {
+						// Facing SOUTH
+						tile_position = new Vector3 (xz, y, roomSideZ - 1) * tileSize + originPosition;
+						tile_orientation = Quaternion.Euler (-90, 180, 0);
+
+					} else {
+						// Facing WEST
+						tile_position = new Vector3 (0, y, xz) * tileSize + originPosition;
+						tile_orientation = Quaternion.Euler (-90, 90, 0);
+
+					}
+				
+					visualizer.WallMatrix [xz, y] = Object.Instantiate (current_wall, tile_position, tile_orientation);
+				
 				}
 			}
 
@@ -193,6 +200,5 @@ namespace Scripts.Game.RoomFactory.Factories
 	 * 		- Create the door positioning system (CardinalDoorPlacement)
 	 * 		- Establish the relation between visual units and logic business units
 	 * - Map texture over the tiles.
-	 * - Abstract parent class "AbstractRoomGenerator".
 	 */
 }
