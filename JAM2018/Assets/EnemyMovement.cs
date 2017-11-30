@@ -3,13 +3,17 @@ using System.Collections;
 
 public class EnemyMovement : MonoBehaviour
 {
-    Transform player;               // Reference to the player's position.
-    UnityEngine.AI.NavMeshAgent nav;               // Reference to the nav mesh agent.
+    Transform player;               
+    UnityEngine.AI.NavMeshAgent nav;         
+    private float distance;
+    public float viewDistance = 5;
+    public float attackDistance = 1.5f;
+          
+
 
 
     void Awake ()
     {
-        // Set up the references.
         player = GameObject.FindGameObjectWithTag ("Player").transform;
         nav = GetComponent <UnityEngine.AI.NavMeshAgent> ();
     }
@@ -17,6 +21,28 @@ public class EnemyMovement : MonoBehaviour
 
     void Update ()
     {
-        nav.SetDestination (player.position);
+        distance = Vector3.Distance(player.position, transform.position);
+        if (distance < viewDistance && distance > attackDistance)
+        {
+            Debug.Log("Activating mesh");
+            nav.SetDestination (player.position);
+            nav.isStopped = false;
+        }
+
+        else if (distance > viewDistance)
+        {
+            Debug.Log("Far away");
+            nav.isStopped = true;
+        }
+
+        else if (distance < attackDistance)
+        {
+            Debug.Log("I'm Close"); 
+            nav.isStopped = true;
+        }
+        else
+        {
+            Debug.Log("Other");
+        }
     } 
 }
