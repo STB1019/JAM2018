@@ -4,11 +4,21 @@ using UnityEngine;
 
 namespace Scripts.Game.Controls
 {
+	///<summary>
+	///This method allows the player to look around using a mouse. It gathers mouse input on the X and Y axis and then
+	///rotates the camera according to the X value and rotates the player according to the Y value.
+	///It also clamps the camera so player camera movement is limited and doesn't behave strangely
+	///</summary>
 	public class PlayerLook : MonoBehaviour
 	{
 		public Transform playerBody;
 		public float mouseSensitivity;
+
 		private float xAxisClamp = 0.0f;
+		private float mouseX;
+		private float mouseY;
+		private float rotAmountY;
+		private float rotAmountX;
 
 		void Update()
 		{
@@ -17,11 +27,11 @@ namespace Scripts.Game.Controls
 
 		void RotateCamera()
 		{
-			float mouseX = Input.GetAxis("Mouse X");
-			float mouseY = Input.GetAxis("Mouse Y");
+			mouseX = Input.GetAxis("Mouse X");
+			mouseY = Input.GetAxis("Mouse Y");
 
-			float rotAmountX = mouseX * mouseSensitivity;
-			float rotAmountY = mouseY * mouseSensitivity;
+			rotAmountX = mouseX * mouseSensitivity;
+			rotAmountY = mouseY * mouseSensitivity;
 
 			xAxisClamp -= rotAmountY;
 
@@ -32,15 +42,15 @@ namespace Scripts.Game.Controls
 			targetRotCam.z = 0;
 			targetRotBody.y += rotAmountX;
 
-			if(xAxisClamp > 90)
+			if(xAxisClamp > 89)
 			{
-				xAxisClamp = 90;
-				targetRotCam.x = 90;
+				xAxisClamp = 89;
+				targetRotCam.x = 89;
 			}
-			else if(xAxisClamp < -90)
+			else if(xAxisClamp < -89)
 			{
-				xAxisClamp = -90;
-				targetRotCam.x = 270;
+				xAxisClamp = -89;
+				targetRotCam.x = 269;
 			}
 			
 			transform.rotation = Quaternion.Euler(targetRotCam);
