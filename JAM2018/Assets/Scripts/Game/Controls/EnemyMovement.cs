@@ -39,6 +39,7 @@ public class EnemyMovement : MonoBehaviour
         {
             Debug.Log("I'm Close"); 
             nav.Stop(true);
+            transform.LookAt(player.transform);
         }
         else
         {

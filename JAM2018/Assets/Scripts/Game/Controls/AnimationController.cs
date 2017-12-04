@@ -22,6 +22,8 @@ public class AnimationController : MonoBehaviour
 		Animator();
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
 		distance = Vector3.Distance(player.position, transform.position);
+        Debug.Log(distance);
+        Debug.Log(attackDistance);
 	}
 
 	void Animator()
@@ -30,19 +32,23 @@ public class AnimationController : MonoBehaviour
 		{
 			anim.SetBool ("isWalking", true);
         	anim.SetBool ("isIdle", false);
+            anim.SetBool("isAttacking", false);
 		}
 
 		else if (distance > viewDistance || distance < attackDistance)
 		{
 			Debug.Log("I'm stopping");
 			anim.SetBool("isWalking", false);
-            anim.SetBool("isIdle", true);  
+            anim.SetBool("isIdle", true);
+            anim.SetBool("isAttacking", false);
 		}
 
 		if (distance < attackDistance)
 		{
 			Debug.Log("Attack");
-			anim.SetTrigger("attack");
+            anim.SetBool("isAttacking", true);
+            anim.SetBool("isIdle", false);
+            anim.SetBool("isWalking", false);
 		}
 	}
 }
