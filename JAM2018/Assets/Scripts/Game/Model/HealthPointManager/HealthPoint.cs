@@ -12,7 +12,7 @@ namespace Scripts.Game.Model
                 /// <summary>
 		/// The value of a health point
 		/// </summary>
-                int HPValue { get; set }
+        int HPValue { get; set; }
 
                 public HealthPoint(int value)
                 {
