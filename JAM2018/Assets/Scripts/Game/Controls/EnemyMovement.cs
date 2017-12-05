@@ -6,21 +6,31 @@ namespace Scripts.Game.Controls
     public class EnemyMovement : MonoBehaviour
     {
         private Transform player;
+        private RaycastHit hitInfo;
         private UnityEngine.AI.NavMeshAgent nav;
         private float distance;
+        private Vector3 playerPos;
+        private Vector3 playerDir;
         public float viewDistance = 5;
         public float attackDistance = 1.5f;
+        public int viewLenght = 5;
+        private CapsuleCollider collider;
 
         void Awake()
         {
             player = GameObject.FindGameObjectWithTag("Player").transform;
+            collider = GetComponent<CapsuleCollider>();
             nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
         }
 
         void Update()
         {
             Movement();
+            Debug.DrawRay(collider.transform.TransformPoint(collider.center), playerDir);
+            playerPos = player.position;
+            playerDir = playerPos - transform.position;
         }
+
 
         /// <summary>
         /// This method updates the NavMesh Agent thus allowing the enemy to move.
@@ -31,17 +41,12 @@ namespace Scripts.Game.Controls
         void Movement()
         {
             distance = Vector3.Distance(player.position, transform.position);
-            if (distance < viewDistance && distance > attackDistance)
+            if (Physics.Raycast(collider.transform.TransformPoint(collider.center), playerDir, out hitInfo, viewLenght) && hitInfo.transform.tag == "Player" && distance > attackDistance)
             {
+
                 Debug.Log("Player is in range and the enemy is following him");
                 nav.SetDestination(player.position);
                 nav.Resume();
-            }
-
-            else if (distance > viewDistance)
-            {
-                Debug.Log("The enemy is too far to see the player");
-                nav.Stop(true);
             }
 
             else if (distance < attackDistance)
@@ -50,9 +55,10 @@ namespace Scripts.Game.Controls
                 nav.Stop(true);
                 transform.LookAt(player.transform);
             }
-            else
+
+            else if (distance > viewDistance)
             {
-                Debug.Log("There's an error");
+                nav.Stop(true);
             }
         }
     }

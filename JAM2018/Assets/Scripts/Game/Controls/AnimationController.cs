@@ -8,13 +8,19 @@ namespace Scripts.Game.Controls
     {
         private Animator anim;
         private float distance;
+        private RaycastHit hitInfo;
+        private Vector3 playerPos;
+        private Vector3 playerDir;
+        private CapsuleCollider collider;
         private Transform player;
         public float viewDistance = 5;
+        public int viewLenght = 5;
         public float attackDistance = 1.2f;
 
         void Start()
         {
             anim = GetComponent<Animator>();
+            collider = GetComponent<CapsuleCollider>();
         }
 
         void Update()
@@ -22,6 +28,8 @@ namespace Scripts.Game.Controls
             Animator();
             player = GameObject.FindGameObjectWithTag("Player").transform;
             distance = Vector3.Distance(player.position, transform.position);
+            playerPos = player.position;
+            playerDir = playerPos - transform.position;
         }
 
         /// <summary>
@@ -32,25 +40,26 @@ namespace Scripts.Game.Controls
         /// </summary>
     	void Animator()
         {
-            if (distance < viewDistance && distance > attackDistance)
+            if (Physics.Raycast(collider.transform.TransformPoint(collider.center), playerDir, out hitInfo, viewLenght) && hitInfo.transform.tag == "Player" && distance > attackDistance)
             {
                 anim.SetBool("isWalking", true);
                 anim.SetBool("isIdle", false);
                 anim.SetBool("isAttacking", false);
             }
 
-            else if (distance > viewDistance || distance < attackDistance)
+            else if (distance < attackDistance)
+            {
+                Debug.Log("I'mattacking");
+                anim.SetBool("isAttacking", true);
+                anim.SetBool("isIdle", false);
+                anim.SetBool("isWalking", false);
+            }
+
+            else
             {
                 anim.SetBool("isWalking", false);
                 anim.SetBool("isIdle", true);
                 anim.SetBool("isAttacking", false);
-            }
-
-            if (distance < attackDistance)
-            {
-                anim.SetBool("isAttacking", true);
-                anim.SetBool("isIdle", false);
-                anim.SetBool("isWalking", false);
             }
         }
     }
