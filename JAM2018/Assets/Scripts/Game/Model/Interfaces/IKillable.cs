@@ -1,4 +1,4 @@
-﻿public class IKillable
+﻿/*public class IKillable
 {
     void deadAnimation();
-}
+}+/
